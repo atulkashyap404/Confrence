@@ -20,12 +20,12 @@ import { Linkedin, Twitter, Globe } from "lucide-react";
 const SPEAKERS = [
   {
     id: 1,
-    name: "Dr. Emily Chen",
-    role: "AI Research Director",
-    company: "TechVision Labs",
-    bio: "Leading researcher in artificial intelligence and machine learning with over 15 years of experience.",
-    image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "ai",
+    name: "Man Mohan Sharma",
+    role: "Indian chemical engineer",
+    company: "",
+    bio: "Man Mohan Sharma is an Indian chemical engineer. He was educated at Jodhpur, Mumbai, and Cambridge. At age 27, he was appointed Professor of Chemical Engineering in the Institute of Chemical Technology, Mumbai.",
+    image: "/speakers/mm sharma.jpg",
+    category: "",
     featured: true,
     socials: {
       twitter: "#",
@@ -35,12 +35,12 @@ const SPEAKERS = [
   },
   {
     id: 2,
-    name: "Marcus Johnson",
-    role: "Chief Technology Officer",
-    company: "FutureTech Inc.",
-    bio: "Pioneering technologist specializing in cloud infrastructure and distributed systems.",
-    image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "cloud",
+    name: "Sood Ajay",
+    role: "Principal Scientific Adviser to the Government of India",
+    company: "",
+    bio: "Ajay Kumar Sood is an Indian physicist and researcher currently serving as the 4th Principal Scientific Adviser to the Government of India. He holds 2 United States and 5 Indian patents, and is known for his pioneering research findings on graphene and nanotechnology.",
+    image: "/speakers/Ajay-Kumar-Sood-FRS.jpg",
+    category: "",
     featured: true,
     socials: {
       twitter: "#",
@@ -50,12 +50,12 @@ const SPEAKERS = [
   },
   {
     id: 3,
-    name: "Sarah Williams",
-    role: "Blockchain Strategist",
-    company: "Decentralized Networks",
-    bio: "Renowned expert in blockchain technology and decentralized applications.",
-    image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "blockchain",
+    name: "Raghunath Anant Mashelkar",
+    role: "Indian chemical engineer",
+    company: "",
+    bio: "Raghunath Anant Mashelkar FTWAS FNA FASc FRS FREng FRSC, also known as Ramesh Mashelkar, is an Indian chemical engineer who is a former Director General of the Council of Scientific and Industrial Research.",
+    image: "/speakers/images.jpg",
+    category: "",
     featured: false,
     socials: {
       twitter: "#",
@@ -65,12 +65,12 @@ const SPEAKERS = [
   },
   {
     id: 4,
-    name: "David Rodriguez",
-    role: "UX Design Lead",
-    company: "Interface Innovators",
-    bio: "Award-winning designer focused on creating intuitive and accessible digital experiences.",
-    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "design",
+    name: "Jyeshtharaj Joshi",
+    role: "Indian chemical engineer",
+    company: "",
+    bio: "Jyeshtharaj Bhalchandra Joshi is an Indian chemical engineer, nuclear scientist, consultant and professor, widely known for his innovations in nuclear reactor designs and generally regarded as a respected teacher.",
+    image: "/speakers/Jyeshtharaj Joshi.jpg",
+    category: "",
     featured: false,
     socials: {
       twitter: "#",
@@ -80,12 +80,12 @@ const SPEAKERS = [
   },
   {
     id: 5,
-    name: "Aisha Patel",
-    role: "Cybersecurity Expert",
-    company: "SecureNet Defense",
-    bio: "Specialized in advanced threat detection and ethical hacking methodologies.",
-    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "security",
+    name: "Aniruddha Bhalchandra Pandit",
+    role: "Vice-chancellor of the Institute of Chemical Technology",
+    company: "",
+    bio: "Aniruddha Bhalchandra Pandit FNA, FASc is an Indian chemical engineer, inventor and academic, known for his fundamental and commercial research on cavitational reactors, design of multiphase reactors, bubble dynamics.",
+    image: "/speakers/Aniruddha_B._Pandit_(Institute_of_Chemical_Technology).jpg",
+    category: "",
     featured: true,
     socials: {
       twitter: "#",
@@ -95,12 +95,12 @@ const SPEAKERS = [
   },
   {
     id: 6,
-    name: "Michael Zhang",
-    role: "Quantum Computing Researcher",
-    company: "Quantum Frontiers",
-    bio: "Pushing the boundaries of quantum computing and its applications in cryptography.",
-    image: "https://images.pexels.com/photos/1516680/pexels-photo-1516680.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    category: "emerging",
+    name: "Ashish Kishore Lele",
+    role: "Chemical engineer",
+    company: "",
+    bio: "Ashish Kishore Lele is an Indian chemical engineer, rheologist and the Director of the National Chemical Laboratory, Pune. He is known for his researches on micro and mesostructure of polymers and is an elected fellow of the Indian Academy of Sciences, and the Indian National Academy of Engineering.",
+    image: "/speakers/ashish-lele-lrg.jpg",
+    category: "",
     featured: false,
     socials: {
       twitter: "#",
@@ -110,11 +110,11 @@ const SPEAKERS = [
   },
   {
     id: 7,
-    name: "Lisa Tompkins",
-    role: "IoT Solutions Architect",
-    company: "Connected Devices Inc.",
-    bio: "Specialist in creating scalable IoT ecosystems for enterprise applications.",
-    image: "https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "G. D. Yadav",
+    role: "Former vice-chancellor of the Institute of Chemical Technology",
+    company: "",
+    bio: "Ganapati Dadasaheb Yadav, better known as G. D. Yadav, is an Indian chemist, educator and academic. He did contributions to green chemistry, catalysis, and nanotechnology. He served as the Vice Chancellor of the Institute of Chemical Technology, Mumbai, from 2009 to 2019, where he is currently an emeritus professor.",
+    image: "/speakers/Ganapati_D_Yadav_(2024).jpg",
     category: "emerging",
     featured: false,
     socials: {
@@ -125,12 +125,42 @@ const SPEAKERS = [
   },
   {
     id: 8,
-    name: "James Wilson",
-    role: "VP of Engineering",
-    company: "Scale Systems",
-    bio: "Expert in building and scaling engineering teams at high-growth technology companies.",
-    image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    name: "Devang V. Khakhar",
+    role: "Former director of the Indian Institute of Technology Bombay",
+    company: "",
+    bio: "Devang Vipin Khakhar is an Indian chemical engineer and the former director of the Indian Institute of Technology Bombay.",
+    image: "/speakers/Devang Khakkar-Picsart-AiImageEnhancer.jpg",
     category: "cloud",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 9,
+    name: "Dr. Shobha Shukla",
+    role: "Professor in the Department of Metallurgical Engineering and Materials Sciences at the Indian Institute of Technology, Bombay, India.",
+    company: "",
+    bio: "",
+    image: "/speakers/SS_1-Picsart-AiImageEnhancer.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 10,
+    name: "Dr. Shobha Shukla",
+    role: "Professor in the Department of Metallurgical Engineering and Materials Sciences at the Indian Institute of Technology, Bombay, India.",
+    company: "",
+    bio: "",
+    image: "/speakers/SS_1-Picsart-AiImageEnhancer.jpg",
+    category: "",
     featured: false,
     socials: {
       twitter: "#",
@@ -275,7 +305,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
             {speaker.name}
           </CardTitle>
           <CardDescription className="mb-2">
-            {speaker.role} at {speaker.company}
+            {speaker.role}  {speaker.company}
           </CardDescription>
           <Badge variant="outline" className="mb-4">
             {speaker.category === "ai" && "AI & ML"}
@@ -329,7 +359,7 @@ function FeaturedSpeakerCard({ speaker, index }: SpeakerCardProps) {
             <div className="md:w-3/5 p-6">
               <h3 className="text-xl font-semibold mb-1">{speaker.name}</h3>
               <p className="text-muted-foreground mb-1">
-                {speaker.role} at {speaker.company}
+                {speaker.role}  {speaker.company}
               </p>
               <Badge variant="outline" className="mb-4">
                 {speaker.category === "ai" && "AI & ML"}

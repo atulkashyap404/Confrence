@@ -31,6 +31,7 @@ export default function Home() {
           <InternationalCollaborations />
           <ClosingSession />
           <SummitFormat />
+          <Speakers />
         </main>
         <Footer />
       </div>
