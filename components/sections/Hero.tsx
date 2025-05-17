@@ -56,7 +56,7 @@ export default function Hero() {
               className="inline-block"
             >
               <span className="bg-kesari/10 text-kesari px-4 py-1 rounded-full text-sm font-medium ">
-                July 15-17, 2025
+                Aug 21-27, 2025
               </span>
             </motion.div>
             
