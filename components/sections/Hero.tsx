@@ -56,7 +56,7 @@ export default function Hero() {
               className="inline-block"
             >
               <span className="bg-kesari/10 text-kesari px-4 py-1 rounded-full text-sm font-medium ">
-                Aug 21-27, 2025
+                Aug 21-23, 2025
               </span>
             </motion.div>
             
@@ -103,7 +103,7 @@ export default function Hero() {
             >
               <div className="flex items-center">
                 <CalendarDays className="mr-2 h-5 w-5 text-kesari" />
-                <span>July 15-17, 2025</span>
+                <span>Aug 21-23, 2025</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="mr-2 h-5 w-5 text-kesari" />
@@ -129,7 +129,7 @@ export default function Hero() {
               
               <div className="text-center mb-8 ">
                 <h3 className="text-2xl font-semibold mb-2">COUNTDOWN TO TRIPS 2025</h3>
-                <CountdownTimer  targetDate="2025-07-15T09:00:00" />
+                <CountdownTimer  targetDate="2025-08-21T09:00:00" />
               </div>
               
               <div className="grid grid-cols-2 gap-4">
