@@ -2,9 +2,8 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
+
+// import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -23,8 +22,8 @@ const SPEAKERS = [
     name: "Man Mohan Sharma",
     role: "Indian chemical engineer",
     company: "",
-    bio: "Man Mohan Sharma is an Indian chemical engineer. He was educated at Jodhpur, Mumbai, and Cambridge. At age 27, he was appointed Professor of Chemical Engineering in the Institute of Chemical Technology, Mumbai.",
-    image: "/speakers/mm sharma.jpg",
+    bio: "",
+    image: "/speakers/Man Mohan Sharma.jpg",
     category: "",
     featured: true,
     socials: {
@@ -38,10 +37,10 @@ const SPEAKERS = [
     name: "Sood Ajay",
     role: "Principal Scientific Adviser to the Government of India",
     company: "",
-    bio: "Ajay Kumar Sood is an Indian physicist and researcher currently serving as the 4th Principal Scientific Adviser to the Government of India. He holds 2 United States and 5 Indian patents, and is known for his pioneering research findings on graphene and nanotechnology.",
-    image: "/speakers/Ajay-Kumar-Sood-FRS.jpg",
+    bio: "",
+    image: "/speakers/Sood Ajay.jpg",
     category: "",
-    featured: true,
+    featured: false,
     socials: {
       twitter: "#",
       linkedin: "#",
@@ -53,10 +52,10 @@ const SPEAKERS = [
     name: "Raghunath Anant Mashelkar",
     role: "Indian chemical engineer",
     company: "",
-    bio: "Raghunath Anant Mashelkar FTWAS FNA FASc FRS FREng FRSC, also known as Ramesh Mashelkar, is an Indian chemical engineer who is a former Director General of the Council of Scientific and Industrial Research.",
-    image: "/speakers/images.jpg",
+    bio: "",
+    image: "/speakers/Raghunath Anant Mashelkar.jpg",
     category: "",
-    featured: false,
+    featured: true,
     socials: {
       twitter: "#",
       linkedin: "#",
@@ -83,8 +82,8 @@ const SPEAKERS = [
     name: "Aniruddha Bhalchandra Pandit",
     role: "Vice-chancellor of the Institute of Chemical Technology",
     company: "",
-    bio: "Aniruddha Bhalchandra Pandit FNA, FASc is an Indian chemical engineer, inventor and academic, known for his fundamental and commercial research on cavitational reactors, design of multiphase reactors, bubble dynamics.",
-    image: "/speakers/Aniruddha_B._Pandit_(Institute_of_Chemical_Technology).jpg",
+    bio: "",
+    image: "/speakers/Aniruddha Bhalchandra Pandit.jpg",
     category: "",
     featured: true,
     socials: {
@@ -98,8 +97,8 @@ const SPEAKERS = [
     name: "Ashish Kishore Lele",
     role: "Chemical engineer",
     company: "",
-    bio: "Ashish Kishore Lele is an Indian chemical engineer, rheologist and the Director of the National Chemical Laboratory, Pune. He is known for his researches on micro and mesostructure of polymers and is an elected fellow of the Indian Academy of Sciences, and the Indian National Academy of Engineering.",
-    image: "/speakers/ashish-lele-lrg.jpg",
+    bio: "",
+    image: "/speakers/Ashish Kishore Lele.jpg",
     category: "",
     featured: false,
     socials: {
@@ -113,8 +112,8 @@ const SPEAKERS = [
     name: "G. D. Yadav",
     role: "Former vice-chancellor of the Institute of Chemical Technology",
     company: "",
-    bio: "Ganapati Dadasaheb Yadav, better known as G. D. Yadav, is an Indian chemist, educator and academic. He did contributions to green chemistry, catalysis, and nanotechnology. He served as the Vice Chancellor of the Institute of Chemical Technology, Mumbai, from 2009 to 2019, where he is currently an emeritus professor.",
-    image: "/speakers/Ganapati_D_Yadav_(2024).jpg",
+    bio: "",
+    image: "/speakers/G. D. Yadav.jpg",
     category: "emerging",
     featured: false,
     socials: {
@@ -128,8 +127,8 @@ const SPEAKERS = [
     name: "Devang V. Khakhar",
     role: "Former director of the Indian Institute of Technology Bombay",
     company: "",
-    bio: "Devang Vipin Khakhar is an Indian chemical engineer and the former director of the Indian Institute of Technology Bombay.",
-    image: "/speakers/Devang Khakkar-Picsart-AiImageEnhancer.jpg",
+    bio: "",
+    image: "/speakers/Devang V. Khakhar.jpg",
     category: "cloud",
     featured: false,
     socials: {
@@ -144,7 +143,7 @@ const SPEAKERS = [
     role: "Professor in the Department of Metallurgical Engineering and Materials Sciences at the Indian Institute of Technology, Bombay, India.",
     company: "",
     bio: "",
-    image: "/speakers/SS_1-Picsart-AiImageEnhancer.jpg",
+    image: "/speakers/Dr. Shobha Shukla.jpg",
     category: "",
     featured: false,
     socials: {
@@ -155,11 +154,11 @@ const SPEAKERS = [
   },
   {
     id: 10,
-    name: "Dr. Shobha Shukla",
-    role: "Professor in the Department of Metallurgical Engineering and Materials Sciences at the Indian Institute of Technology, Bombay, India.",
+    name: "Rajdeep",
+    role: "",
     company: "",
     bio: "",
-    image: "/speakers/SS_1-Picsart-AiImageEnhancer.jpg",
+    image: "/speakers/dummy-person.jpg",
     category: "",
     featured: false,
     socials: {
@@ -168,6 +167,703 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 11,
+    name: "Pushpavanam",
+    role: "",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 12,
+    name: "Rajesh Khanna",
+    role: "",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  
+  {
+    id: 13,
+    name: "Sirshendu De",
+    role: "Department of Chemical Engineering, Indian Institute of Technology, Indian Institute of Technology Kharagpur",
+    company: "",
+    bio: "",
+    image: "/speakers/Sirshendu De.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  }, 
+  
+  {
+    id: 14,
+    name: "Rabibrata Mukherjee",
+    role: "Researcher",
+    company: "",
+    bio: "",
+    image: "/speakers/Rabibrata Mukherjee.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 15,
+    name: "Amitav Ghosh",
+    role: "",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 15,
+    name: "V. Ramgopal Rao",
+    role: "Indian Researcher",
+    company: "",
+    bio: "",
+    image: "/speakers/V. Ramgopal Rao.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 16,
+    name: "Dipankar Das Sarma",
+    role: "Indian chemist",
+    company: "",
+    bio: "",
+    image: "/speakers/Dipankar Das Sarma.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 17,
+    name: "Giridhar U Kulkarni",
+    role: "Researcher",
+    company: "",
+    bio: "",
+    image: "/speakers/Giridhar U Kulkarni.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 18,
+    name: "Indranil Manna",
+    role: "Vice-chancellor of the Birla Institute of Technology, Mesra",
+    company: "",
+    bio: "",
+    image: "/speakers/Indranil manna.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 19,
+    name: "Abhay Karandikar",
+    role: "Indian engineer",
+    company: "",
+    bio: "",
+    image: "/speakers/Abhay Karandikar.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+   {
+    id: 20,
+    name: "Sunil Kumar",
+    role: "Professor",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 21,
+    name: "Renu Swarup",
+    role: "Geneticist and former Secretary of Department of Biotechnology, Ministry of Science & Technology of India",
+    company: "",
+    bio: "",
+    image: "/speakers/Renu Swarup.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 22,
+    name: "Ghokale",
+    role: "Professor",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 23,
+    name: "Vijayaraghavan",
+    role: "Professor",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 24,
+    name: "Shekhar C. Mande",
+    role: "Biologist",
+    company: "",
+    bio: "",
+    image: "/speakers/Shekhar C. Mande.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 25,
+    name: "Saraswat",
+    role: "Indian economist",
+    company: "",
+    bio: "",
+    image: "/speakers/Saraswat.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 26,
+    name: "Brajesh Pandey",
+    role: "School of Sanskrit and Indic Studies",
+    company: "",
+    bio: "",
+    image: "/speakers/Brajesh Pandey.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 27,
+    name: "V. N. Tiwari",
+    role: "Professor",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 28,
+    name: "Dr. Samir V Kamat",
+    role: "Secretary - DRDO Minstry of Defence, New Delhi",
+    company: "",
+    bio: "",
+    image: "/speakers/Dr. Samir V Kamat.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 29,
+    name: "Avinash Kumar Agarwal",
+    role: "Mechanical engineer",
+    company: "",
+    bio: "",
+    image: "/speakers/Avinash Kumar Agarwal.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 30,
+    name: "Suman Chakraborty",
+    role: "Professor",
+    company: "",
+    bio: "",
+    image: "/speakers/Suman Chakraborty.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 31,
+    name: "Amit Prothi",
+    role: "Director General, Coalition for Disaster Resilient Infrastructure",
+    company: "",
+    bio: "",
+    image: "/speakers/Amit Prothi.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 32,
+    name: "Mayank Dwivedi",
+    role: "Professor",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 33,
+    name: "Debmalya Roy",
+    role: "Researcher",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 34,
+    name: "Prof. Shantanu Bhattacharya",
+    role: "Director CSIR-Central Scientific Instruments Organisation (CSIO)",
+    company: "",
+    bio: "",
+    image: "/speakers/Prof. Shantanu Bhattacharya.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 35,
+    name: "Janhavi Raut",
+    role: "Director CSIR-Central Scientific Instruments Organisation (CSIO)",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 36,
+    name: "Dr. Samiran Mahapatra's",
+    role: "Unilever R&D Bangalore",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 37,
+    name: "Mahesh Gupta",
+    role: "Chairperson of Kent RO Systems",
+    company: "",
+    bio: "",
+    image: "/speakers/Mahesh Gupta.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 38,
+    name: "Saurav Shrivtastav",
+    role: "Researcher",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 39,
+    name: "Vijay Parikh",
+    role: "Manging Director at TRANSCONT (INDIA) FINVEST PRIVATE LIMITED",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 40,
+    name: "Prof. P. K. Bhattacharya",
+    role: "Principal Investigator",
+    company: "",
+    bio: "",
+    image: "/speakers/Prof. P. K. Bhattacharya.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 41,
+    name: "Deepak Kunzru",
+    role: "Distinguished Professor and Dean, Graduate School and Research",
+    company: "",
+    bio: "",
+    image: "/speakers/Deepak Kunzru.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 42,
+    name: "Dr. Raj P. Chhabra",
+    role: "Visiting Professor",
+    company: "",
+    bio: "",
+    image: "/speakers/Dr. Raj P. Chhabra.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 43,
+    name: "Harsh Vardhan",
+    role: "Otorhinolaryngologist and former Minister of Environment, Forest and Climate Change of India",
+    company: "",
+    bio: "",
+    image: "/speakers/Harsh Vardhan.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 44,
+    name: "Sanjay Malhotra",
+    role: "Governor of the Reserve Bank of India",
+    company: "",
+    bio: "",
+    image: "/speakers/Sanjay Malhotra.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 45,
+    name: "Bansi D. Malhotra",
+    role: "Author",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 46,
+    name: "Thalappil Pradeep",
+    role: "Researcher",
+    company: "",
+    bio: "",
+    image: "/speakers/Thalappil Pradeep.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 47,
+    name: "Dr. Arvind C Ranade",
+    role: "Researcher",
+    company: "",
+    bio: "",
+    image: "/speakers/Dr. Arvind C Ranade.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 48,
+    name: "Shri Bhagwan Swaroop Srivastava ",
+    role: "IPS (Uttar Pradesh 1998)",
+    company: "",
+    bio: "",
+    image: "/speakers/Shri Bhagwan Swaroop Srivastava.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 49,
+    name: "Sanjay Prasad",
+    role: "IAS officer of the Uttar Pradesh",
+    company: "",
+    bio: "",
+    image: "/speakers/Sanjay Prasad.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 50,
+    name: "Dr. R. Vijay",
+    role: "Director of the International Advanced Research Centre for Powder Metallurgy and New Materials",
+    company: "",
+    bio: "",
+    image: "/speakers/Dr. R. Vijay.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 51,
+    name: "Prof. Bikramjit Basu",
+    role: "Director, CSIR-CGCRI",
+    company: "",
+    bio: "",
+    image: "/speakers/Prof. Bikramjit Basu.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 52,
+    name: "Dr. Sanjay Behari",
+    role: "Director of SCTIMST, Trivandrum; Professor, Neurosurgery, SGPGIMS, Lucknow",
+    company: "",
+    bio: "",
+    image: "/speakers/Dr. Sanjay Behari.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 53,
+    name: "Dr Radha Rangarajan",
+    role: "Director of CDRI-Lucknow",
+    company: "",
+    bio: "",
+    image: "/speakers/Dr Radha Rangarajan.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
 ];
 
 export default function Speakers() {
@@ -190,12 +886,12 @@ export default function Speakers() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-            Meet Our <span className="text-primary">Expert Speakers</span>
+            Meet Our <span className="text-kesari">Honorable Speakers</span>
           </h2>
-          <p className="text-lg text-muted-foreground">
+          {/* <p className="text-lg text-muted-foreground">
             Learn from industry pioneers and thought leaders who are shaping the
             future of technology across various domains.
-          </p>
+          </p> */}
         </motion.div>
         
         {/* Featured Speakers */}
@@ -216,8 +912,8 @@ export default function Speakers() {
         
         {/* All Speakers */}
         <Tabs defaultValue="all" value={category} onValueChange={setCategory}>
-          <div className="flex justify-center mb-8">
-            <TabsList className="grid grid-cols-4 sm:grid-cols-7">
+          {/* <div className="flex justify-center mb-8">
+            <TabsList className="grid grid-cols-1 sm:grid-cols-1">
               <TabsTrigger value="all">All</TabsTrigger>
               <TabsTrigger value="ai">AI & ML</TabsTrigger>
               <TabsTrigger value="cloud">Cloud</TabsTrigger>
@@ -226,7 +922,7 @@ export default function Speakers() {
               <TabsTrigger value="security">Security</TabsTrigger>
               <TabsTrigger value="emerging">Emerging Tech</TabsTrigger>
             </TabsList>
-          </div>
+          </div> */}
           
           <TabsContent value={category}>
             <motion.div
@@ -249,10 +945,10 @@ export default function Speakers() {
           viewport={{ once: true }}
           className="mt-12 text-center"
         >
-          <p className="text-muted-foreground mb-4">
-            Interested in speaking at TechConf 2025?
-          </p>
-          <Button variant="outline">Become a Speaker</Button>
+          {/* <p className="text-muted-foreground mb-4">
+            Interested in speaking at TRIP 2025?
+          </p> */}
+          {/* <Button variant="outline">Become a Speaker</Button> */}
         </motion.div>
       </div>
     </section>
@@ -294,7 +990,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
             <motion.img
               src={speaker.image}
               alt={speaker.name}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             />
@@ -307,16 +1003,16 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
           <CardDescription className="mb-2">
             {speaker.role}  {speaker.company}
           </CardDescription>
-          <Badge variant="outline" className="mb-4">
+          {/* <Badge variant="outline" className="mb-4">
             {speaker.category === "ai" && "AI & ML"}
             {speaker.category === "cloud" && "Cloud"}
             {speaker.category === "blockchain" && "Blockchain"}
             {speaker.category === "design" && "Design"}
             {speaker.category === "security" && "Security"}
             {speaker.category === "emerging" && "Emerging Tech"}
-          </Badge>
+          </Badge> */}
         </CardContent>
-        <CardFooter className="flex justify-start space-x-2">
+        {/* <CardFooter className="flex justify-start space-x-2">
           <Button variant="ghost" size="icon" className="h-8 w-8">
             <Twitter className="h-4 w-4" />
           </Button>
@@ -326,7 +1022,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
           <Button variant="ghost" size="icon" className="h-8 w-8">
             <Globe className="h-4 w-4" />
           </Button>
-        </CardFooter>
+        </CardFooter> */}
       </Card>
     </motion.div>
   );
@@ -343,7 +1039,7 @@ function FeaturedSpeakerCard({ speaker, index }: SpeakerCardProps) {
     >
       <Card className="overflow-hidden hover:shadow-lg transition-shadow">
         <div className="absolute top-0 right-0 z-10">
-          <Badge className="m-2 bg-primary">Featured</Badge>
+          {/* <Badge className="m-2 bg-primary">Featured</Badge> */}
         </div>
         <CardContent className="p-0">
           <div className="flex flex-col md:flex-row">
@@ -361,16 +1057,16 @@ function FeaturedSpeakerCard({ speaker, index }: SpeakerCardProps) {
               <p className="text-muted-foreground mb-1">
                 {speaker.role}  {speaker.company}
               </p>
-              <Badge variant="outline" className="mb-4">
+              {/* <Badge variant="outline" className="mb-4">
                 {speaker.category === "ai" && "AI & ML"}
                 {speaker.category === "cloud" && "Cloud"}
                 {speaker.category === "blockchain" && "Blockchain"}
                 {speaker.category === "design" && "Design"}
                 {speaker.category === "security" && "Security"}
                 {speaker.category === "emerging" && "Emerging Tech"}
-              </Badge>
+              </Badge> */}
               <p className="mb-4 text-sm">{speaker.bio}</p>
-              <div className="flex space-x-2">
+              {/* <div className="flex space-x-2">
                 <Button variant="ghost" size="icon" className="h-8 w-8">
                   <Twitter className="h-4 w-4" />
                 </Button>
@@ -380,7 +1076,7 @@ function FeaturedSpeakerCard({ speaker, index }: SpeakerCardProps) {
                 <Button variant="ghost" size="icon" className="h-8 w-8">
                   <Globe className="h-4 w-4" />
                 </Button>
-              </div>
+              </div> */}
             </div>
           </div>
         </CardContent>

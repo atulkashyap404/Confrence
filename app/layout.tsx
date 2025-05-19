@@ -14,7 +14,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'TechConf 2025 - The Future of Technology',
+  title: 'TRIPS 2025 – TECHNOLOGY, RESEARCH,INNOVATION, AND POLICY SUMMIT',
   description: 'Join us for the most anticipated tech conference of 2025. Connect with industry leaders, discover groundbreaking innovations, and shape the future of technology.',
 };
 
