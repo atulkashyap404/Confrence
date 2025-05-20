@@ -2,8 +2,9 @@
 
 import { useState } from "react";
 import { motion } from "framer-motion";
-
-// import { Button } from "@/components/ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -137,21 +138,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 9,
-    name: "Dr. Shobha Shukla",
-    role: "Professor in the Department of Metallurgical Engineering and Materials Sciences at the Indian Institute of Technology, Bombay, India.",
-    company: "",
-    bio: "",
-    image: "/speakers/Dr. Shobha Shukla.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // de ZXFC^T
   {
     id: 10,
     name: "Rajdeep",
@@ -888,10 +875,10 @@ export default function Speakers() {
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
             Meet Our <span className="text-kesari">Honorable Speakers</span>
           </h2>
-          {/* <p className="text-lg text-muted-foreground">
+          <p className="text-lg text-muted-foreground">
             Learn from industry pioneers and thought leaders who are shaping the
             future of technology across various domains.
-          </p> */}
+          </p>
         </motion.div>
         
         {/* Featured Speakers */}
@@ -1012,7 +999,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
             {speaker.category === "emerging" && "Emerging Tech"}
           </Badge> */}
         </CardContent>
-        {/* <CardFooter className="flex justify-start space-x-2">
+        <CardFooter className="flex justify-start space-x-2">
           <Button variant="ghost" size="icon" className="h-8 w-8">
             <Twitter className="h-4 w-4" />
           </Button>
@@ -1022,7 +1009,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
           <Button variant="ghost" size="icon" className="h-8 w-8">
             <Globe className="h-4 w-4" />
           </Button>
-        </CardFooter> */}
+        </CardFooter>
       </Card>
     </motion.div>
   );
@@ -1039,7 +1026,7 @@ function FeaturedSpeakerCard({ speaker, index }: SpeakerCardProps) {
     >
       <Card className="overflow-hidden hover:shadow-lg transition-shadow">
         <div className="absolute top-0 right-0 z-10">
-          {/* <Badge className="m-2 bg-primary">Featured</Badge> */}
+          <Badge className="m-2 bg-primary">Featured</Badge>
         </div>
         <CardContent className="p-0">
           <div className="flex flex-col md:flex-row">
