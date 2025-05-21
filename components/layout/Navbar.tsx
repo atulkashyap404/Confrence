@@ -11,9 +11,11 @@ import { motion, AnimatePresence } from "framer-motion";
 const navItems = [
   { name: "About", href: "#about" },
   { name: "Speakers", href: "#speakers" },
+  { name: "Oraganising committe", href: "#committee" },
   { name: "Schedule", href: "#schedule" },
-  { name: "Register", href: "#register" },
   { name: "Sponsors", href: "#sponsors" },
+  { name: "How to reach IITK", href: "#howtoreach" },
+  { name: "Contact Us", href: "#howtoreach" },
 ];
 
 export default function Navbar() {

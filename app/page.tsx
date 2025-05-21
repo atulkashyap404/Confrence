@@ -2,7 +2,6 @@ import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/sections/Hero";
 import About from "@/components/sections/About";
 import Speakers from "@/components/sections/Speakers";
-import Schedule from "@/components/sections/Schedule";
 import Registration from "@/components/sections/Registration";
 import Sponsors from "@/components/sections/Sponsors";
 import Footer from "@/components/layout/Footer";
@@ -14,9 +13,11 @@ import FutureWork from "@/components/sections/FutureWork";
 import SustainableInnovation from "@/components/sections/SustainableInnovation";
 import InternationalCollaborations from "@/components/sections/InternationalCollaborations";
 import ClosingSession from "@/components/sections/ClosingSession";
-import SummitFormat from "@/components/sections/SummitFormat";
+import Schedule from "@/components/sections/Schedule";
 import SummitScope from "@/components/sections/SummitScope";
 import SummitStream from "@/components/sections/SummitStream";
+import HowToReachPage from "@/components/sections/HowToReach";
+import OrganizingCommittee from "@/components/sections/OrganizingCommittee";
 
 export default function Home() {
   return (
@@ -34,9 +35,11 @@ export default function Home() {
           <FutureWork />
           <SustainableInnovation />
           <InternationalCollaborations />
-          <SummitFormat />
+          <Schedule />
           <Speakers />
+          <OrganizingCommittee />
           <Sponsors />
+          <HowToReachPage />
         </main>
         <Footer />
       </div>
