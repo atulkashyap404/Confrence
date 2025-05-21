@@ -154,51 +154,51 @@ const SPEAKERS = [
     },
   },
  
-  {
-    id: 10,
-    name: "Rajdeep",
-    role: "",
-    company: "",
-    bio: "",
-    image: "/speakers/dummy-person.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 11,
-    name: "Pushpavanam",
-    role: "",
-    company: "",
-    bio: "",
-    image: "/speakers/dummy-person.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 12,
-    name: "Rajesh Khanna",
-    role: "",
-    company: "",
-    bio: "",
-    image: "/speakers/dummy-person.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 10,
+  //   name: "Rajdeep",
+  //   role: "",
+  //   company: "",
+  //   bio: "",
+  //   image: "/speakers/dummy-person.jpg",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
+  // {
+  //   id: 11,
+  //   name: "Pushpavanam",
+  //   role: "",
+  //   company: "",
+  //   bio: "",
+  //   image: "/speakers/dummy-person.jpg",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
+  // {
+  //   id: 12,
+  //   name: "Rajesh Khanna",
+  //   role: "",
+  //   company: "",
+  //   bio: "",
+  //   image: "/speakers/dummy-person.jpg",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
   
   {
     id: 13,
@@ -238,7 +238,7 @@ const SPEAKERS = [
     role: "Honorary Distinguished Professor",
     company: "National Academy of Sciences, India & IIEST Shibpur",
     bio: "",
-    image: "/speakers/dummy-person.jpg",
+    image: "/speakers/Prof. Amitabha Ghosh.jpg",
     category: "",
     featured: false,
     socials: {
@@ -250,9 +250,9 @@ const SPEAKERS = [
 
   {
     id: 15,
-    name: "V. Ramgopal Rao",
-    role: "Indian Researcher",
-    company: "",
+    name: "Prof. V. Ramgopal Rao",
+    role: "Vice Chancellor",
+    company: "BITS Pilani Group",
     bio: "",
     image: "/speakers/V. Ramgopal Rao.jpg",
     category: "",
@@ -266,9 +266,9 @@ const SPEAKERS = [
 
   {
     id: 16,
-    name: "Dipankar Das Sarma",
-    role: "Indian chemist",
-    company: "",
+    name: "Prof. Dipankar Das Sarma",
+    role: "Professor",
+    company: "Indian Institute of Science (IISc), Bangalore",
     bio: "",
     image: "/speakers/Dipankar Das Sarma.jpg",
     category: "",
@@ -282,9 +282,9 @@ const SPEAKERS = [
 
   {
     id: 17,
-    name: "Giridhar U Kulkarni",
-    role: "Researcher",
-    company: "",
+    name: "Prof. Giridhar U. Kulkarni",
+    role: "President",
+    company: "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bangalore ",
     bio: "",
     image: "/speakers/Giridhar U Kulkarni.jpg",
     category: "",
@@ -298,9 +298,9 @@ const SPEAKERS = [
 
   {
     id: 18,
-    name: "Indranil Manna",
-    role: "Vice-chancellor of the Birla Institute of Technology, Mesra",
-    company: "",
+    name: "Prof. Indranil Manna",
+    role: "Vice Chancellor",
+    company: "BIT Mesra, Ranchi Institute Chair Professor, Indian Institute of Technology (IIT) Kharagpur",
     bio: "",
     image: "/speakers/Indranil manna.jpg",
     category: "",
@@ -314,9 +314,9 @@ const SPEAKERS = [
 
   {
     id: 19,
-    name: "Abhay Karandikar",
-    role: "Indian engineer",
-    company: "",
+    name: "Prof. Abhay Karandikar",
+    role: "Secretary",
+    company: "Department of Science & Technology, Government of India, Institute Chair Professor, Indian Institute of Technology (IIT) Bombay",
     bio: "",
     image: "/speakers/Abhay Karandikar.jpg",
     category: "",
@@ -330,11 +330,11 @@ const SPEAKERS = [
 
    {
     id: 20,
-    name: "Sunil Kumar",
-    role: "Professor",
-    company: "",
+    name: "Prof. P B Sunil Kumar",
+    role: "Chair Professor",
+    company: "Indian Institute of Technology (IIT) Madras",
     bio: "",
-    image: "/speakers/dummy-person.jpg",
+    image: "/speakers/Prof. P B Sunil Kumar.jpg",
     category: "",
     featured: false,
     socials: {
@@ -346,9 +346,9 @@ const SPEAKERS = [
 
   {
     id: 21,
-    name: "Renu Swarup",
-    role: "Geneticist and former Secretary of Department of Biotechnology, Ministry of Science & Technology of India",
-    company: "",
+    name: "Prof. Renu Swaroop",
+    role: "Chairperson",
+    company: "Biotechnology Industry Research Assistance Council (BIRAC), New Delhi",
     bio: "",
     image: "/speakers/Renu Swarup.jpg",
     category: "",
@@ -378,11 +378,11 @@ const SPEAKERS = [
 
   {
     id: 23,
-    name: "Vijayaraghavan",
+    name: "Prof. K VijayaRaghavan",
     role: "Professor",
-    company: "",
+    company: "National Centre for Biological Sciences, Tata Institute of Fundamental Research (TIFR), Bangalore",
     bio: "",
-    image: "/speakers/dummy-person.jpg",
+    image: "/speakers/Prof. K VijayaRaghavan.jpg",
     category: "",
     featured: false,
     socials: {
