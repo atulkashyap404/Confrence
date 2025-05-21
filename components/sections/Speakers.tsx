@@ -394,9 +394,9 @@ const SPEAKERS = [
 
   {
     id: 24,
-    name: "Shekhar C. Mande",
-    role: "Biologist",
-    company: "",
+    name: "Prof. Shekhar Mande",
+    role: "Distinguished Honorary Professor",
+    company: "Savitribai Phule Pune University, Pune",
     bio: "",
     image: "/speakers/Shekhar C. Mande.jpg",
     category: "",
@@ -410,9 +410,9 @@ const SPEAKERS = [
 
   {
     id: 25,
-    name: "Saraswat",
-    role: "Indian economist",
-    company: "",
+    name: "Prof. V. K. Saraswat",
+    role: "Distinguished Professor",
+    company: "Indian Institute of Technology (IIT) Hyderabad, Member NITI Aayog",
     bio: "",
     image: "/speakers/Saraswat.jpg",
     category: "",
@@ -426,9 +426,9 @@ const SPEAKERS = [
 
   {
     id: 26,
-    name: "Brajesh Pandey",
-    role: "School of Sanskrit and Indic Studies",
-    company: "",
+    name: "Prof. Brajesh Pandey",
+    role: "Executive Director",
+    company: "Indian National Science Academy (INSA), New Delhi",
     bio: "",
     image: "/speakers/Brajesh Pandey.jpg",
     category: "",
@@ -442,11 +442,11 @@ const SPEAKERS = [
 
   {
     id: 27,
-    name: "V. N. Tiwari",
+    name: "Prof. VN Tiwari ",
     role: "Professor",
-    company: "",
+    company: "Mangalayatan University, Aligarh (U.P.), India",
     bio: "",
-    image: "/speakers/dummy-person.jpg",
+    image: "/speakers/Prof. VN Tiwari .jpg",
     category: "",
     featured: false,
     socials: {
@@ -458,8 +458,8 @@ const SPEAKERS = [
   {
     id: 28,
     name: "Dr. Samir V Kamat",
-    role: "Secretary - DRDO Minstry of Defence, New Delhi",
-    company: "",
+    role: "Secretary",
+    company: "Department of Defence R&D and Chairman, Defence Research and Development Organisation (DRDO)",
     bio: "",
     image: "/speakers/Dr. Samir V Kamat.jpg",
     category: "",
@@ -489,9 +489,9 @@ const SPEAKERS = [
 
   {
     id: 30,
-    name: "Suman Chakraborty",
-    role: "Professor",
-    company: "",
+    name: "Prof. Suman Chakraborty ",
+    role: "Chair Professor",
+    company: "Indian Institute of Technology (IIT) Kharagpur",
     bio: "",
     image: "/speakers/Suman Chakraborty.jpg",
     category: "",
@@ -520,11 +520,11 @@ const SPEAKERS = [
   },
   {
     id: 32,
-    name: "Mayank Dwivedi",
-    role: "Professor",
-    company: "",
+    name: "Dr. Mayank Dwivedi",
+    role: "Director",
+    company: "DRDO-Defence Material and Stores Research and Development Establishment (DMSRDE), Kanpur",
     bio: "",
-    image: "/speakers/dummy-person.jpg",
+    image: "/speakers/Dr. Mayank Dwivedi.jpg",
     category: "",
     featured: false,
     socials: {
@@ -536,9 +536,9 @@ const SPEAKERS = [
 
   {
     id: 33,
-    name: "Debmalya Roy",
-    role: "Researcher",
-    company: "",
+    name: "Dr. Debmalya Roy",
+    role: "Scientist",
+    company: "DRDO-Defence Material and Stores Research and Development Establishment (DMSRDE), Kanpur",
     bio: "",
     image: "/speakers/dummy-person.jpg",
     category: "",
@@ -553,8 +553,8 @@ const SPEAKERS = [
   {
     id: 34,
     name: "Prof. Shantanu Bhattacharya",
-    role: "Director CSIR-Central Scientific Instruments Organisation (CSIO)",
-    company: "",
+    role: "Director",
+    company: "CSIR-Central Scientific Instruments Organisation (CSIO), Chandigarh Professor, IIT Kanpur",
     bio: "",
     image: "/speakers/Prof. Shantanu Bhattacharya.jpg",
     category: "",
@@ -630,11 +630,11 @@ const SPEAKERS = [
 
   {
     id: 39,
-    name: "Vijay Parikh",
-    role: "Manging Director at TRANSCONT (INDIA) FINVEST PRIVATE LIMITED",
-    company: "",
+    name: "Mr. Vijay Parikh",
+    role: "Manging Director ",
+    company: "Transcont (India) Finvest Private Limited",
     bio: "",
-    image: "/speakers/dummy-person.jpg",
+    image: "/speakers/Mr. Vijay Parikh.jpg",
     category: "",
     featured: false,
     socials: {
@@ -645,9 +645,9 @@ const SPEAKERS = [
   },
   {
     id: 40,
-    name: "Prof. P. K. Bhattacharya",
-    role: "Principal Investigator",
-    company: "",
+    name: "Prof. Prashant K. Bhattacharya  ",
+    role: "Professor (Retd.)",
+    company: "Indian Institute of Technology (IIT) Kanpur",
     bio: "",
     image: "/speakers/Prof. P. K. Bhattacharya.jpg",
     category: "",
@@ -662,8 +662,8 @@ const SPEAKERS = [
   {
     id: 41,
     name: "Deepak Kunzru",
-    role: "Distinguished Professor and Dean, Graduate School and Research",
-    company: "",
+    role: "Distinguished Professor and Dean",
+    company: "Ahmedabad University, Gujarat",
     bio: "",
     image: "/speakers/Deepak Kunzru.jpg",
     category: "",
@@ -677,9 +677,9 @@ const SPEAKERS = [
 
   {
     id: 42,
-    name: "Dr. Raj P. Chhabra",
-    role: "Visiting Professor",
-    company: "",
+    name: "Prof. Raj Chhabra",
+    role: "Professor",
+    company: "Indian Institute of Technology (IIT) Ropar",
     bio: "",
     image: "/speakers/Dr. Raj P. Chhabra.jpg",
     category: "",
@@ -693,9 +693,9 @@ const SPEAKERS = [
 
   {
     id: 43,
-    name: "Harsh Vardhan",
-    role: "Otorhinolaryngologist and former Minister of Environment, Forest and Climate Change of India",
-    company: "",
+    name: "Dr. Harsh Vardhan",
+    role: "Chairman",
+    company: "Reserve Bank of India, RBI",
     bio: "",
     image: "/speakers/Harsh Vardhan.jpg",
     category: "",
@@ -725,9 +725,9 @@ const SPEAKERS = [
 
   {
     id: 45,
-    name: "Bansi D. Malhotra",
-    role: "Author",
-    company: "",
+    name: "Prof. Bansi D Malhotra ",
+    role: "Professor",
+    company: "Delhi Technological University (DTU), Delhi",
     bio: "",
     image: "/speakers/dummy-person.jpg",
     category: "",
