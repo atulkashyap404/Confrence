@@ -115,7 +115,7 @@ const DAYS = [
 
 export default function SummitFormat() {
   return (
-    <section className="py-24 gradient-bg-schedule">
+    <section className="py-24 bg-muted/50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -125,7 +125,7 @@ export default function SummitFormat() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-            Summit <span className="text-kesari">Format</span>
+            Summit <span className="text-kesari">Outline</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Three days of innovation, collaboration, and transformation shaping the future of technology
@@ -171,9 +171,9 @@ export default function SummitFormat() {
                           <div className="flex-1">
                             <div className="flex items-start justify-between gap-2">
                               <h4 className="font-medium">{session.title}</h4>
-                              <Badge variant="outline" className="shrink-0">
+                              {/* <Badge variant="outline" className="shrink-0">
                                 {session.time}
-                              </Badge>
+                              </Badge> */}
                             </div>
                             <ul className="mt-2 space-y-1">
                               {session.highlights.map((highlight, index) => (

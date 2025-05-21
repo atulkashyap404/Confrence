@@ -31,7 +31,7 @@ export default function Navbar() {
   return (
     <motion.header
       className={cn(
-        "fixed top-0 w-full z-50 transition-all duration-300",
+        "fixed top-0 w-full z-50 transition-all duration-300 ",
         isScrolled
           ? "bg-background/80 backdrop-blur-md shadow-sm"
           : "bg-transparent"
@@ -86,9 +86,9 @@ export default function Navbar() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.6 }}
             >
-              <Button variant="default" size="sm">
+              {/* <Button variant="default" size="sm">
                 Get Tickets
-              </Button>
+              </Button> */}
             </motion.div>
           </nav>
 
@@ -117,7 +117,7 @@ export default function Navbar() {
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3 }}
           >
-            <div className="px-2 pb-3 space-y-1 sm:px-3 bg-background/95 backdrop-blur-md">
+            <div className="px-2 pb-3 space-y-1 sm:px-3 bg-background/95 backdrop-blur-md ">
               {navItems.map((item, i) => (
                 <motion.div
                   key={item.name}

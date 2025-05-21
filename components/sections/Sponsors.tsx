@@ -200,7 +200,7 @@ export default function Sponsors() {
         </Tabs>
 
         {/* Become a Sponsor */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
@@ -236,7 +236,7 @@ export default function Sponsors() {
             </div>
           </div>
           <Button size="lg">Download Sponsorship Prospectus</Button>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

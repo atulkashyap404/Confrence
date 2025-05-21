@@ -882,7 +882,7 @@ export default function Speakers() {
         </motion.div>
         
         {/* Featured Speakers */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
@@ -895,7 +895,7 @@ export default function Speakers() {
               <FeaturedSpeakerCard key={speaker.id} speaker={speaker} index={index} />
             ))}
           </div>
-        </motion.div>
+        </motion.div> */}
         
         {/* All Speakers */}
         <Tabs defaultValue="all" value={category} onValueChange={setCategory}>
@@ -1015,59 +1015,59 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
   );
 }
 
-function FeaturedSpeakerCard({ speaker, index }: SpeakerCardProps) {
-  return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.7, delay: index * 0.2 }}
-      viewport={{ once: true }}
-      className="relative"
-    >
-      <Card className="overflow-hidden hover:shadow-lg transition-shadow">
-        <div className="absolute top-0 right-0 z-10">
-          <Badge className="m-2 bg-primary">Featured</Badge>
-        </div>
-        <CardContent className="p-0">
-          <div className="flex flex-col md:flex-row">
-            <div className="md:w-2/5 h-64 md:h-auto relative">
-              <motion.img
-                src={speaker.image}
-                alt={speaker.name}
-                className="w-full h-full object-cover"
-                whileHover={{ scale: 1.05 }}
-                transition={{ duration: 0.3 }}
-              />
-            </div>
-            <div className="md:w-3/5 p-6">
-              <h3 className="text-xl font-semibold mb-1">{speaker.name}</h3>
-              <p className="text-muted-foreground mb-1">
-                {speaker.role}  {speaker.company}
-              </p>
-              {/* <Badge variant="outline" className="mb-4">
-                {speaker.category === "ai" && "AI & ML"}
-                {speaker.category === "cloud" && "Cloud"}
-                {speaker.category === "blockchain" && "Blockchain"}
-                {speaker.category === "design" && "Design"}
-                {speaker.category === "security" && "Security"}
-                {speaker.category === "emerging" && "Emerging Tech"}
-              </Badge> */}
-              <p className="mb-4 text-sm">{speaker.bio}</p>
-              {/* <div className="flex space-x-2">
-                <Button variant="ghost" size="icon" className="h-8 w-8">
-                  <Twitter className="h-4 w-4" />
-                </Button>
-                <Button variant="ghost" size="icon" className="h-8 w-8">
-                  <Linkedin className="h-4 w-4" />
-                </Button>
-                <Button variant="ghost" size="icon" className="h-8 w-8">
-                  <Globe className="h-4 w-4" />
-                </Button>
-              </div> */}
-            </div>
-          </div>
-        </CardContent>
-      </Card>
-    </motion.div>
-  );
-}
+// function FeaturedSpeakerCard({ speaker, index }: SpeakerCardProps) {
+//   return (
+//     <motion.div
+//       initial={{ opacity: 0, y: 20 }}
+//       whileInView={{ opacity: 1, y: 0 }}
+//       transition={{ duration: 0.7, delay: index * 0.2 }}
+//       viewport={{ once: true }}
+//       className="relative"
+//     >
+//       <Card className="overflow-hidden hover:shadow-lg transition-shadow">
+//         <div className="absolute top-0 right-0 z-10">
+//           <Badge className="m-2 bg-primary">Featured</Badge>
+//         </div>
+//         <CardContent className="p-0">
+//           <div className="flex flex-col md:flex-row">
+//             <div className="md:w-2/5 h-64 md:h-auto relative">
+//               <motion.img
+//                 src={speaker.image}
+//                 alt={speaker.name}
+//                 className="w-full h-full object-cover"
+//                 whileHover={{ scale: 1.05 }}
+//                 transition={{ duration: 0.3 }}
+//               />
+//             </div>
+//             <div className="md:w-3/5 p-6">
+//               <h3 className="text-xl font-semibold mb-1">{speaker.name}</h3>
+//               <p className="text-muted-foreground mb-1">
+//                 {speaker.role}  {speaker.company}
+//               </p>
+//               <Badge variant="outline" className="mb-4">
+//                 {speaker.category === "ai" && "AI & ML"}
+//                 {speaker.category === "cloud" && "Cloud"}
+//                 {speaker.category === "blockchain" && "Blockchain"}
+//                 {speaker.category === "design" && "Design"}
+//                 {speaker.category === "security" && "Security"}
+//                 {speaker.category === "emerging" && "Emerging Tech"}
+//               </Badge>
+//               <p className="mb-4 text-sm">{speaker.bio}</p>
+//               <div className="flex space-x-2">
+//                 <Button variant="ghost" size="icon" className="h-8 w-8">
+//                   <Twitter className="h-4 w-4" />
+//                 </Button>
+//                 <Button variant="ghost" size="icon" className="h-8 w-8">
+//                   <Linkedin className="h-4 w-4" />
+//                 </Button>
+//                 <Button variant="ghost" size="icon" className="h-8 w-8">
+//                   <Globe className="h-4 w-4" />
+//                 </Button>
+//               </div>
+//             </div>
+//           </div>
+//         </CardContent>
+//       </Card>
+//     </motion.div>
+//   );
+// }

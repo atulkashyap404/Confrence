@@ -15,6 +15,8 @@ import SustainableInnovation from "@/components/sections/SustainableInnovation";
 import InternationalCollaborations from "@/components/sections/InternationalCollaborations";
 import ClosingSession from "@/components/sections/ClosingSession";
 import SummitFormat from "@/components/sections/SummitFormat";
+import SummitScope from "@/components/sections/SummitScope";
+import SummitStream from "@/components/sections/SummitStream";
 
 export default function Home() {
   return (
@@ -23,15 +25,18 @@ export default function Home() {
         <Navbar />
         <main>
           <Hero />
+          <ClosingSession />
+          <SummitScope />
+          <SummitStream />
           <About />
           <InnovationEcosystem />
           <Governance />
           <FutureWork />
           <SustainableInnovation />
           <InternationalCollaborations />
-          <ClosingSession />
           <SummitFormat />
           <Speakers />
+          <Sponsors />
         </main>
         <Footer />
       </div>
