@@ -184,21 +184,21 @@ const SPEAKERS = [
   //     website: "#",
   //   },
   // },
-  // {
-  //   id: 12,
-  //   name: "Rajesh Khanna",
-  //   role: "",
-  //   company: "",
-  //   bio: "",
-  //   image: "/speakers/dummy-person.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
+  {
+    id: 12,
+    name: "Rajesh Khanna",
+    role: "",
+    company: "",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
   
   {
     id: 13,
@@ -414,7 +414,7 @@ const SPEAKERS = [
     role: "Distinguished Professor",
     company: "Indian Institute of Technology (IIT) Hyderabad, Member NITI Aayog",
     bio: "",
-    image: "/speakers/Saraswat.jpg",
+    image: "/speakers/Prof. V. K. Saraswat.jpg",
     category: "",
     featured: false,
     socials: {
@@ -473,9 +473,9 @@ const SPEAKERS = [
 
   {
     id: 29,
-    name: "Avinash Kumar Agarwal",
-    role: "Mechanical engineer",
-    company: "",
+    name: "Prof. Avinash Agarwal ",
+    role: "Director",
+    company: "Indian Institute of Technology (IIT) Jodhpur Professor, IIT Kanpur",
     bio: "",
     image: "/speakers/Avinash Kumar Agarwal.jpg",
     category: "",
@@ -857,6 +857,22 @@ const SPEAKERS = [
     company: "CSRI-Central Drug Research Institute (CDRI), Lucknow",
     bio: "",
     image: "/speakers/Dr Radha Rangarajan.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 54,
+    name: "Mr. Sanjeev Sanyal",
+    role: "Secretary",
+    company: "PMO Economic Advisory Council, Government of India",
+    bio: "",
+    image: "/speakers/Mr. Sanjeev Sanyal.jpg",
     category: "",
     featured: false,
     socials: {
