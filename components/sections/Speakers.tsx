@@ -96,7 +96,7 @@ const SPEAKERS = [
   {
     id: 6,
     name: "Dr. Ashish Kishore Lele",
-    role: "Scientist",
+    role: "Director",
     company: "National Chemical Laboratory (NCL), Pune",
     bio: "",
     image: "/speakers/Ashish Kishore Lele.jpg",
@@ -693,9 +693,9 @@ const SPEAKERS = [
 
   {
     id: 43,
-    name: "Dr. Harsh Vardhan",
-    role: "Chairman",
-    company: "Reserve Bank of India, RBI",
+    name: "Dr. Harshvardhan Goel",
+    role: "Former union cabinet minister ",
+    company: "Government of India",
     bio: "",
     image: "/speakers/Harsh Vardhan.jpg",
     category: "",
