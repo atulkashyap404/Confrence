@@ -124,7 +124,7 @@ export default function Sponsors() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-            Our <span className="text-primary">Sponsors</span>
+            Our <span className="text-kesari">Sponsors</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             TechConf 2025 is made possible thanks to our incredible sponsors.

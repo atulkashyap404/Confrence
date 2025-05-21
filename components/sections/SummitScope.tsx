@@ -34,7 +34,7 @@ const TOPICS = [
 
 export default function SummitScope() {
   return (
-    <section className="py-24 bg-gray-100 dark:from-gray-900 dark:to-gray-950">
+    <section id="summitscope" className="py-24 bg-gray-100 dark:from-gray-900 dark:to-gray-950">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

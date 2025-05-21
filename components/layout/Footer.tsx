@@ -88,11 +88,16 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1 flex-shrink-0" />
-                <span>Conference Convention Center, IIT Kanpur, UP 208016</span>
+                <span>Centre for Nanosciences, IIT Kanpur, UP 208016</span>
+              </li>
+              
+              <li className="flex items-center">
+                <Phone size={18} className="mr-2 flex-shrink-0" />
+                <span>+91 8737074576 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2 flex-shrink-0" />
-                <span>+91 (555) 123-4567</span>
+                <span>+91 9936526009 </span>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />
