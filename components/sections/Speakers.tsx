@@ -729,7 +729,7 @@ const SPEAKERS = [
     role: "Professor",
     company: "Delhi Technological University (DTU), Delhi",
     bio: "",
-    image: "/speakers/dummy-person.jpg",
+    image: "/speakers/Prof. Bansi D Malhotra.jpg",
     category: "",
     featured: false,
     socials: {
@@ -740,9 +740,9 @@ const SPEAKERS = [
   },
   {
     id: 46,
-    name: "Thalappil Pradeep",
-    role: "Researcher",
-    company: "",
+    name: "Prof. Thalappil Pradeep",
+    role: "Professor",
+    company: "Indian Institute of Technology (IIT) Madras",
     bio: "",
     image: "/speakers/Thalappil Pradeep.jpg",
     category: "",
@@ -757,8 +757,8 @@ const SPEAKERS = [
   {
     id: 47,
     name: "Dr. Arvind C Ranade",
-    role: "Researcher",
-    company: "",
+    role: "Director",
+    company: "National Innovation Foundation India, Government of India",
     bio: "",
     image: "/speakers/Dr. Arvind C Ranade.jpg",
     category: "",
@@ -772,9 +772,9 @@ const SPEAKERS = [
 
   {
     id: 48,
-    name: "Shri Bhagwan Swaroop Srivastava ",
-    role: "IPS (Uttar Pradesh 1998)",
-    company: "",
+    name: "Mr. Bhagwan Swarup",
+    role: "Deputy Inspector General",
+    company: "Lucknow",
     bio: "",
     image: "/speakers/Shri Bhagwan Swaroop Srivastava.jpg",
     category: "",
@@ -788,9 +788,9 @@ const SPEAKERS = [
 
   {
     id: 49,
-    name: "Sanjay Prasad",
-    role: "IAS officer of the Uttar Pradesh",
-    company: "",
+    name: "Mr. Sanjay Prasad",
+    role: "Director",
+    company: "Government of Uttar Pradesh",
     bio: "",
     image: "/speakers/Sanjay Prasad.jpg",
     category: "",
@@ -805,8 +805,8 @@ const SPEAKERS = [
   {
     id: 50,
     name: "Dr. R. Vijay",
-    role: "Director of the International Advanced Research Centre for Powder Metallurgy and New Materials",
-    company: "",
+    role: "Director",
+    company: "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI), Hyderabad",
     bio: "",
     image: "/speakers/Dr. R. Vijay.jpg",
     category: "",
@@ -820,9 +820,9 @@ const SPEAKERS = [
 
   {
     id: 51,
-    name: "Prof. Bikramjit Basu",
-    role: "Director, CSIR-CGCRI",
-    company: "",
+    name: "Prof. Bikranjit Basu",
+    role: "Director",
+    company: "CSIR-Central Glass & Ceramic Research Institute (CGCRI), Kolkata Professor, Indian Institute of Science (IISc), Bangalore",
     bio: "",
     image: "/speakers/Prof. Bikramjit Basu.jpg",
     category: "",
@@ -836,9 +836,9 @@ const SPEAKERS = [
 
   {
     id: 52,
-    name: "Dr. Sanjay Behari",
-    role: "Director of SCTIMST, Trivandrum; Professor, Neurosurgery, SGPGIMS, Lucknow",
-    company: "",
+    name: "Prof. Sanjay Bihari",
+    role: "Director",
+    company: "Sree Chitra Tirunal Institute for Medical Sciences & Technology (SCTIMST), Trivandrum Professor, SGPGIMS Lucknow",
     bio: "",
     image: "/speakers/Dr. Sanjay Behari.jpg",
     category: "",
@@ -852,9 +852,9 @@ const SPEAKERS = [
 
   {
     id: 53,
-    name: "Dr Radha Rangarajan",
-    role: "Director of CDRI-Lucknow",
-    company: "",
+    name: "Dr. Radha Rangarajan",
+    role: "Director",
+    company: "CSRI-Central Drug Research Institute (CDRI), Lucknow",
     bio: "",
     image: "/speakers/Dr Radha Rangarajan.jpg",
     category: "",
