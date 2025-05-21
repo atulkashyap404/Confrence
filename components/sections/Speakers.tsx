@@ -20,9 +20,9 @@ import { Linkedin, Twitter, Globe } from "lucide-react";
 const SPEAKERS = [
   {
     id: 1,
-    name: "Man Mohan Sharma",
-    role: "Indian chemical engineer",
-    company: "",
+    name: "Prof. Man Mohan Sharma",
+    role: "Emeritus Professor of Eminence",
+    company: "Institute of Chemical Technology (ICT), Mumbai",
     bio: "",
     image: "/speakers/Man Mohan Sharma.jpg",
     category: "",
@@ -35,9 +35,9 @@ const SPEAKERS = [
   },
   {
     id: 2,
-    name: "Sood Ajay",
-    role: "Principal Scientific Adviser to the Government of India",
-    company: "",
+    name: "Prof. Ajay Sood",
+    role: "Principal Scientific Adviser ",
+    company: "Government of India",
     bio: "",
     image: "/speakers/Sood Ajay.jpg",
     category: "",
@@ -50,25 +50,25 @@ const SPEAKERS = [
   },
   {
     id: 3,
-    name: "Raghunath Anant Mashelkar",
-    role: "Indian chemical engineer",
-    company: "",
+    name: "Dr. Raghunath A Mashelkar",
+    role: "Former Director General ",
+    company: "Council for Scientific and Industrial Research (CSIR), New Delhi",
     bio: "",
     image: "/speakers/Raghunath Anant Mashelkar.jpg",
     category: "",
     featured: true,
     socials: {
       twitter: "#",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/raghunath-mashelkar-a99a45168?lipi=urn%3Alhip3_profile_view_base_contact_details%3BnudqcgBuTK6RzH0XUZxpjg%3D%3D",
       website: "#",
     },
   },
   {
     id: 4,
-    name: "Jyeshtharaj Joshi",
-    role: "Indian chemical engineer",
-    company: "",
-    bio: "Jyeshtharaj Bhalchandra Joshi is an Indian chemical engineer, nuclear scientist, consultant and professor, widely known for his innovations in nuclear reactor designs and generally regarded as a respected teacher.",
+    name: "Prof. Jyeshtharaj Bhalchandra Joshi",
+    role: "Professor Emeritus",
+    company: "Institute of Chemical Technology (ICT), Mumbai",
+    bio: "",
     image: "/speakers/Jyeshtharaj Joshi.jpg",
     category: "",
     featured: false,
@@ -80,9 +80,9 @@ const SPEAKERS = [
   },
   {
     id: 5,
-    name: "Aniruddha Bhalchandra Pandit",
-    role: "Vice-chancellor of the Institute of Chemical Technology",
-    company: "",
+    name: "Prof. Aniruddha B Pandit",
+    role: "Vice Chancellor",
+    company: "Institute of Chemical Technology (ICT), Mumbai",
     bio: "",
     image: "/speakers/Aniruddha Bhalchandra Pandit.jpg",
     category: "",
@@ -95,9 +95,9 @@ const SPEAKERS = [
   },
   {
     id: 6,
-    name: "Ashish Kishore Lele",
-    role: "Chemical engineer",
-    company: "",
+    name: "Dr. Ashish Kishore Lele",
+    role: "Scientist",
+    company: "National Chemical Laboratory (NCL), Pune",
     bio: "",
     image: "/speakers/Ashish Kishore Lele.jpg",
     category: "",
@@ -110,9 +110,9 @@ const SPEAKERS = [
   },
   {
     id: 7,
-    name: "G. D. Yadav",
-    role: "Former vice-chancellor of the Institute of Chemical Technology",
-    company: "",
+    name: "Prof. Ganapati D. Yadav",
+    role: "Emeritus Professor of Eminence",
+    company: "Institute of Chemical Technology (ICT), Mumbai",
     bio: "",
     image: "/speakers/G. D. Yadav.jpg",
     category: "emerging",
@@ -125,9 +125,9 @@ const SPEAKERS = [
   },
   {
     id: 8,
-    name: "Devang V. Khakhar",
-    role: "Former director of the Indian Institute of Technology Bombay",
-    company: "",
+    name: "Prof. Devang v Khakhar ",
+    role: "Professor",
+    company: "Indian Institute of Technology (IIT) Bombay",
     bio: "",
     image: "/speakers/Devang V. Khakhar.jpg",
     category: "cloud",
@@ -138,7 +138,22 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  // de ZXFC^T
+  {
+    id: 9,
+    name: "Prof. S. Pushpavanam",
+    role: "Professor",
+    company: "Indian Institute of Technology (IIT) Madras",
+    bio: "",
+    image: "/speakers/Prof. S. Pushpavanam.jpg",
+    category: "cloud",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+ 
   {
     id: 10,
     name: "Rajdeep",
@@ -187,9 +202,9 @@ const SPEAKERS = [
   
   {
     id: 13,
-    name: "Sirshendu De",
-    role: "Department of Chemical Engineering, Indian Institute of Technology, Indian Institute of Technology Kharagpur",
-    company: "",
+    name: "Prof. Sirsendu De",
+    role: "Professor",
+    company: "Indian Institute of Technology (IIT) Kharagpur",
     bio: "",
     image: "/speakers/Sirshendu De.jpg",
     category: "",
@@ -203,9 +218,9 @@ const SPEAKERS = [
   
   {
     id: 14,
-    name: "Rabibrata Mukherjee",
-    role: "Researcher",
-    company: "",
+    name: "Prof. Rabibrata Mukherjee",
+    role: "Dean, Professor",
+    company: "Indian Institute of Technology (IIT) Kharagpur",
     bio: "",
     image: "/speakers/Rabibrata Mukherjee.jpg",
     category: "",
@@ -219,9 +234,9 @@ const SPEAKERS = [
 
   {
     id: 15,
-    name: "Amitav Ghosh",
-    role: "",
-    company: "",
+    name: "Prof. Amitabha Ghosh",
+    role: "Honorary Distinguished Professor",
+    company: "National Academy of Sciences, India & IIEST Shibpur",
     bio: "",
     image: "/speakers/dummy-person.jpg",
     category: "",
@@ -988,7 +1003,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
             {speaker.name}
           </CardTitle>
           <CardDescription className="mb-2">
-            {speaker.role}  {speaker.company}
+            {speaker.role} <br /> {speaker.company}
           </CardDescription>
           {/* <Badge variant="outline" className="mb-4">
             {speaker.category === "ai" && "AI & ML"}
@@ -999,7 +1014,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
             {speaker.category === "emerging" && "Emerging Tech"}
           </Badge> */}
         </CardContent>
-        <CardFooter className="flex justify-start space-x-2">
+        {/* <CardFooter className="flex justify-start space-x-2">
           <Button variant="ghost" size="icon" className="h-8 w-8">
             <Twitter className="h-4 w-4" />
           </Button>
@@ -1009,7 +1024,7 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
           <Button variant="ghost" size="icon" className="h-8 w-8">
             <Globe className="h-4 w-4" />
           </Button>
-        </CardFooter>
+        </CardFooter> */}
       </Card>
     </motion.div>
   );
