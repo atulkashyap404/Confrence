@@ -14,8 +14,7 @@ export default function OrganizingCommitteePage() {
                 <Image src="/images/manindra-agarwal.jpg" alt="Prof. Manindra Agarwal" fill className="object-cover" />
               </div>
               <h2 className="text-xl font-semibold mb-2">Chief Patron</h2>
-              <p className="font-medium">Prof. Manindra Agarwal</p>
-              <p>Director, IIT Kanpur</p>
+              <p className="font-medium">Prof. Manindra Agarwal</p>              <p>Director, IIT Kanpur</p>
             </CardContent>
           </Card>
 
