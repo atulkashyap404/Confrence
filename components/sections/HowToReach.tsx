@@ -8,16 +8,16 @@ export default function HowToReachPage() {
         <h1 className="text-4xl font-bold text-kesari mb-6">Contact Information</h1>
         <Card className="mb-12 shadow-lg border border-border bg-background">
           <CardContent className="p-6 text-base space-y-3">
-            <p className="font-semibold text-lg">Department of Civil Engineering</p>
+            {/* <p className="font-semibold text-lg">Department of Civil Engineering</p> */}
             <p>Indian Institute of Technology Kanpur</p>
             <p>Kanpur, 208016</p>
             <Separator className="my-4" />
             <div className="space-y-1">
               <p className="font-medium">Phone:</p>
               <ul className="list-none space-y-1">
-                <li>+91-512-259 7765 (Off.)</li>
+                {/* <li>+91-512-259 7765 (Off.)</li>
                 <li>+91-512-259 2011 (Off.)</li>
-                <li>+91-7029789302 (Mob.)</li>
+                <li>+91-7029789302 (Mob.)</li> */}
               </ul>
             </div>
             <p><strong>Email:</strong> <a href="mailto:h2oclimate.iitk@gmail.com" className="text-kesari hover:underline">h2oclimate.iitk@gmail.com</a></p>
@@ -44,10 +44,10 @@ export default function HowToReachPage() {
         </Card>
 
         <Card className="shadow-md border border-border bg-background">
-          <CardContent className="p-6 text-base space-y-4 text-left">
+          {/* <CardContent className="p-6 text-base space-y-4 text-left">
             <h3 className="text-xl font-semibold mb-2 text-center">Arrival at IIT Kanpur Campus</h3>
             <p>Reach the <strong>main gate</strong> of IIT Kanpur. Stop at the security checkpoint and inform them you are attending the <strong>H2O & Climate Conference</strong> and staying in <strong>VH1/VH2</strong>.</p>
-          </CardContent>
+          </CardContent> */}
         </Card>
       </div>
     </section>
