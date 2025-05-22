@@ -101,7 +101,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2 flex-shrink-0" />
-                <span>info@trips2025.com</span>
+                <span>contact@trips2025.com</span>
               </li>
             </ul>
           </motion.div>

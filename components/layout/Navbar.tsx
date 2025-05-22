@@ -16,7 +16,7 @@ const navItems = [
   { name: "Schedule", href: "#schedule" },
   { name: "Sponsors", href: "#sponsors" },
   { name: "How to reach IITK", href: "#howtoreach" },
-  { name: "Contact Us", href: "#howtoreach" },
+  { name: "Contact Us", href: "#contact" },
 ];
 
 export default function Navbar() {

@@ -18,6 +18,7 @@ import SummitScope from "@/components/sections/SummitScope";
 import SummitStream from "@/components/sections/SummitStream";
 import HowToReachPage from "@/components/sections/HowToReach";
 import OrganizingCommittee from "@/components/sections/OrganizingCommittee";
+import ContactUs from "@/components/sections/ContactUs";
 
 export default function Home() {
   return (
@@ -40,6 +41,7 @@ export default function Home() {
           <OrganizingCommittee />
           <Sponsors />
           <HowToReachPage />
+          <ContactUs />
         </main>
         <Footer />
       </div>
