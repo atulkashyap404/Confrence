@@ -16,7 +16,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: 'TRIPS 2025 – TECHNOLOGY, RESEARCH,INNOVATION, AND POLICY SUMMIT',
-  description: 'Join us for the most anticipated tech conference of 2025. Connect with industry leaders, discover groundbreaking innovations, and shape the future of technology.',
+  description: 'A warm welcome to the Technology, Research, Innovation, and Policy Summit. With the theme “Bridging Research, Innovation, and Policy for a Sustainable Future,” we are honored to host this gathering of brilliant minds from across the STEM community.',
 };
 
 export default function RootLayout({
