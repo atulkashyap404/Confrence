@@ -196,6 +196,7 @@ export default function Schedule() {
             </motion.div>
           ))}
         </div>
+        <p className="text-2xl text-kesari justify-center items-center flex pt-10 font-semibold"> The final schedule will be updated soon !</p>
       </div>
     </section>
   );
