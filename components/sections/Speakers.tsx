@@ -1091,7 +1091,7 @@ export default function Speakers() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-            Meet Our <span className="text-kesari">Honorable Speakers</span>
+            Meet Our <span className="text-kesari">Eminent Speakers</span>
           </h2>
           <p className="text-lg text-muted-foreground">
             Learn from industry pioneers and thought leaders who are shaping the
