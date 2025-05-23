@@ -13,18 +13,20 @@ export default function OrganizingCommitteePage() {
         </h1>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <Card className="shadow-md border border-border bg-background">
+          <Card className="shadow-md border border-border bg-background md:col-span-2">
             <CardContent className="p-6">
               <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
                 <Image
                   src="/committee/Prof. Manindra Agarwal.jpg"
-                  alt="Prof. Manindra Agarwal"
+                  alt="Dr. Sandip Patil"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h2 className="text-xl font-semibold mb-2">Chief Patron</h2>
-              <p className="font-medium">Prof. Manindra Agarwal</p>{" "}
+              <h2 className="text-xl font-semibold mb-2">
+                Chief Patron
+              </h2>
+              <p className="font-medium">Prof. Manindra Agarwal</p>
               <p>Director, IIT Kanpur</p>
             </CardContent>
           </Card>
@@ -34,16 +36,14 @@ export default function OrganizingCommitteePage() {
               <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
                 <Image
                   src="/committee/Prof. Ashutosh Sharma.jpg"
-                  alt="Prof. Ashutosh Sharma"
+                  alt="Prof. Manindra Agarwal"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h2 className="text-xl font-semibold mb-2">
-                Honorary Chairperson
-              </h2>
-              <p className="font-medium">Prof. Ashutosh Sharma</p>
-              <p>President INSA & Institute Chair Professor, IIT Kanpur</p>
+              <h2 className="text-xl font-semibold mb-2">Honorary Chairperson</h2>
+              <p className="font-medium">Prof. Ashutosh Sharma</p>{" "}
+              <p>President INSA & Institute Chair Professor IIT Kanpur</p>
             </CardContent>
           </Card>
 
@@ -52,13 +52,15 @@ export default function OrganizingCommitteePage() {
               <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
                 <Image
                   src="/committee/Prof. Yogesh M. Joshi.jpg"
-                  alt="Prof. Yogesh M. Joshi"
+                  alt="Prof. Ashutosh Sharma"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h2 className="text-xl font-semibold mb-2">Convenor</h2>
-              <p className="font-medium">Prof. Yogesh M. Joshi</p>
+              <h2 className="text-xl font-semibold mb-2">
+                Convenor
+              </h2>
+              <p className="font-medium">Prof Yogesh M. Joshi</p>
               <p>Professor, Department of Chemical Engineering, IIT Kanpur</p>
             </CardContent>
           </Card>
@@ -68,34 +70,34 @@ export default function OrganizingCommitteePage() {
               <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
                 <Image
                   src="/committee/Prof. Sri Sivakumar.jpg"
-                  alt="Prof. Sri Sivakumar"
+                  alt="Prof. Yogesh M. Joshi"
                   fill
                   className="object-cover"
                 />
               </div>
               <h2 className="text-xl font-semibold mb-2">Co-Convenor</h2>
-              <p className="font-medium">Prof. Sri Sivakumar</p>
+              <p className="font-medium">Prof Sri Sivakumar</p>
               <p>Professor, Department of Chemical Engineering, IIT Kanpur</p>
             </CardContent>
           </Card>
 
-          <Card className="shadow-md border border-border bg-background md:col-span-2">
+          <Card className="shadow-md border border-border bg-background">
             <CardContent className="p-6">
               <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
                 <Image
                   src="/committee/Dr. Sandip Patil.jpg"
-                  alt="Dr. Sandip Patil"
+                  alt="Prof. Sri Sivakumar"
                   fill
                   className="object-cover"
                 />
               </div>
-              <h2 className="text-xl font-semibold mb-2">
-                Organizing Secretary
-              </h2>
-              <p className="font-medium">Dr. Sandip Patil</p>
+              <h2 className="text-xl font-semibold mb-2">Organizing Secretary</h2>
+              <p className="font-medium">Dr Sandip Patil</p>
               <p>Director, E-Spin Nanotech Pvt Ltd</p>
             </CardContent>
           </Card>
+
+          
         </div>
 
         {/* <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
