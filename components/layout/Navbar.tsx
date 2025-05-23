@@ -48,7 +48,7 @@ export default function Navbar() {
           <div className="flex items-center">
             <Link
               href="/"
-              className="flex items-center space-x-2 text-xl font-bold text-kesari"
+              className="flex items-center space-x-2 text-4xl font-bold text-kesari "
             >
               <motion.div
                 initial={{ scale: 0 }}
