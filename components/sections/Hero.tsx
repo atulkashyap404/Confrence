@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-import Image from 'next/image'
+import Link from "next/link";
+import Image from "next/image";
 import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
 import CountdownTimer from "@/components/ui/CountdownTimer";
 
@@ -90,7 +91,8 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.8 }}
             >
-              THEME: BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE FUTURE
+              THEME: BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE
+              FUTURE
             </motion.p>
 
             <motion.div
@@ -99,9 +101,17 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.8 }}
             >
-              <Button size="lg" className="rounded-full bg-kesari">
-                Register Now <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
+              <Link
+                href="https://forms.gle/3BsFEgnYzGp4vpta7"
+                passHref
+                legacyBehavior
+              >
+                <a target="_blank" rel="noopener noreferrer">
+                  <Button size="lg" className="rounded-full bg-kesari">
+                    Register Now <ArrowRight className="ml-2 h-4 w-4" />
+                  </Button>
+                </a>
+              </Link>
             </motion.div>
 
             <motion.div
@@ -116,7 +126,9 @@ export default function Hero() {
               </div>
               <div className="flex items-center">
                 <MapPin className="mr-2 h-5 w-5 text-kesari" />
-                <span className="text-white">Outreach Auditorium, IIT Kanpur</span>
+                <span className="text-white">
+                  Outreach Auditorium, IIT Kanpur
+                </span>
               </div>
             </motion.div>
           </motion.div>
@@ -169,15 +181,6 @@ export default function Hero() {
     </section>
   );
 }
-
-
-
-
-
-
-
-
-
 
 // "use client";
 
@@ -240,7 +243,7 @@ export default function Hero() {
 //                 Aug 21-23, 2025
 //               </span>
 //             </motion.div>
-            
+
 //             <motion.h1
 //               className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight"
 //               initial={{ opacity: 0, y: 20 }}
@@ -251,7 +254,7 @@ export default function Hero() {
 //               <span className="block text-3xl text-black ">TECHNOLOGY, RESEARCH,
 //               INNOVATION, AND POLICY SUMMIT</span>
 //             </motion.h1>
-            
+
 //             <motion.p
 //               className="mt-6 text-lg text-muted-foreground max-w-lg"
 //               initial={{ opacity: 0, y: 20 }}
@@ -261,7 +264,7 @@ export default function Hero() {
 //               THEME: BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE
 //               FUTURE
 //             </motion.p>
-            
+
 //             <motion.div
 //               className="mt-8 flex flex-wrap gap-4"
 //               initial={{ opacity: 0, y: 20 }}
@@ -275,7 +278,7 @@ export default function Hero() {
 //                 View Schedule
 //               </Button> */}
 //             </motion.div>
-            
+
 //             <motion.div
 //               className="mt-12 flex flex-col sm:flex-row gap-6"
 //               initial={{ opacity: 0, y: 20 }}
@@ -292,7 +295,7 @@ export default function Hero() {
 //               </div>
 //             </motion.div>
 //           </motion.div>
-          
+
 //           <motion.div
 //             className="relative"
 //             initial={{ opacity: 0, scale: 0.9 }}
@@ -307,12 +310,12 @@ export default function Hero() {
 //                 height={500}
 //                 className="rounded-lg h-64 w-full object-cover mb-8"
 //               />
-              
+
 //               <div className="text-center mb-8 ">
 //                 <h3 className="text-2xl font-semibold mb-2">COUNTDOWN TO TRIPS 2025</h3>
 //                 <CountdownTimer  targetDate="2025-08-21T09:00:00" />
 //               </div>
-              
+
 //               <div className="grid grid-cols-2 gap-4">
 //                 <div className="bg-background rounded-lg p-4 text-center border border-border">
 //                   <div className="text-4xl font-bold text-kesari">100+</div>
@@ -332,7 +335,7 @@ export default function Hero() {
 //                 </div>
 //               </div>
 //             </div>
-            
+
 //             {/* Decorative elements */}
 //             <div className="absolute -top-4 -right-4 w-24 h-24 bg-kesari rounded-full blur-xl z-[-1]" />
 //             <div className="absolute -bottom-4 -left-4 w-32 h-32 bg-kesari/70 rounded-full blur-xl z-[-1]" />
