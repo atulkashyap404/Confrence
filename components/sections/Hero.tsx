@@ -1,28 +1,46 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image";
 import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
-import CountdownTimer from "@/components/ui/CountdownTimer";
 
 export default function Hero() {
+  const images = [
+    "/lib1.jpg",
+    "/lib2.jpg",
+    "/lib3.jpg",
+    "/lib4.jpg",
+  ];
+
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) => (prev + 1) % images.length);
+    }, 5000); // Change image every 5 seconds
+    return () => clearInterval(interval);
+  }, [images.length]);
+
   return (
     <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
       {/* Sliding background image */}
-      <motion.div
-        className="absolute inset-0 z-0 bg-cover bg-center mt-16"
-        style={{
-          backgroundImage: "url('/Library.jpg')",
-        }}
-        animate={{ backgroundPositionX: ["0%", "100%"] }}
-        transition={{
-          duration: 60,
-          repeat: Infinity,
-          ease: "linear",
-        }}
-      />
+      <div className="absolute inset-0 z-0 mt-16">
+        <AnimatePresence>
+          <motion.div
+            key={images[currentImage]}
+            className="absolute inset-0 bg-cover bg-center"
+            style={{
+              backgroundImage: `url('${images[currentImage]}')`,
+            }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 1 }}
+          />
+        </AnimatePresence>
+      </div>
 
       {/* Colored gradient blurs */}
       <div className="absolute inset-0 z-10 pointer-events-none">
@@ -137,6 +155,154 @@ export default function Hero() {
     </section>
   );
 }
+
+
+
+
+
+
+
+
+
+// "use client";
+
+// import { motion } from "framer-motion";
+// import { Button } from "@/components/ui/button";
+// import Link from "next/link";
+// import Image from "next/image";
+// import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
+// import CountdownTimer from "@/components/ui/CountdownTimer";
+
+// export default function Hero() {
+//   return (
+//     <section className="relative min-h-screen flex items-center pt-16 overflow-hidden">
+//       {/* Sliding background image */}
+//       <motion.div
+//         className="absolute inset-0 z-0 bg-cover bg-center mt-16"
+//         style={{
+//           backgroundImage: "url('/Library.jpg')",
+//         }}
+//         animate={{ backgroundPositionX: ["0%", "100%"] }}
+//         transition={{
+//           duration: 60,
+//           repeat: Infinity,
+//           ease: "linear",
+//         }}
+//       />
+
+//       {/* Colored gradient blurs */}
+//       <div className="absolute inset-0 z-10 pointer-events-none">
+//         <motion.div
+//           className="absolute -top-40 -right-40 w-96 h-96 bg-purple-500/30 dark:bg-purple-500/10 rounded-full blur-3xl"
+//           animate={{
+//             scale: [1, 1.2, 1],
+//             opacity: [0.3, 0.2, 0.3],
+//           }}
+//           transition={{
+//             duration: 8,
+//             repeat: Infinity,
+//             repeatType: "reverse",
+//           }}
+//         />
+//         <motion.div
+//           className="absolute -bottom-40 -left-40 w-96 h-96 bg-teal-500/30 dark:bg-teal-500/10 rounded-full blur-3xl"
+//           animate={{
+//             scale: [1, 1.2, 1],
+//             opacity: [0.3, 0.2, 0.3],
+//           }}
+//           transition={{
+//             duration: 8,
+//             repeat: Infinity,
+//             repeatType: "reverse",
+//             delay: 1,
+//           }}
+//         />
+//       </div>
+
+//       {/* Hero Content */}
+//       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-20">
+//         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+//           {/* Left Column */}
+//           <motion.div
+//             initial={{ opacity: 0, x: -50 }}
+//             animate={{ opacity: 1, x: 0 }}
+//             transition={{ duration: 0.8 }}
+//           >
+//             <motion.div
+//               initial={{ opacity: 0, y: -20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ delay: 0.3, duration: 0.8 }}
+//               className="inline-block"
+//             >
+//               <span className="bg-white text-kesari px-4 py-1 rounded-full text-sm font-medium ">
+//                 Aug 21-23, 2025
+//               </span>
+//             </motion.div>
+
+//             <motion.h1
+//               className="mt-6 text-4xl sm:text-5xl md:text-6xl font-bold tracking-tight"
+//               initial={{ opacity: 0, y: 20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ delay: 0.5, duration: 0.8 }}
+//             >
+//               <span className="block text-kesari">TRIPS 2025:</span>
+//               <span className="block text-3xl text-white dark:text-white">
+//                 TECHNOLOGY, RESEARCH, INNOVATION, AND POLICY SUMMIT
+//               </span>
+//             </motion.h1>
+
+//             <motion.p
+//               className="mt-6 text-lg text-muted-foreground max-w-lg text-white"
+//               initial={{ opacity: 0, y: 20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ delay: 0.7, duration: 0.8 }}
+//             >
+//               THEME: BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE
+//               FUTURE
+//             </motion.p>
+
+//             <motion.div
+//               className="mt-8 flex flex-wrap gap-4"
+//               initial={{ opacity: 0, y: 20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ delay: 0.9, duration: 0.8 }}
+//             >
+//               <Link
+//                 href="https://forms.gle/3BsFEgnYzGp4vpta7"
+//                 passHref
+//                 legacyBehavior
+//               >
+//                 <a target="_blank" rel="noopener noreferrer">
+//                   <Button size="lg" className="rounded-full bg-kesari">
+//                     Register Now <ArrowRight className="ml-2 h-4 w-4" />
+//                   </Button>
+//                 </a>
+//               </Link>
+//             </motion.div>
+
+//             <motion.div
+//               className="mt-12 flex flex-col sm:flex-row gap-6"
+//               initial={{ opacity: 0, y: 20 }}
+//               animate={{ opacity: 1, y: 0 }}
+//               transition={{ delay: 1.1, duration: 0.8 }}
+//             >
+//               <div className="flex items-center">
+//                 <CalendarDays className="mr-2 h-5 w-5 text-kesari" />
+//                 <span className="text-white">Aug 21-23, 2025</span>
+//               </div>
+//               <div className="flex items-center">
+//                 <MapPin className="mr-2 h-5 w-5 text-kesari" />
+//                 <span className="text-white">
+//                   Outreach Auditorium, IIT Kanpur
+//                 </span>
+//               </div>
+//             </motion.div>
+//           </motion.div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
 
 
