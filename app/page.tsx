@@ -19,6 +19,7 @@ import SummitStream from "@/components/sections/SummitStream";
 import HowToReachPage from "@/components/sections/HowToReach";
 import OrganizingCommittee from "@/components/sections/OrganizingCommittee";
 import ContactUs from "@/components/sections/ContactUs";
+import CountDown from "@/components/sections/CountDown";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
         <main>
           <Hero />
           <ClosingSession />
+          <CountDown />
           <SummitScope />
           <SummitStream />
           <About />
