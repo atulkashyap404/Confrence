@@ -322,6 +322,22 @@ const SPEAKERS = [
     role: "DG, RIS",
     company: "",
     bio: "",
+    image: "/speakers/Prof. Sachin Chaturvedi.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 6,
+    name: "Prof. Rajat Moona ",
+    role: "Director",
+    company: "IIT Gandhinagar ",
+    bio: "",
     image: "/speakers/Prof. Rajat Moona.png",
     category: "",
     featured: false,
