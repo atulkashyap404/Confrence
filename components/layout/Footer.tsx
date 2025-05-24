@@ -131,7 +131,8 @@ export default function Footer() {
         
         <div className="text-center">
           <p className="text-sm text-primary-foreground/70">
-            &copy; {currentYear} TRIPS. All rights reserved.
+            &copy; {currentYear} TRIPS. All rights reserved. Designed and Developed by{' '}
+            <a href="https://www.linkedin.com/in/atul-kumar404/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary-foreground">Atul</a> 
           </p>
         </div>
       </div>
