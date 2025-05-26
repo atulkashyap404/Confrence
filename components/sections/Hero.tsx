@@ -140,11 +140,11 @@ export default function Hero() {
             >
               <div className="flex items-center">
                 <CalendarDays className="mr-2 h-5 w-5 text-kesari" />
-                <span className="text-white">Aug 21-23, 2025</span>
+                <span className="text-kesari bg-white rounded-full p-2 font-semibold">Aug 21-23, 2025</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="mr-2 h-5 w-5 text-kesari" />
-                <span className="text-white">
+                <span className="text-kesari font-semibold bg-white rounded-full p-2">
                   Outreach Auditorium, IIT Kanpur
                 </span>
               </div>
