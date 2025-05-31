@@ -31,19 +31,26 @@ export default function Home() {
           <ClosingSession />
           <CountDown />
           <SummitScope />
-          <SummitStream />
-          <About />
+          {/* <SummitStream /> */}
+          <Speakers />
+          <OrganizingCommittee />
+          <Schedule />
+          <Sponsors />
+          <HowToReachPage />
+          <ContactUs />
+
+
+          {/* <About />
           <InnovationEcosystem />
           <Governance />
           <FutureWork />
           <SustainableInnovation />
-          <InternationalCollaborations />
-          <Schedule />
-          <Speakers />
-          <OrganizingCommittee />
-          <Sponsors />
-          <HowToReachPage />
-          <ContactUs />
+          <InternationalCollaborations /> */}
+          
+          
+          
+          
+          
         </main>
         <Footer />
       </div>

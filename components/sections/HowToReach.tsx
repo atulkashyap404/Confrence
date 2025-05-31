@@ -1,13 +1,13 @@
 export default function HowToReachPage() {
   return (
-    <section id="howtoreach" className="py-16 px-4 md:px-10 lg:px-20 bg-gray-50 dark:bg-gray-900 text-gray-800 dark:text-gray-100">
+    <section id="howtoreach" className="py-16 px-4 md:px-10 lg:px-20 bg-white dark:bg-gray-900 text-gray-800 dark:text-gray-100">
       <div className="max-w-5xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-kesari mb-10">How to Reach IIT Kanpur</h1>
+        <h1 className="text-4xl font-bold text-kesari mb-10"><span className="text-black">How to Reach</span> IIT Kanpur</h1>
 
         <div className="grid grid-cols-1 gap-6">
           <div className="rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
             <div className="p-6 text-left space-y-4">
-              <h2 className="text-2xl font-semibold text-center text-kesari">A. Arrival by Air</h2>
+              <h2 className="text-2xl font-bold text-center text-black">A. Arrival by Air</h2>
 
               <div>
                 <h3 className="text-lg font-bold">1. Lucknow Airport (LKO – Chaudhary Charan Singh International Airport)</h3>
@@ -43,7 +43,7 @@ export default function HowToReachPage() {
 
           <div className="rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
             <div className="p-6 text-left space-y-4">
-              <h2 className="text-2xl font-semibold text-center text-kesari">B. Arrival by Train</h2>
+              <h2 className="text-2xl font-bold text-center text-black">B. Arrival by Train</h2>
 
               <div>
                 <h3 className="text-lg font-bold">1. Kanpur Central Railway Station (CNB)</h3>
@@ -62,7 +62,7 @@ export default function HowToReachPage() {
 
           <div className="rounded-xl shadow-lg border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-800">
             <div className="p-6 text-left space-y-4">
-              <h2 className="text-2xl font-semibold text-center text-kesari">Arrival at IIT Kanpur Campus</h2>
+              <h2 className="text-2xl font-bold text-center text-kesari"><span className="text-black">Arrival at</span> IIT Kanpur Campus</h2>
               <ul className="list-disc list-inside space-y-1">
                 <li>All guests should arrive at the Main Gate of IIT Kanpur.</li>
                 <li>At the gate, you’ll encounter a security checkpoint. Please inform the security personnel of your visit.</li>

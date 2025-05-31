@@ -48,7 +48,7 @@ const SPEAKERS = [
     role: "",
     company: "",
     bio: "",
-    image: "/Sponsors/E-spin Nanotech Pvt. Ltd..png",
+    image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg",
     category: "",
     featured: true,
     socials: {
@@ -131,7 +131,7 @@ export default function Speakers() {
   const featuredSpeakers = SPEAKERS.filter(speaker => speaker.featured);
   
   return (
-    <section id="sponsors" className="py-24 bg-background">
+    <section id="sponsors" className="py-24 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

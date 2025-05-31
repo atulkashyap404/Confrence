@@ -195,7 +195,7 @@ const SPEAKERS = [
   {
     id: 12,
     name: "Prof. Jyeshtharaj Bhalchandra Joshi",
-    role: "Professor Emeritus",
+    role: "Chancellor",
     company: "Institute of Chemical Technology (ICT), Mumbai",
     bio: "",
     image: "/speakers/Jyeshtharaj Joshi.jpg",
