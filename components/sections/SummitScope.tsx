@@ -23,7 +23,8 @@ export default function Trips2025Page() {
 
   return (
     <section id="summitscope">
-      <main className="min-h-screen px-4 py-10 md:px-20 md:py-20 bg-gradient-to-tr from-kesari/60 via-white to-kesari/10 text-black">
+      <main className="min-h-screen px-4 py-10 md:px-20 md:py-20 bg-muted  text-black">
+        {/* bg-gradient-to-tr from-kesari/60 via-white to-kesari/10 */}
         <motion.h1
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}

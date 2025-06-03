@@ -322,8 +322,8 @@ const SPEAKERS = [
   {
     id: 20,
     name: "Prof. Sachin Chaturvedi",
-    role: "DG, RIS",
-    company: "",
+    role: "VC",
+    company: "Nalanda University",
     bio: "",
     image: "/speakers/Prof. Sachin Chaturvedi.png",
     category: "",
