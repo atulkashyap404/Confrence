@@ -22,7 +22,7 @@ export default function OrganizingCommittee() {
                       className="object-cover"
                     />
                   </div>
-                  <h2 className="text-xl font-semibold mb-2">Chief Patron</h2>
+                  <h2 className="text-xl font-semibold mb-2"></h2>
                   <p className="font-medium">Prof. Manindra Agrawal</p>
                   <p>Director, IIT Kanpur</p>
                 </CardContent>
@@ -44,7 +44,6 @@ export default function OrganizingCommittee() {
                     />
                   </div>
                   <h2 className="text-xl font-semibold mb-2">
-                    Honorary Chairperson
                   </h2>
                   <p className="font-medium">Prof. Ashutosh Sharma</p>
                   <p>President INSA & Institute Chair Professor, IIT Kanpur</p>
