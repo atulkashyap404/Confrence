@@ -322,7 +322,7 @@ const SPEAKERS = [
   {
     id: 20,
     name: "Prof. Sachin Chaturvedi",
-    role: "VC",
+    role: "Vice-Chancellor",
     company: "Nalanda University",
     bio: "",
     image: "/speakers/Prof. Sachin Chaturvedi.png",
@@ -334,9 +334,25 @@ const SPEAKERS = [
       website: "#",
     },
   },
+{
+    id: 21,
+    name: "V. Ramgopal Rao",
+    role: "Group Vice-Chancellor",
+    company: "Birla Institute of Technology & Science (BITS) Pilani ",
+    bio: "",
+    image: "/speakers/V. Ramgopal Rao.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
 
   {
-    id: 21,
+    id: 22,
     name: "Prof. Rajat Moona ",
     role: "Director",
     company: "IIT Gandhinagar ",
@@ -352,7 +368,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 22,
+    id: 23,
     name: "Prof. Avinash Agarwal ",
     role: "Director",
     company:
@@ -369,7 +385,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 23,
+    id: 24,
     name: "Prof. Thalappil Pradeep",
     role: "Professor",
     company: "Indian Institute of Technology (IIT) Madras",
@@ -385,7 +401,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 24,
+    id: 25,
     name: "Prof. Ashutosh Sharma",
     role: "President of INSA",
     company: "Institute Chair Professor IIT Kanpur",
@@ -401,7 +417,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 25,
+    id: 26,
     name: "Prof. Amit Patra ",
     role: "Director",
     company:
@@ -418,7 +434,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 26,
+    id: 27,
     name: "Prof. Shireesh Kedare",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Bombay",
@@ -434,7 +450,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 27,
+    id: 28,
     name: "Prof. Kamakoti Veezhinathan",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Madras",
@@ -450,7 +466,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 28,
+    id: 29,
     name: "Prof. Rangan Banerjee",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Delhi",
@@ -466,7 +482,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 29,
+    id: 30,
     name: "Prof. Kamal K Pant",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Roorkee",
@@ -482,7 +498,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 30,
+    id: 31,
     name: "Prof. Devendra Jalihal",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Guwahati",
@@ -498,7 +514,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 31,
+    id: 32,
     name: "Prof. B S Murty",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Hyderabad",
@@ -514,7 +530,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 32,
+    id: 33,
     name: "Prof. Suhas S Joshi",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Indore",
@@ -530,7 +546,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 33,
+    id: 34,
     name: "Prof. Sukumar Mishra",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Dhanbad",
@@ -545,7 +561,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 34,
+    id: 35,
     name: "Prof. Rajeev Ahuja",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Ropar",
@@ -561,7 +577,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 35,
+    id: 36,
     name: "Prof. Laxmidhar Behera",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Mandi",
@@ -577,7 +593,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 36,
+    id: 37,
     name: "Prof. T N Singh",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Patna",
@@ -593,7 +609,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 37,
+    id: 38,
     name: "Prof. Shreepad Karmalkar",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Bhubaneshwar",
@@ -609,7 +625,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 38,
+    id: 39,
     name: "Prof. Kalidindi N Satyanarayana",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Tirupati",
@@ -625,7 +641,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 39,
+    id: 40,
     name: "Prof. Manoj Singh Gaur",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Jammu",
@@ -641,7 +657,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 40,
+    id: 41,
     name: "Prof. A Seshadri Sekhar",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Palakkad",
@@ -657,7 +673,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 41,
+    id: 42,
     name: "Prof. Rajiv Prakash",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Bhilai",
@@ -673,7 +689,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 42,
+    id: 43,
     name: "Prof. Venkappayya R Desai",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Dharwad",
@@ -689,7 +705,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 43,
+    id: 44,
     name: "Prof. Dhirendra S Katti",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Goa",
