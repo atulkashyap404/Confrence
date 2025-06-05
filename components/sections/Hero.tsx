@@ -9,9 +9,9 @@ import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
 export default function Hero() {
   const images = [
     "/lib1.jpg",
-    "/lib2.jpg",
-    "/lib3.jpg",
-    "/lib4.jpg",
+    // "/lib2.jpg",
+    // "/lib3.jpg",
+    // "/lib4.jpg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -86,7 +86,7 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="inline-block"
             >
-              <span className="bg-white text-kesari px-4 py-1 rounded-full text-sm font-medium ">
+              <span className="bg-white text-kesari px-4 py-1 rounded-sm text-sm font-medium ">
                 Aug 21-23, 2025
               </span>
             </motion.div>
@@ -97,19 +97,22 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              <span className="block text-kesari">TRIPS 2025:</span>
+              {/* <span className="block text-kesari">TRIPS 2025:</span> */}
+              <span className="inline-block bg-white/90 dark:bg-black/40 rounded-sm px-3 py-1 text-kesari">
+                TRIPS 2025
+              </span>
               <span className="block text-3xl text-white dark:text-white">
                 TECHNOLOGY, RESEARCH, INNOVATION, AND POLICY SUMMIT
               </span>
             </motion.h1>
 
             <motion.p
-              className="mt-6 text-lg text-muted-foreground max-w-lg text-white"
+              className="mt-6 text-lg text-muted-foreground max-w-lg text-white font-semibold"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.8 }}
             >
-              THEME: BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE
+              <span className="font-bold ">THEME -</span> BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE
               FUTURE
             </motion.p>
 
@@ -125,7 +128,7 @@ export default function Hero() {
                 legacyBehavior
               >
                 <a target="_blank" rel="noopener noreferrer">
-                  <Button size="lg" className="rounded-full bg-kesari">
+                  <Button size="lg" className="rounded-sm bg-kesari">
                     Register Now <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </a>
@@ -140,11 +143,13 @@ export default function Hero() {
             >
               <div className="flex items-center">
                 <CalendarDays className="mr-2 h-5 w-5 text-kesari" />
-                <span className="text-kesari bg-white rounded-full p-2 font-semibold">Aug 21-23, 2025</span>
+                <span className="text-kesari bg-white rounded-sm p-2 font-semibold">
+                  Aug 21-23, 2025
+                </span>
               </div>
               <div className="flex items-center">
                 <MapPin className="mr-2 h-5 w-5 text-kesari" />
-                <span className="text-kesari font-semibold bg-white rounded-full p-2">
+                <span className="text-kesari font-semibold bg-white rounded-sm p-2">
                   Outreach Auditorium, IIT Kanpur
                 </span>
               </div>
@@ -155,14 +160,6 @@ export default function Hero() {
     </section>
   );
 }
-
-
-
-
-
-
-
-
 
 // "use client";
 
@@ -303,39 +300,6 @@ export default function Hero() {
 //     </section>
 //   );
 // }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // "use client";
 

@@ -13,6 +13,7 @@ export default function Trips2025Page() {
     "Smart Systems and Digital Sustainability",
     "Technology for Sustainability",
     "Translational Research and Industry-Academia Collaboration",
+    "Lab To Industry Transformation ",
   ];
 
   const highlights = [
@@ -93,7 +94,7 @@ export default function Trips2025Page() {
           ))}
         </motion.div>
 
-        <motion.h2
+        {/* <motion.h2
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3, duration: 0.6 }}
@@ -119,7 +120,7 @@ export default function Trips2025Page() {
               <span className="mt-2">{highlight.title}</span>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
       </main>
     </section>
   );

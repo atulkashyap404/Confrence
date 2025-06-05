@@ -20,7 +20,7 @@ import { Linkedin, Twitter, Globe } from "lucide-react";
 const SPEAKERS = [
   {
     id: 1,
-    name: "Prof. V. K. Saraswat",
+    name: "Prof. V K Saraswat",
     role: "Distinguished Professor",
     company:
       "Indian Institute of Technology (IIT) Hyderabad, Member NITI Aayog",
@@ -100,7 +100,7 @@ const SPEAKERS = [
     name: "Prof. Abhay Karandikar",
     role: "Secretary",
     company:
-      "Department of Science & Technology, Government of India, Institute Chair Professor, Indian Institute of Technology (IIT) Bombay",
+      "Department of Science & Technology (DST), Government of India",
     bio: "",
     image: "/speakers/Abhay Karandikar.jpg",
     category: "",
@@ -114,9 +114,9 @@ const SPEAKERS = [
 
   {
     id: 7,
-    name: "Dr N Kalaiselvi",
-    role: "Director General",
-    company: "CSIR & Secretary DSIR",
+    name: "Dr N. Kalaiselvi",
+    role: "Director",
+    company: "Council of Scientific and Industrial Research (CSIR) & Secretary DSIR",
     bio: "",
     image: "/speakers/Dr N Kalaiselvi.png",
     category: "",
@@ -148,7 +148,7 @@ const SPEAKERS = [
     id: 9,
     name: "Dr. Shivkumar Kalyanaraman",
     role: "CEO",
-    company: "ANRF & DST",
+    company: "Anusandhan National Research Foundation (ARNF), & DST, Government of India",
     bio: "",
     image: "/speakers/Dr S Kalyanaraman.png",
     category: "",
@@ -212,7 +212,7 @@ const SPEAKERS = [
     id: 13,
     name: "Prof. Annapurni Subramaniam",
     role: "Director",
-    company: "IIA Bangalore",
+    company: "Indian Institute of Astrophysics (IIA), Bangalore",
     bio: "",
     image: "/speakers/Prof. Annapurni Subramaniam.png",
     category: "",
@@ -242,9 +242,9 @@ const SPEAKERS = [
 
   {
     id: 15,
-    name: "Mahesh Gupta",
-    role: "Chairperson of Kent RO Systems",
-    company: "",
+    name: "Dr. Mahesh Gupta",
+    role: "Chairperson",
+    company: "Kent RO Systems",
     bio: "",
     image: "/speakers/Mahesh Gupta.jpg",
     category: "",
@@ -275,7 +275,7 @@ const SPEAKERS = [
     id: 17,
     name: "Dr. Madhu Dikshit",
     role: "Former Director",
-    company: "CSIR-CDRI",
+    company: "CSIR-Central Drug Research Institute (CDRI), Lucknow",
     bio: "",
     image: "/speakers/Dr Madhu Dikshit.png",
     category: "",
@@ -289,9 +289,9 @@ const SPEAKERS = [
 
   {
     id: 18,
-    name: "Dr Soumya Swaminathan",
+    name: "Dr. Soumya Swaminathan",
     role: "Chief Scientist",
-    company: "WHO",
+    company: "World Health Organization (WHO)",
     bio: "",
     image: "/speakers/Dr Soumya Swaminathan.png",
     category: "",
@@ -305,7 +305,7 @@ const SPEAKERS = [
 
   {
     id: 19,
-    name: "Mr Naveen Tiwari",
+    name: "Mr. Naveen Tiwari",
     role: " CEO",
     company: "inMobi",
     bio: "",
@@ -323,7 +323,7 @@ const SPEAKERS = [
     id: 20,
     name: "Prof. Sachin Chaturvedi",
     role: "Vice-Chancellor",
-    company: "Nalanda University",
+    company: "Nalanda University, Bihar",
     bio: "",
     image: "/speakers/Prof. Sachin Chaturvedi.png",
     category: "",
@@ -336,7 +336,7 @@ const SPEAKERS = [
   },
 {
     id: 21,
-    name: "V. Ramgopal Rao",
+    name: "Prof. V Ramgopal Rao",
     role: "Group Vice-Chancellor",
     company: "Birla Institute of Technology & Science (BITS) Pilani ",
     bio: "",
@@ -350,12 +350,43 @@ const SPEAKERS = [
     },
   },
 
-
   {
     id: 22,
+    name: "Prof. T G Sitharam",
+    role: "Chairman",
+    company: "All India Council for Technical Education (AICTE), Government of India",
+    bio: "",
+    image: "/speakers/Prof. T G Sitharam.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 23,
+    name: "Prof. Indranil Manna",
+    role: "Vice-Chancellor",
+    company: "BIT Mesra, Ranchi Institute Chair Professor, Indian Institute of Technology (IIT) Kharagpur",
+    bio: "",
+    image: "/speakers/Indranil manna.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 24,
     name: "Prof. Rajat Moona ",
     role: "Director",
-    company: "IIT Gandhinagar ",
+    company: "Indian Institute of Technology (IIT) Gandhinagar",
     bio: "",
     image: "/speakers/Prof. Rajat Moona.png",
     category: "",
@@ -368,11 +399,11 @@ const SPEAKERS = [
   },
 
   {
-    id: 23,
-    name: "Prof. Avinash Agarwal ",
+    id: 25,
+    name: "Prof. Avinash Agarwal",
     role: "Director",
     company:
-      "Indian Institute of Technology (IIT) Jodhpur Professor, IIT Kanpur",
+      "Indian Institute of Technology (IIT) Jodhpur",
     bio: "",
     image: "/speakers/Avinash Kumar Agarwal.jpg",
     category: "",
@@ -383,9 +414,24 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 26,
+    name: "Prof. Dhirendra S Katti",
+    role: "Director",
+    company: "Indian Institute of Technology (IIT) Goa",
+    bio: "",
+    image: "/directors/Prof, Dhirendra S Katti-Picsart-AiImageEnhancer.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
 
   {
-    id: 24,
+    id: 27,
     name: "Prof. Thalappil Pradeep",
     role: "Professor",
     company: "Indian Institute of Technology (IIT) Madras",
@@ -401,10 +447,10 @@ const SPEAKERS = [
   },
 
   {
-    id: 25,
+    id: 28,
     name: "Prof. Ashutosh Sharma",
-    role: "President of INSA",
-    company: "Institute Chair Professor IIT Kanpur",
+    role: "President",
+    company: "Indian National Science Academy INSA, New Delhi; Institute Chair Professor, IIT Kanpur",
     bio: "",
     image: "/speakers/Prof. Ashutosh Sharma.jpg",
     category: "",
@@ -417,7 +463,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 26,
+    id: 29,
     name: "Prof. Amit Patra ",
     role: "Director",
     company:
@@ -434,7 +480,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 27,
+    id: 30,
     name: "Prof. Shireesh Kedare",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Bombay",
@@ -450,7 +496,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 28,
+    id: 31,
     name: "Prof. Kamakoti Veezhinathan",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Madras",
@@ -466,7 +512,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 29,
+    id: 32,
     name: "Prof. Rangan Banerjee",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Delhi",
@@ -482,7 +528,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 30,
+    id: 33,
     name: "Prof. Kamal K Pant",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Roorkee",
@@ -498,7 +544,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 31,
+    id: 34,
     name: "Prof. Devendra Jalihal",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Guwahati",
@@ -514,7 +560,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 32,
+    id: 35,
     name: "Prof. B S Murty",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Hyderabad",
@@ -530,7 +576,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 33,
+    id: 36,
     name: "Prof. Suhas S Joshi",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Indore",
@@ -546,7 +592,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 34,
+    id: 37,
     name: "Prof. Sukumar Mishra",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Dhanbad",
@@ -561,7 +607,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 35,
+    id: 38,
     name: "Prof. Rajeev Ahuja",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Ropar",
@@ -577,7 +623,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 36,
+    id: 39,
     name: "Prof. Laxmidhar Behera",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Mandi",
@@ -593,7 +639,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 37,
+    id: 40,
     name: "Prof. T N Singh",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Patna",
@@ -609,7 +655,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 38,
+    id: 41,
     name: "Prof. Shreepad Karmalkar",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Bhubaneshwar",
@@ -625,7 +671,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 39,
+    id: 42,
     name: "Prof. Kalidindi N Satyanarayana",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Tirupati",
@@ -641,7 +687,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 40,
+    id: 43,
     name: "Prof. Manoj Singh Gaur",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Jammu",
@@ -657,7 +703,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 41,
+    id: 44,
     name: "Prof. A Seshadri Sekhar",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Palakkad",
@@ -673,7 +719,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 42,
+    id: 45,
     name: "Prof. Rajiv Prakash",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Bhilai",
@@ -689,7 +735,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 43,
+    id: 46,
     name: "Prof. Venkappayya R Desai",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Dharwad",
@@ -704,21 +750,7 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 44,
-    name: "Prof. Dhirendra S Katti",
-    role: "Director",
-    company: "Indian Institute of Technology (IIT) Goa",
-    bio: "",
-    image: "/directors/Prof, Dhirendra S Katti-Picsart-AiImageEnhancer.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   // {
   //   id: 7,
