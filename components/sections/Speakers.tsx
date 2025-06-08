@@ -114,7 +114,7 @@ const SPEAKERS = [
 
   {
     id: 7,
-    name: "Dr N. Kalaiselvi",
+    name: "Dr. N Kalaiselvi",
     role: "Director",
     company: "Council of Scientific and Industrial Research (CSIR) & Secretary DSIR",
     bio: "",
@@ -735,7 +735,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 46,
+    id: 46 ,
     name: "Prof. Venkappayya R Desai",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Dharwad",
