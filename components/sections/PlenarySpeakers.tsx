@@ -709,6 +709,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 44,
+    name: "Prof. Alamgir Karim",
+    role: "Dow Chair Professor and Director",
+    company: "Materials Program, University of Houston",
+    bio: "",
+    image: "/speakers/dummy-person.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
 ];
 
 export default function Speakers() {
@@ -739,10 +754,10 @@ export default function Speakers() {
             future of technology across various domains.
           </p> */}
 
-          <h3 className="text-3xl font-bold text-kesari mb-2">
+          {/* <h3 className="text-3xl font-bold text-kesari mb-2">
             Plenary Speakers
             <hr className="border-kesari mt-2"/>
-          </h3>
+          </h3> */}
         </motion.div>
 
         {/* All Speakers */}

@@ -782,10 +782,10 @@ export default function Speakers() {
             future of technology across various domains.
           </p>
 
-          <h3 className="text-3xl font-bold text-kesari mb-2 mt-12">
+          {/* <h3 className="text-3xl font-bold text-kesari mb-2 mt-12">
             Keynote Speakers
             <hr className="border-kesari mt-2"/>
-          </h3>
+          </h3> */}
         </motion.div>
 
         {/* All Speakers */}
