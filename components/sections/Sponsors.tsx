@@ -59,7 +59,7 @@ const SPEAKERS = [
   },
   {
     id: 4,
-    name: "•	Indian National Science Academy",
+    name: "Indian National Science Academy",
     role: "",
     company: "",
     bio: "",
