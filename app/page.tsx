@@ -20,6 +20,7 @@ import HowToReachPage from "@/components/sections/HowToReach";
 import OrganizingCommittee from "@/components/sections/OrganizingCommittee";
 import ContactUs from "@/components/sections/ContactUs";
 import CountDown from "@/components/sections/CountDown";
+import PlenarySpeakers from "@/components/sections/PlenarySpeakers";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
           <SummitScope />
           {/* <SummitStream /> */}
           <Speakers />
+          <PlenarySpeakers />
           <OrganizingCommittee />
           <Schedule />
           <Sponsors />
