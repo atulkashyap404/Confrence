@@ -21,6 +21,7 @@ import OrganizingCommittee from "@/components/sections/OrganizingCommittee";
 import ContactUs from "@/components/sections/ContactUs";
 import CountDown from "@/components/sections/CountDown";
 import PlenarySpeakers from "@/components/sections/PlenarySpeakers";
+import DistinguishedSpeaker from "@/components/sections/DistinguishedSpeaker";
 
 export default function Home() {
   return (
@@ -36,6 +37,7 @@ export default function Home() {
           <Speakers />
           <PlenarySpeakers />
           <OrganizingCommittee />
+          <DistinguishedSpeaker />
           <Schedule />
           <Sponsors />
           <HowToReachPage />
