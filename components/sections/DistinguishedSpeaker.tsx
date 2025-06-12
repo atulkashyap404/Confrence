@@ -490,7 +490,7 @@ export default function DistinguishedSpeaker() {
   const featuredSpeakers = SPEAKERS.filter((speaker) => speaker.featured);
 
   return (
-    <section id="speakers" className="py-18 bg-background">
+    <section id="speakers" className="py-18 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -499,13 +499,11 @@ export default function DistinguishedSpeaker() {
           viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          {/* <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-            Meet Our <span className="text-kesari">Eminent Speakers</span>
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 pt-8">
+            Distinguished <span className="text-kesari">Speakers</span>
           </h2>
-          <p className="text-lg text-muted-foreground">
-            Learn from industry pioneers and thought leaders who are shaping the
-            future of technology across various domains.
-          </p> */}
+          {/* <hr className="border-kesari"/> */}
+          
 
           {/* <h3 className="text-3xl font-bold text-kesari mb-2">
             Plenary Speakers
