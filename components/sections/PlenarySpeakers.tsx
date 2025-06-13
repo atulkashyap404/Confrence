@@ -724,21 +724,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 39,
-    name: "Prof. A. Seshadri Sekhar",
-    role: " Director",
-    company: "IIT Palakkad",
-    bio: "",
-    image: "/directors/Prof. A. Seshadri Sekhar.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 39,
+  //   name: "Prof. A. Seshadri Sekhar",
+  //   role: " Director",
+  //   company: "IIT Palakkad",
+  //   bio: "",
+  //   image: "/directors/Prof. A. Seshadri Sekhar.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
 ];
 
 export default function PlenarySpeakers() {
