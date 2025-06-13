@@ -18,7 +18,7 @@ const SPEAKERS = [
     name: "Prof. Dipankar Das Sarma",
     role: "Professor",
     company:
-      "",
+      "Indian Institute of Science (IISc), Bangalore",
     bio: "",
     image: "/dist/Prof. Dipankar Das Sarma.png",
     category: "",
@@ -35,7 +35,7 @@ const SPEAKERS = [
     role: "Senior Adviser",
     company: "Department of Science and Technology (DST)",
     bio: "",
-    image: "/dist/Dr. Akhilesh Gupta.png",
+    image: "/committee/Dr. Akhilesh Gupta.png",
     category: "",
     featured: false,
     socials: {
@@ -490,7 +490,7 @@ export default function DistinguishedSpeaker() {
   const featuredSpeakers = SPEAKERS.filter((speaker) => speaker.featured);
 
   return (
-    <section id="speakers" className="py-18 bg-muted pb-4">
+    <section id="speakers" className="py-18 bg-muted pb-4 pt-4">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

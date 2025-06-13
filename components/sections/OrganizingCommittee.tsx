@@ -66,7 +66,7 @@ export default function OrganizingCommittee() {
             {/* Card 1 */}
             <Card className="shadow-md border border-border bg-white">
               <CardContent className="p-6">
-                <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
+                <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
                   <Image
                     src="/committee/Prof. J. Ramkumar.png"
                     alt="Prof. J Ramkumar"
@@ -84,7 +84,7 @@ export default function OrganizingCommittee() {
             {/* Card 2 */}
             <Card className="shadow-md border border-border bg-white">
               <CardContent className="p-6">
-                <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
+                <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
                   <Image
                     src="/committee/Prof. Sachchida Nand Tripathi.png"
                     alt="Prof. J Ramkumar"
@@ -102,7 +102,7 @@ export default function OrganizingCommittee() {
             {/* Card 3 */}
             <Card className="shadow-md border border-border bg-white">
               <CardContent className="p-6">
-                <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
+                <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
                   <Image
                     src="/committee/Prof. Sandeep Verma.png"
                     alt="Prof. J Ramkumar"
@@ -113,7 +113,10 @@ export default function OrganizingCommittee() {
                 <p className="font-medium">Prof. Sandeep Verma</p>
                 <p>Professor</p>
                 <p>Department of Chemistry</p>
-                <p>Professor In-Charge (Head) Gangwal School of Medical Sciences and Technology</p>
+                <p>
+                  Professor In-Charge (Head) Gangwal School of Medical Sciences
+                  and Technology
+                </p>
               </CardContent>
             </Card>
           </div>
@@ -122,7 +125,7 @@ export default function OrganizingCommittee() {
             {/* Large Full Width Card */}
             <Card className="shadow-md border border-border bg-white md:col-span-3">
               <CardContent className="p-6">
-                <div className="w-40 h-40 mx-auto mb-4 relative rounded-lg overflow-hidden">
+                <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
                   <Image
                     src="/committee/Prof. Vinod K. Singh.png"
                     alt="Prof. J Ramkumar"
@@ -131,7 +134,9 @@ export default function OrganizingCommittee() {
                   />
                 </div>
                 <p className="font-medium">Prof. Vinod K. Singh</p>
-                <p>Institute Chair Professor Department of Chemistry IIT Kanpur</p>
+                <p>
+                  Institute Chair Professor Department of Chemistry IIT Kanpur
+                </p>
                 <p>President</p>
                 <p>National Academy of Sciences, India (NASI)</p>
               </CardContent>
@@ -149,7 +154,7 @@ export default function OrganizingCommittee() {
             <span className="text-black">Organizing</span> Committee
           </h1>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
             <Card className="shadow-md border border-border bg-background">
               <CardContent className="p-6">
                 <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
@@ -160,7 +165,7 @@ export default function OrganizingCommittee() {
                     className="object-cover"
                   />
                 </div>
-                <h2 className="text-xl font-semibold mb-2">Convenor</h2>
+                <h2 className="text-xl font-bold mb-2 text-kesari">Convenor</h2>
                 <p className="font-medium">Prof Yogesh M. Joshi</p>
                 <p>Professor, Department of Chemical Engineering, IIT Kanpur</p>
               </CardContent>
@@ -176,12 +181,30 @@ export default function OrganizingCommittee() {
                     className="object-cover"
                   />
                 </div>
-                <h2 className="text-xl font-semibold mb-2">Co-Convenor</h2>
+                <h2 className="text-xl font-bold mb-2 text-kesari">Co-Convenor</h2>
                 <p className="font-medium">Prof Sri Sivakumar</p>
                 <p>Professor, Department of Chemical Engineering, IIT Kanpur</p>
               </CardContent>
             </Card>
-            <Card className="shadow-md border border-border bg-background md:col-span-2">
+            <Card className="shadow-md border border-border bg-background">
+              <CardContent className="p-6">
+                <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
+                  <Image
+                    src="/committee/Dr. Akhilesh Gupta.png"
+                    alt="Prof. Yogesh M. Joshi"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h2 className="text-xl font-bold mb-2 text-kesari">Co-Convenor</h2>
+                <p className="font-medium">Dr. Akhilesh Gupta</p>
+                <p>
+                  Former Secretary, Science Engineering Research Board (SERB)
+                  and Senior Advisor, Department of Science and Technology (DST)
+                </p>
+              </CardContent>
+            </Card>
+            <Card className="shadow-md border border-border bg-background md:col-span-3">
               <CardContent className="p-6">
                 <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
                   <Image
@@ -191,7 +214,7 @@ export default function OrganizingCommittee() {
                     className="object-cover"
                   />
                 </div>
-                <h2 className="text-xl font-semibold mb-2">
+                <h2 className="text-xl font-bold mb-2 text-kesari">
                   Organizing Secretary
                 </h2>
                 <p className="font-medium">Dr Sandip Patil</p>
