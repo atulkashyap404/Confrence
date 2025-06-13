@@ -499,9 +499,9 @@ export default function DistinguishedSpeaker() {
           viewport={{ once: true }}
           className="text-center max-w-3xl mx-auto mb-16"
         >
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 pt-8">
+          {/* <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4 pt-8">
             Distinguished <span className="text-kesari">Speakers</span>
-          </h2>
+          </h2> */}
           {/* <hr className="border-kesari"/> */}
           
 
