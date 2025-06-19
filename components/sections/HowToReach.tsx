@@ -70,10 +70,6 @@ export default function HowToReachPage() {
                   <li>
                     <strong>Travel Time:</strong> ~1 hour
                   </li>
-                  <li>
-                    <strong>Taxi Fare:</strong> ₹1200–₹1500
-                  </li>
-                  <li>Ola/Uber services are available.</li>
                 </ul>
 
                 {/* Flight Table */}
@@ -161,22 +157,18 @@ export default function HowToReachPage() {
               </div>
 
               {/* Lucknow Airport */}
-              <div>
+              <div className="pb-4">
                 <h3 className="text-lg font-bold">
                   2. Lucknow Airport (LKO – Chaudhary Charan Singh International
                   Airport)
                 </h3>
-                <ul className="list-disc list-inside space-y-1">
-                  <li>Located approximately 90 km from IIT Kanpur.</li>
-                  <li>Offers direct flights to all major Indian cities.</li>
-                  <li>
-                    <strong>Travel Time:</strong> ~2.5–3 hours by road
-                  </li>
-                </ul>
+                <p>
+                  Lucknow is the nearest international airport to IIT Kanpur, located approximately 90 km away. It offers direct flights to all major Indian cities. The travel time from Lucknow to IIT Kanpur is around <span className="font-semibold"> 2.5-3 hours by road.</span>
+                </p>
               </div>
 
               {/* Delhi Airport */}
-              <div>
+              {/* <div>
                 <h3 className="text-lg font-bold">
                   3. Delhi Airport (DEL – Indira Gandhi International Airport)
                 </h3>
@@ -190,7 +182,7 @@ export default function HowToReachPage() {
                     train to Kanpur.
                   </li>
                 </ul>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -205,13 +197,10 @@ export default function HowToReachPage() {
                   1. Kanpur Central Railway Station (CNB)
                 </h3>
                 <p>
-                  One of the busiest and most important railway stations in
-                  India, located on the Delhi-Kolkata rail corridor.
-                  Well-connected with regular express and superfast trains to
-                  all major cities.
+                  Kanpur Central Railway Station is one of the busiest and most important railway stations in India, located on the vital Delhi-Kolkata rail corridor. It is well-connected to all major cities across the country with regular, express and superfast trains. The station handles a high volume of daily passengers and is equipped with multiple platforms, modern amenities, and electrified routes. <span className="font-semibold">The distance to IIT Kanpur is approximately 16 km,</span> with a travel time of around <span className="font-semibold">40 minutes</span>.
                 </p>
-                <ul className="list-disc list-inside space-y-1">
-                  <li>
+                <ul className="list-disc list-inside space-y-1 pt-4">
+                  {/* <li>
                     <strong>Distance:</strong> ~16 km
                   </li>
                   <li>
@@ -224,10 +213,10 @@ export default function HowToReachPage() {
                     <strong>Auto Rickshaw Fare:</strong> ₹250
                   </li>
                   <li>Exit from Platform 1 (Cantonment Side) recommended.</li>
-                  <li>Ride Options: Ola/Uber are available in the city.</li>
+                  <li>Ride Options: Ola/Uber are available in the city.</li> */}
                   <li>
                     <strong>Note:</strong> Pick-up and drop-off services will be
-                    arranged by the TRIPS 2025 team.
+                    arranged by the <span className="font-bold text-kesari">TRIPS 2025 team.</span>
                   </li>
                 </ul>
               </div>
