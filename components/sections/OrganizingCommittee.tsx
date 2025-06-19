@@ -210,10 +210,10 @@ export default function OrganizingCommittee() {
             </Card>
             <Card className="shadow-md border border-border bg-background md:col-span-3">
               <CardContent className="p-6">
-                <div className="grid md:grid-cols-2 gap-6 items-center">
+                <div className="grid md:grid-cols-3 gap-6 items-center">
                   {/* Dr. Sandip Patil */}
                   <div className="flex flex-col items-center">
-                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                    <div className="w-80 h-80 mb-4 relative rounded-lg overflow-hidden">
                       <Image
                         src="/committee/Dr. Sandip Patil.jpg"
                         alt="Dr. Sandip Patil"
@@ -244,6 +244,23 @@ export default function OrganizingCommittee() {
                     <p className="font-medium">Prof. Chandra Shekhar Sharma</p>
                     <p>Professor, Department of Chemical Engineering</p>
                     <p>IIT Hyderabad</p>
+                  </div>
+                  {/* Prof. Chandra Shekhar Sharma */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/committee/Prof. Rahul Mangal.png"
+                        alt="Prof. Chandra Shekhar Sharma"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-kesari">
+                      Organizing Secretary
+                    </h2>
+                    <p className="font-medium">Prof. Rahul Mangal</p>
+                    <p>Department of Chemical Engineering,</p>
+                    <p>IIT Kanpur</p>
                   </div>
                 </div>
               </CardContent>
