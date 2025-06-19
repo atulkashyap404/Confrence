@@ -83,7 +83,7 @@ export default function HowToReachPage() {
                         <th className="border px-4 py-2">S. No.</th>
                         <th className="border px-4 py-2">Flight</th>
                         <th className="border px-4 py-2">From</th>
-                        <th className="border px-4 py-2">Arrival Time</th>
+                        <th className="border px-4 py-2">Arrival Time (approx.)</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -123,7 +123,7 @@ export default function HowToReachPage() {
                         <th className="border px-4 py-2">S. No.</th>
                         <th className="border px-4 py-2">Flight</th>
                         <th className="border px-4 py-2">To</th>
-                        <th className="border px-4 py-2">Departure Time</th>
+                        <th className="border px-4 py-2">Departure Time (approx.)</th>
                       </tr>
                     </thead>
                     <tbody>
