@@ -61,6 +61,51 @@ const SPEAKERS = [
   },
   {
     id: 4,
+    name: "Dr. Subi Chaturvedi",
+    role: " Chief Corporate Affairs & Public Policy Officer",
+    company: "inMobi",
+    bio: "",
+    image: "/speakers/Dr. Subi Chaturvedi.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 5,
+    name: "Prof. Shishir Sinha",
+    role: "Director General",
+    company: "CIPET",
+    bio: "",
+    image: "/speakers/Prof. Shishir Sinha.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 6,
+    name: "Dr. Tripta Thakur",
+    role: "Director General",
+    company: "National Power Training Institute (NPTI)",
+    bio: "",
+    image: "/speakers/Dr, Tripta Thakur.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 7,
     name: "Dr. Shivkumar Kalyanaraman",
     role: "CEO",
     company:
@@ -76,7 +121,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 5,
+    id: 8,
     name: "Prof. Annapurni Subramaniam",
     role: "Director",
     company: "Indian Institute of Astrophysics (IIA), Bangalore",
@@ -92,7 +137,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 6,
+    id: 9,
     name: "Prof. Aniruddha B Pandit",
     role: "Vice Chancellor",
     company: "Institute of Chemical Technology (ICT), Mumbai",
@@ -109,7 +154,7 @@ const SPEAKERS = [
 
   
   {
-    id: 7,
+    id: 10,
     name: "Dr. Ashish Kishore Lele",
     role: "Director",
     company: "National Chemical Laboratory (NCL), Pune",
@@ -125,7 +170,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 8,
+    id: 11,
     name: "Dr. Madhu Dikshit",
     role: "Former Director",
     company: "CSIR-Central Drug Research Institute (CDRI), Lucknow",
@@ -141,7 +186,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 9,
+    id: 12,
     name: "Dr. Soumya Swaminathan",
     role: "Chief Scientist",
     company: "World Health Organization (WHO)",
@@ -159,7 +204,7 @@ const SPEAKERS = [
   
 
   {
-    id: 10,
+    id: 13,
     name: "Prof. Sachin Chaturvedi",
     role: "Vice-Chancellor",
     company: "Nalanda University, Bihar",
@@ -176,7 +221,7 @@ const SPEAKERS = [
  
 
   {
-    id: 11,
+    id: 14,
     name: "Prof. T G Sitharam",
     role: "Chairman",
     company:
@@ -192,7 +237,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 12,
+    id: 15,
     name: "Prof. Rajat Moona ",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Gandhinagar",
@@ -208,7 +253,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 13,
+    id: 16,
     name: "Prof. Avinash Agarwal",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Jodhpur",
@@ -223,7 +268,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 14,
+    id: 17,
     name: "Prof. Dhirendra S Katti",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Goa",
@@ -239,7 +284,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 15,
+    id: 18,
     name: "Prof. Thalappil Pradeep",
     role: "Professor",
     company: "Indian Institute of Technology (IIT) Madras",
@@ -257,7 +302,7 @@ const SPEAKERS = [
   
 
   {
-    id: 16,
+    id: 19,
     name: "Prof. Amit Patra ",
     role: "Director",
     company:
@@ -306,7 +351,7 @@ const SPEAKERS = [
   // },
 
   {
-    id: 17,
+    id: 20,
     name: "Prof. Rangan Banerjee",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Delhi",
@@ -322,7 +367,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 18,
+    id: 21,
     name: "Prof. Kamal K Pant",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Roorkee",
@@ -354,7 +399,7 @@ const SPEAKERS = [
   // },
 
   {
-    id: 19,
+    id: 22,
     name: "Prof. B S Murty",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Hyderabad",
@@ -370,7 +415,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 20,
+    id: 23,
     name: "Prof. Suhas S Joshi",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Indore",
@@ -401,7 +446,7 @@ const SPEAKERS = [
   //   },
   // },
   {
-    id: 21,
+    id: 24,
     name: "Prof. Rajeev Ahuja",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Ropar",
@@ -417,7 +462,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 22,
+    id: 25,
     name: "Prof. Laxmidhar Behera",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Mandi",
@@ -433,7 +478,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 23,
+    id: 26,
     name: "Prof. T N Singh",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Patna",
@@ -465,7 +510,7 @@ const SPEAKERS = [
   // },
 
   {
-    id: 24,
+    id: 27,
     name: "Prof. Kalidindi N Satyanarayana",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Tirupati",
@@ -498,7 +543,7 @@ const SPEAKERS = [
   // },
 
   {
-    id: 25,
+    id: 28,
     name: "Prof. A Seshadri Sekhar",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Palakkad",
@@ -514,7 +559,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 26,
+    id: 29,
     name: "Prof. Rajiv Prakash",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Bhilai",
@@ -545,7 +590,7 @@ const SPEAKERS = [
   //   },
   // },
   {
-    id: 27,
+    id: 30,
     name: "Prof. Shantanu Bhattacharya",
     role: "Director",
     company: "CSIR-Central Scientific Instruments Organisation (CSIO)",
@@ -560,7 +605,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 28,
+    id: 31,
     name: "Prof. G.D.Yadav",
     role: "Former Vice Chancellor ",
     company: "Institute of Chemical Technology (ICT)",
@@ -575,7 +620,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 29,
+    id: 32,
     name: "Dr. Anil Kumar Tripathi",
     role: "Vice President",
     company: "Indian National Science Academy (INSA), New Delhi",
@@ -590,7 +635,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 30,
+    id: 33,
     name: "Prof. Sunil S. Bhagwat",
     role: "Director",
     company: "Indian Institute of Science Education and Research, Pune",
@@ -605,7 +650,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 31,
+    id: 34,
     name: "Prof. Gobardhan Das",
     role: "Director",
     company: "Indian Institute of Science Education and Research, Bhopal",
@@ -620,7 +665,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 32,
+    id: 35,
     name: "Dr. M. Ravichandran",
     role: "Former Secretary",
     company: "Department of Science and Technology (DST)",
@@ -635,7 +680,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 33,
+    id: 36,
     name: "Dr. Renu Swarup",
     role: "Former Secretary",
     company: "Department of Biotechnology, Ministry of Science & Technology of India",
@@ -650,7 +695,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 34,
+    id: 37,
     name: "Prof. K. VijayRaghavan",
     role: "Former Principal Scientific Adviser",
     company: "PMO",
@@ -665,7 +710,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 35,
+    id: 38,
     name: "Prof. Gautam Biswas",
     role: "Former Director",
     company: "Indian Institute of Technology Guwahati",
@@ -680,7 +725,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 36,
+    id: 39,
     name: "Prof. Marc Madou",
     role: "Distinguished Professor",
     company: "Emeritus, UCI",
@@ -695,7 +740,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 37,
+    id: 40,
     name: "Prof. Giridhar U. Kulkarni",
     role: "President",
     company: "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR)",
@@ -710,7 +755,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 38,
+    id: 41,
     name: "Prof. Alamgir Karim",
     role: "Dow Chair Professor and Director",
     company: "Materials Program, University of Houston",
