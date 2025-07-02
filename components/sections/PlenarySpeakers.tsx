@@ -95,7 +95,7 @@ const SPEAKERS = [
     role: "Director General",
     company: "National Power Training Institute (NPTI)",
     bio: "",
-    image: "/speakers/Dr, Tripta Thakur.png",
+    image: "/speakers/Dr. Tripta Thakur.png",
     category: "",
     featured: false,
     socials: {
