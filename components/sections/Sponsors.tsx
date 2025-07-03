@@ -117,6 +117,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 8,
+    name: "Media partners",
+    role: "",
+    company: "",
+    bio: "",
+    image: "/Sponsors/Media partners.jpeg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
  
 
 ];
