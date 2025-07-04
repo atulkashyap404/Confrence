@@ -264,6 +264,69 @@ export default function OrganizingCommittee() {
                   </div>
                 </div>
               </CardContent>
+
+              
+            </Card>
+            <Card className="shadow-md border border-border bg-background md:col-span-3">
+              <h3 className="text-4xl font-bold text-kesari mb-10 mt-6">
+                <span className="text-kesari">Coordinators</span>
+              </h3>
+              <CardContent className="p-6">
+                <div className="grid md:grid-cols-3 gap-6 items-center">
+                  {/* 	Prerna Sinha */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/Coordinators/Prerna Sinha.png"
+                        alt="Prerna Sinha"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-kesari">
+                      Prerna Sinha
+                    </h2>
+                    <p className="font-medium">Postdoctoral Fellow</p>
+                    <p>
+                      DST INSPIRE Faculty Awardee (2024), Centre for
+                      Nanosciences, IIT Kanpur
+                    </p>
+                  </div>
+
+                  {/* Yogesh RG Singh */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/Coordinators/Yogesh RG Singh.png"
+                        alt="Yogesh RG Singh"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-kesari">
+                      Yogesh RG Singh
+                    </h2>
+                    <p className="font-medium">PhD Research Scholar</p>
+                    <p>Materials Science Programme IIT Kanpur</p>
+                  </div>
+                  {/* Prashant Kumar Bhargav */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/Coordinators/Prashant Kumar Bhargav.png"
+                        alt="Prashant Kumar Bhargav"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-kesari">
+                      Prashant Kumar Bhargav
+                    </h2>
+                    <p className="font-medium">PhD Research Scholar</p>
+                    <p>Materials Science Programme IIT Kanpur</p>
+                  </div>
+                </div>
+              </CardContent>
             </Card>
 
             {/* <Card className="shadow-md border border-border bg-background md:col-span-3">
