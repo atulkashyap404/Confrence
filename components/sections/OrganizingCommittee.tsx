@@ -288,7 +288,7 @@ export default function OrganizingCommittee() {
                     </h2>
                     <p className="font-medium">Postdoctoral Fellow</p>
                     <p>
-                      DST INSPIRE Faculty Awardee (2024), Centre for
+                      DST INSPIRE Faculty(2024), Centre for
                       Nanosciences, IIT Kanpur
                     </p>
                   </div>
