@@ -283,8 +283,8 @@ export default function OrganizingCommittee() {
                         className="object-cover"
                       />
                     </div>
-                    <h2 className="text-xl font-bold mb-2 text-kesari">
-                      Prerna Sinha
+                    <h2 className="text-xl font-bold mb-2 text-black">
+                      Dr. Prerna Sinha
                     </h2>
                     <p className="font-medium">Postdoctoral Fellow</p>
                     <p>
@@ -303,8 +303,8 @@ export default function OrganizingCommittee() {
                         className="object-cover"
                       />
                     </div>
-                    <h2 className="text-xl font-bold mb-2 text-kesari">
-                      Yogesh RG Singh
+                    <h2 className="text-xl font-bold mb-2 text-black">
+                      Mr. Yogesh RG Singh
                     </h2>
                     <p className="font-medium">PhD Research Scholar</p>
                     <p>Materials Science Programme IIT Kanpur</p>
@@ -319,8 +319,8 @@ export default function OrganizingCommittee() {
                         className="object-cover"
                       />
                     </div>
-                    <h2 className="text-xl font-bold mb-2 text-kesari">
-                      Prashant Kumar Bhargav
+                    <h2 className="text-xl font-bold mb-2 text-black">
+                      Mr. Prashant Kumar Bhargav
                     </h2>
                     <p className="font-medium">PhD Research Scholar</p>
                     <p>Materials Science Programme IIT Kanpur</p>
