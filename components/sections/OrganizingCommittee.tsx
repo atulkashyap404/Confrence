@@ -297,7 +297,7 @@ export default function OrganizingCommittee() {
                   <div className="flex flex-col items-center">
                     <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
                       <Image
-                        src="/Coordinators/Yogesh RG Singh.png"
+                        src="/Coordinators/Yogesh RG Singh.jpg"
                         alt="Yogesh RG Singh"
                         fill
                         className="object-cover"
@@ -313,7 +313,7 @@ export default function OrganizingCommittee() {
                   <div className="flex flex-col items-center">
                     <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
                       <Image
-                        src="/Coordinators/Prashant Kumar Bhargav.png"
+                        src="/Coordinators/Prashant Kumar Bhargav.jpg"
                         alt="Prashant Kumar Bhargav"
                         fill
                         className="object-cover"

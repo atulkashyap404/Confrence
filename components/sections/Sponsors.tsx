@@ -85,6 +85,12 @@ const SPONSORS = [
     image: "/Sponsors/National Test House.jpg",
     category: "Government Sponsors",
   },
+  {
+    id: 14,
+    name: "National Bank For Agriculture And Rural Development (NABARD)",
+    image: "/Sponsors/NABARD.png",
+    category: "Government Sponsors",
+  },
 
   // Industry Sponsors
   {
@@ -100,24 +106,24 @@ const SPONSORS = [
     category: "Industry Sponsors",
   },
 
-  // Digital Media Partners
+  // Digital & Media Partners
   {
     id: 16,
     name: "Gaatha",
     image: "/Sponsors/Media partners.jpeg",
-    category: "Digital Media Partners",
+    category: "Digital & Media Partners",
   },
   {
     id: 17,
     name: "Dainik Jagran",
     image: "/Sponsors/Dainik Jagran.png",
-    category: "Digital Media Partners",
+    category: "Digital & Media Partners",
   },
   {
     id: 18,
     name: "Hindustan Times",
     image: "/Sponsors/Hindustan Times.png",
-    category: "Digital Media Partners",
+    category: "Digital & Media Partners",
   },
 ];
 
@@ -125,12 +131,12 @@ const categories = [
   "Partners",
   "Government Sponsors",
   "Industry Sponsors",
-  "Digital Media Partners",
+  "Digital & Media Partners",
 ];
 
 export default function Sponsors() {
   return (
-    <section id="sponsors" className="py-24 bg-muted">
+    <section id="sponsors" className="py-20 bg-muted">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -147,9 +153,9 @@ export default function Sponsors() {
         {categories.map((cat) => {
           const sponsorsInCategory = SPONSORS.filter((s) => s.category === cat);
           const isCentered =
-            cat === "Industry Sponsors" || cat === "Digital Media Partners";
+            cat === "Industry Sponsors" || cat === "Digital & Media Partners";
           const gridCols =
-            cat === "Digital Media Partners"
+            cat === "Digital & Media Partners"
               ? "grid-cols-1 sm:grid-cols-2 md:grid-cols-3"
               : cat === "Industry Sponsors"
               ? "grid-cols-1 sm:grid-cols-2"
@@ -157,7 +163,7 @@ export default function Sponsors() {
 
           return (
             <div key={cat} className="mb-16">
-              <h3 className="text-2xl font-semibold mb-6 text-center">{cat}</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center text-kesari">{cat}</h3>
               <div className="flex justify-center">
                 <div className={`grid gap-6 ${gridCols}`}>
                   {sponsorsInCategory.map((sponsor, index) => (
@@ -205,8 +211,8 @@ function SponsorCard({ sponsor, index }: SponsorCardProps) {
             />
           </div>
         </CardHeader>
-        <CardContent className="pt-6 pb-2 text-center">
-          <CardTitle className="text-lg font-semibold">
+        <CardContent className="pt-6 pb-2 text-center text-kesari">
+          <CardTitle className="text-lg font-bold">
             {sponsor.name}
           </CardTitle>
         </CardContent>
