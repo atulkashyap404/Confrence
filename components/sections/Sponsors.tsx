@@ -113,12 +113,12 @@ const SPONSORS = [
     image: "/Sponsors/Media partners.jpeg",
     category: "Digital & Media Partners",
   },
-  {
-    id: 17,
-    name: "Dainik Jagran",
-    image: "/Sponsors/Dainik Jagran.png",
-    category: "Digital & Media Partners",
-  },
+  // {
+  //   id: 17,
+  //   name: "Dainik Jagran",
+  //   image: "/Sponsors/Dainik Jagran.png",
+  //   category: "Digital & Media Partners",
+  // },
   {
     id: 18,
     name: "Hindustan Times",
