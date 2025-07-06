@@ -215,7 +215,7 @@ export default function OrganizingCommittee() {
                   <div className="flex flex-col items-center">
                     <div className="w-80 h-80 mb-4 relative rounded-lg overflow-hidden">
                       <Image
-                        src="/committee/Dr. Sandip Patil.jpg"
+                        src="/committee/Dr. Sandip Patil.png"
                         alt="Dr. Sandip Patil"
                         fill
                         className="object-cover"
@@ -227,6 +227,7 @@ export default function OrganizingCommittee() {
                     <p className="font-medium">Dr. Sandip Patil</p>
                     <p>Director, E-Spin Nanotech Pvt Ltd</p>
                   </div>
+                  
 
                   {/* Prof. Chandra Shekhar Sharma */}
                   <div className="flex flex-col items-center">
@@ -245,12 +246,12 @@ export default function OrganizingCommittee() {
                     <p>Professor, Department of Chemical Engineering</p>
                     <p>IIT Hyderabad</p>
                   </div>
-                  {/* Prof. Chandra Shekhar Sharma */}
+                  {/* Prof. Rahul Mangal */}
                   <div className="flex flex-col items-center">
                     <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
                       <Image
                         src="/committee/Prof. Rahul Mangal.png"
-                        alt="Prof. Chandra Shekhar Sharma"
+                        alt="Prof. Rahul Mangal"
                         fill
                         className="object-cover"
                       />
@@ -261,6 +262,23 @@ export default function OrganizingCommittee() {
                     <p className="font-medium">Prof. Rahul Mangal</p>
                     <p>Department of Chemical Engineering,</p>
                     <p>IIT Kanpur</p>
+                  </div>
+
+                  {/* Dr. Prabhat K. Dwivedi */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/committee/Dr. Prabhat K. Dwivedi.png"
+                        alt="Dr. Prabhat K. Dwivedi"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-kesari">
+                      Principal Scientific Officer
+                    </h2>
+                    <p className="font-medium">Dr. Prabhat K. Dwivedi</p>
+                    <p>Center for Nanosciences, IIT Kanpur</p>
                   </div>
                 </div>
               </CardContent>
