@@ -260,7 +260,7 @@ export default function OrganizingCommittee() {
                       Organizing Secretary
                     </h2>
                     <p className="font-medium">Prof. Rahul Mangal</p>
-                    <p>Department of Chemical Engineering,</p>
+                    <p>Associate Professor, Department of Chemical Engineering,</p>
                     <p>IIT Kanpur</p>
                   </div>
 
@@ -275,7 +275,7 @@ export default function OrganizingCommittee() {
                       />
                     </div>
                     <h2 className="text-xl font-bold mb-2 text-kesari">
-                      Principal Scientific Officer
+                     Organizing Secretary
                     </h2>
                     <p className="font-medium">Dr. Prabhat K. Dwivedi</p>
                     <p>Center for Nanosciences, IIT Kanpur</p>
