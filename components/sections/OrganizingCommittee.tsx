@@ -278,7 +278,7 @@ export default function OrganizingCommittee() {
                      Organizing Secretary
                     </h2>
                     <p className="font-medium">Dr. Prabhat K. Dwivedi</p>
-                    <p>Center for Nanosciences, IIT Kanpur</p>
+                    <p>Principal Scientific Officer, Center for Nanosciences, IIT Kanpur</p>
                   </div>
                 </div>
               </CardContent>
