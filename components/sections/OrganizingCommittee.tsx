@@ -152,6 +152,8 @@ export default function OrganizingCommittee() {
                     </h2>
                     <p className="font-medium">Dr. Sandip Patil</p>
                     <p>Director, E-Spin Nanotech Pvt Ltd</p>
+                    <p>.</p>
+                    <p>.</p>
                   </div>
 
                   {/* Prof. Rahul Mangal */}
@@ -211,9 +213,22 @@ export default function OrganizingCommittee() {
                     <p>Professor, Department of Chemical Engineering</p>
                     <p>IIT Hyderabad</p>
                   </div>
-                  
-
-                  
+                  {/* Prof. Chandra Shekhar Sharma */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/committee/Prof. Rabibrata Mukherjee.png"
+                        alt="Prof. Chandra Shekhar Sharma"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-kesari">
+                      Organizing Secretary
+                    </h2>
+                    <p className="font-medium">Prof. Rabibrata Mukherjee</p>
+                    <p>Professor, Chemical Engineering at IIT Kharagpur</p>
+                  </div>
                 </div>
               </CardContent>
             </Card>
