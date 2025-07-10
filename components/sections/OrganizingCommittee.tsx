@@ -195,6 +195,22 @@ export default function OrganizingCommittee() {
                       Kanpur
                     </p>
                   </div>
+                   {/* Prof. Rabibrata Mukherjee */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/committee/Prof. Rabibrata Mukherjee.png"
+                        alt="Prof. Chandra Shekhar Sharma"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-kesari">
+                      Organizing Secretary
+                    </h2>
+                    <p className="font-medium">Prof. Rabibrata Mukherjee</p>
+                    <p>Professor, Chemical Engineering, IIT Kharagpur</p>
+                  </div>
 
                   {/* Prof. Chandra Shekhar Sharma */}
                   <div className="flex flex-col items-center">
@@ -210,25 +226,9 @@ export default function OrganizingCommittee() {
                       Organizing Secretary
                     </h2>
                     <p className="font-medium">Prof. Chandra Shekhar Sharma</p>
-                    <p>Professor, Department of Chemical Engineering</p>
-                    <p>IIT Hyderabad</p>
+                    <p>Professor, Chemical Engineering, IIT Hyderabad</p>
                   </div>
-                  {/* Prof. Chandra Shekhar Sharma */}
-                  <div className="flex flex-col items-center">
-                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
-                      <Image
-                        src="/committee/Prof. Rabibrata Mukherjee.png"
-                        alt="Prof. Chandra Shekhar Sharma"
-                        fill
-                        className="object-cover"
-                      />
-                    </div>
-                    <h2 className="text-xl font-bold mb-2 text-kesari">
-                      Organizing Secretary
-                    </h2>
-                    <p className="font-medium">Prof. Rabibrata Mukherjee</p>
-                    <p>Professor, Chemical Engineering at IIT Kharagpur</p>
-                  </div>
+                 
                 </div>
               </CardContent>
             </Card>
