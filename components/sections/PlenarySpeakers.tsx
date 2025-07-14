@@ -368,7 +368,7 @@ const SPEAKERS = [
 
   {
     id: 20,
-    name: "Dr. Suman Chakraborty",
+    name: "Prof. Suman Chakraborty",
     role: "Director",
     company: "Indian Institute of Technology, Kharagpur",
     bio: "",
