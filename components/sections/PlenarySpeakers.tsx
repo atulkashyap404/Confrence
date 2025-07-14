@@ -370,7 +370,7 @@ const SPEAKERS = [
     id: 20,
     name: "Prof. Suman Chakraborty",
     role: "Director",
-    company: "Indian Institute of Technology, Kharagpur",
+    company: "Indian Institute of Technology(IIT), Kharagpur",
     bio: "",
     image: "/directors/Dr. Suman Chakraborty.png",
     category: "",
