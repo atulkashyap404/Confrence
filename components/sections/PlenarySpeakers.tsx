@@ -367,6 +367,22 @@ const SPEAKERS = [
   },
 
   {
+    id: 20,
+    name: "Dr. Suman Chakraborty",
+    role: "Director",
+    company: "Indian Institute of Technology, Kharagpur",
+    bio: "",
+    image: "/directors/Dr. Suman Chakraborty.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
     id: 21,
     name: "Prof. Kamal K Pant",
     role: "Director",
