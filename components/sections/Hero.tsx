@@ -116,7 +116,7 @@ export default function Hero() {
               FUTURE
             </motion.p>
 
-            <motion.div
+            {/* <motion.div
               className="mt-8 flex flex-wrap gap-4"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -133,7 +133,7 @@ export default function Hero() {
                   </Button>
                 </a>
               </Link>
-            </motion.div>
+            </motion.div> */}
 
             <motion.div
               className="mt-12 flex flex-col sm:flex-row gap-6"
