@@ -74,6 +74,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  
   {
     id: 5,
     name: "Prof. Shishir Sinha",
@@ -384,6 +385,22 @@ const SPEAKERS = [
 
   {
     id: 21,
+    name: "Dr Rupa Vasudevan",
+    role: "Chancellor",
+    company: "Bharatiya Engineering Science and Technology Innovation University (BESTIU)",
+    bio: "",
+    image: "/directors/Dr Rupa Vasudevan.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 22,
     name: "Prof. Kamal K Pant",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Roorkee",
@@ -777,6 +794,21 @@ const SPEAKERS = [
     company: "Materials Program, University of Houston",
     bio: "",
     image: "/speakers/Prof. Alamgir Karim.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 42,
+    name: "Mr. Kavindra Taliyan",
+    role: "CEO",
+    company: "Atal Incubation Centre-JNUFI (NITI AAYOG) Govt. Of India",
+    bio: "",
+    image: "/speakers/Mr. Kavindra Taliyan.png",
     category: "",
     featured: false,
     socials: {

@@ -215,6 +215,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 11,
+    name: "Dr. Ram Madhav",
+    role: "President",
+    company: "India Foundation",
+    bio: "",
+    image: "/speakers/Dr. Ram Madhav.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
   // {
   //   id: 9,
   //   name: "Dr. Shivkumar Kalyanaraman",
