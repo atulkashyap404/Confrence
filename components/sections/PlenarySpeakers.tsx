@@ -385,7 +385,7 @@ const SPEAKERS = [
 
   {
     id: 21,
-    name: "Dr Rupa Vasudevan",
+    name: "Dr. Rupa Vasudevan",
     role: "Chancellor",
     company: "Bharatiya Engineering Science and Technology Innovation University (BESTIU)",
     bio: "",

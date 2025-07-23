@@ -91,6 +91,12 @@ const SPONSORS = [
     image: "/Sponsors/NABARD.png",
     category: "Government Sponsors",
   },
+  {
+    id: 14,
+    name: "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)",
+    image: "/Sponsors/ARCI.png",
+    category: "Government Sponsors",
+  },
 
   // Industry Sponsors
   {
@@ -103,6 +109,24 @@ const SPONSORS = [
     id: 15,
     name: "Kent RO",
     image: "/Sponsors/Kent RO.png",
+    category: "Industry Sponsors",
+  },
+  {
+    id: 16,
+    name: "Carl Zeiss",
+    image: "/Sponsors/zeiss.png",
+    category: "Industry Sponsors",
+  },
+  {
+    id: 17,
+    name: "Anton Paar India Pvt. Ltd.",
+    image: "/Sponsors/Anton Paar.jpg",
+    category: "Industry Sponsors",
+  },
+  {
+    id: 18,
+    name: "Anarghya Innovations and Technology Pvt. Ltd.",
+    image: "/Sponsors/Anarghya Innovations and Technology.png",
     category: "Industry Sponsors",
   },
 
