@@ -31,6 +31,19 @@ const SPONSORS = [
   },
 
   // Government Sponsors
+
+  {
+    id: 7,
+    name: "Indian National Science Academy (INSA)",
+    image: "/Sponsors/Indian National Science Academy.png",
+    category: "Government Sponsors",
+  },
+  {
+    id: 7,
+    name: "Bharatiya Engineering Science & Technology Innovation University (BESTIU)",
+    image: "/Sponsors/BEST University.png",
+    category: "Government Sponsors",
+  },
   {
     id: 5,
     name: "Department of Biotechnology (DBT)",
@@ -43,12 +56,7 @@ const SPONSORS = [
     image: "/Sponsors/Department of Science and Technology.jpg",
     category: "Government Sponsors",
   },
-  {
-    id: 7,
-    name: "Indian National Science Academy (INSA)",
-    image: "/Sponsors/Indian National Science Academy.png",
-    category: "Government Sponsors",
-  },
+  
   {
     id: 8,
     name: "Indian Agricultural Research Institute (IARI)",
