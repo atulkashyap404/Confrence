@@ -14,7 +14,7 @@ const SPONSORS = [
   {
     id: 2,
     name: "Kotak School of Sustainability",
-    image: "/Sponsors/Kotak school of sustainibility.png",
+    image: "/Sponsors/Kotak school of sustainibility.jpg",
     category: "Partners",
   },
   {

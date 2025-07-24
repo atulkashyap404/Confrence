@@ -700,8 +700,8 @@ const SPEAKERS = [
   {
     id: 35,
     name: "Dr. M. Ravichandran",
-    role: "Former Secretary",
-    company: "Department of Science and Technology (DST)",
+    role: "Secretary",
+    company: "Ministry of Earth Sciences (MoES), GoI",
     bio: "",
     image: "/speakers/Dr. M. Ravichandran.png",
     category: "",
