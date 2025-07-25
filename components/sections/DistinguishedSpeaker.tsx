@@ -334,21 +334,21 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 21,
-    name: "Prof. Animangsu Ghatak",
-    role: "Professor",
-    company: "Indian Institute of Technology (IIT) Kanpur",
-    bio: "",
-    image: "/dist/Prof. Animangsu Ghatak.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 21,
+  //   name: "Prof. Animangsu Ghatak",
+  //   role: "Professor",
+  //   company: "Indian Institute of Technology (IIT) Kanpur",
+  //   bio: "",
+  //   image: "/dist/Prof. Animangsu Ghatak.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
 
   {
     id: 22,
@@ -382,36 +382,36 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 24,
-    name: "Dr. Sanjeev Kumar Varshney",
-    role: "Former-Head",
-    company: "Department of Science & Technology (DST)",
-    bio: "",
-    image: "/dist/Dr Sanjeev Kumar Varshney.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 25,
-    name: "Dr. Anita Gupta",
-    role: "Head of the Climate",
-    company: "Energy and Sustainable Technology (CEST), GoI",
-    bio: "",
-    image: "/dist/Dr Anita Gupta.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 24,
+  //   name: "Dr. Sanjeev Kumar Varshney",
+  //   role: "Former-Head",
+  //   company: "Department of Science & Technology (DST)",
+  //   bio: "",
+  //   image: "/dist/Dr Sanjeev Kumar Varshney.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
+  // {
+  //   id: 25,
+  //   name: "Dr. Anita Gupta",
+  //   role: "Head of the Climate",
+  //   company: "Energy and Sustainable Technology (CEST), GoI",
+  //   bio: "",
+  //   image: "/dist/Dr Anita Gupta.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
 
   // {
   //   id: 26,

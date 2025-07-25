@@ -228,6 +228,23 @@ export default function OrganizingCommittee() {
                     <p className="font-medium">Prof. Chandra Shekhar Sharma</p>
                     <p>Professor, Chemical Engineering, IIT Hyderabad</p>
                   </div>
+                  {/* <Card className="shadow-md border border-border bg-background md:col-span-3">
+              <CardContent className="p-6">
+                <div className="w-60 h-60 mx-auto mb-4 relative rounded-lg overflow-hidden">
+                  <Image
+                    src="/committee/Dr. Saurabh Tomar.png"
+                    alt="Dr. Saurabh Tomar"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <h2 className="text-xl font-bold mb-2 text-kesari">
+                  Organizing Secretary
+                </h2>
+                <p className="font-medium">Dr Sandip Patil</p>
+                <p>Director, E-Spin Nanotech Pvt Ltd</p>
+              </CardContent>
+            </Card> */}
                  
                 </div>
               </CardContent>
@@ -426,6 +443,22 @@ export default function OrganizingCommittee() {
                     </h2>
                     <p className="font-medium">PhD Research Scholar</p>
                     <p>Materials Science Programme IIT Kanpur</p>
+                  </div>
+                  {/* Dr. Saurabh Tomar */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-60 h-60 mb-4 relative rounded-lg overflow-hidden">
+                      <Image
+                        src="/Coordinators/Dr. Saurabh Tomar.png"
+                        alt="Dr. Saurabh Tomar"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                    <h2 className="text-xl font-bold mb-2 text-black">
+                      Dr. Saurabh Tomar
+                    </h2>
+                    <p className="font-medium">Postdoctoral fellow</p>
+                    <p>C3iHUB, IIT Kanpur</p>
                   </div>
                 </div>
               </CardContent>
