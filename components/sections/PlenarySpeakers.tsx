@@ -805,8 +805,8 @@ const SPEAKERS = [
   {
     id: 42,
     name: "Mr. Kavindra Taliyan",
-    role: "CEO",
-    company: "Atal Incubation Centre-JNUFI (NITI AAYOG) Govt. Of India",
+    role: "Member Steering Committee",
+    company: "Ministry of Communications, GoI",
     bio: "",
     image: "/speakers/Mr. Kavindra Taliyan.png",
     category: "",
@@ -817,6 +817,88 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 43,
+    name: "Prof. Amitabha Ghosh",
+    role: "Senior Scientist",
+    company: "Indian National Science Academy (INSA)",
+    bio: "",
+    image: "/speakers/Prof. Amitabha Ghosh.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 44,
+    name: "Mr. Kris Gopalakrishnan",
+    role: "Co-founder",
+    company: "Infosys",
+    bio: "",
+    image: "/speakers/Mr. Kris Gopalakrishnan.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 45,
+    name: "Prof. K. S. Gandhi",
+    role: "Professor",
+    company: "Indian Institute of Science (IISc), Bangalore",
+    bio: "",
+    image: "/speakers/Prof. K. S. Gandh.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 46,
+    name: "Prof. Nitin Seth",
+    role: "Director",
+    company: "Indo-French Centre for the Promotion of Advanced Research (IFCPAR/CEFIPRA), DST",
+    bio: "",
+    image: "/speakers/Prof. Nitin Seth.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 47,
+    name: "Dr. Shekhar C. Mande",
+    role: "Ex-Director General",
+    company: "Council of Scientific Research (CSIR)",
+    bio: "",
+    image: "/speakers/Dr. Shekhar C. Mande.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+
+
+
+
   // {
   //   id: 39,
   //   name: "Prof. A. Seshadri Sekhar",

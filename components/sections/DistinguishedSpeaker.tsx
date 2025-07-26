@@ -94,7 +94,7 @@ const SPEAKERS = [
     id: 6,
     name: "Dr. Sanjay Behari",
     role: "Director",
-    company: "Sree Chitra Tirunal Institute for Medical Sciences and Technology, Trivandrum",
+    company: "Sree Chitra Institute, Thiruvananthapuram",
     bio: "",
     image: "/dist/Dr. Sanjay Behari.png",
     category: "",

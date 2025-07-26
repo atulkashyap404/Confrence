@@ -16,9 +16,9 @@ const SPEAKERS = [
   {
     id: 1,
     name: "Prof. V K Saraswat",
-    role: "Distinguished Professor",
+    role: "Member NITI Aayog",
     company:
-      "Indian Institute of Technology (IIT) Hyderabad, Member NITI Aayog",
+      "Former Director General DRDO",
     bio: "",
     image: "/speakers/Prof. V. K. Saraswat.jpg",
     category: "",
@@ -125,9 +125,9 @@ const SPEAKERS = [
   {
     id: 7,
     name: "Dr. N Kalaiselvi",
-    role: "Director",
+    role: "Director General",
     company:
-      "Council of Scientific and Industrial Research (CSIR) & Secretary DSIR",
+      "Council of Scientific Research (CSIR) & Secretary DSIR",
     bio: "",
     image: "/speakers/Dr N Kalaiselvi.png",
     category: "",
