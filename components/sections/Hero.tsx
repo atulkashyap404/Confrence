@@ -87,7 +87,7 @@ export default function Hero() {
               className="inline-block"
             >
               <span className="bg-white text-kesari px-4 py-1 rounded-sm text-sm font-medium ">
-                Aug 21-23, 2025
+                Aug 21-24, 2025
               </span>
             </motion.div>
 
@@ -144,7 +144,7 @@ export default function Hero() {
               <div className="flex items-center">
                 <CalendarDays className="mr-2 h-5 w-5 text-kesari" />
                 <span className="text-kesari bg-white rounded-sm p-2 font-semibold">
-                  Aug 21-23, 2025
+                  Aug 21-24, 2025
                 </span>
               </div>
               <div className="flex items-center">
