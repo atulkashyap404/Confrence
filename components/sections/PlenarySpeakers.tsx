@@ -683,6 +683,21 @@ const SPEAKERS = [
     },
   },
   {
+    id: 32,
+    name: "Prof. Bhrigu Nath Singh",
+    role: "Vice Chancellor",
+    company: "Rajiv Gandhi National Aviation University, Amethi",
+    bio: "",
+    image: "/speakers/Prof. Bhrigu Nath Singh.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
     id: 33,
     name: "Prof. Sunil S. Bhagwat",
     role: "Director",
