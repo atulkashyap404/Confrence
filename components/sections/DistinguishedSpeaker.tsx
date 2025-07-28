@@ -302,21 +302,7 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 19,
-    name: "Prof. Ajit Kumar Chaturvedi",
-    role: "Professor (HAG)",
-    company: "Indian Institute of Technology (IIT) Kanpur",
-    bio: "",
-    image: "/dist/Prof. A K Chaturvedi .png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   {
     id: 20,

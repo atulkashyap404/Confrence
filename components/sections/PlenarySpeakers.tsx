@@ -509,6 +509,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 19,
+    name: "Prof. Ajit Kumar Chaturvedi",
+    role: "Professor(HAG), IIT Kanpur",
+    company: "Former Director IIT Roorkee",
+    bio: "",
+    image: "/dist/Prof. A K Chaturvedi .png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
 
   // {
   //   id: 26,
@@ -655,8 +670,8 @@ const SPEAKERS = [
   {
     id: 32,
     name: "Dr. Anil Kumar Tripathi",
-    role: "Vice President",
-    company: "Indian National Science Academy (INSA), New Delhi",
+    role: "Director, IISER Mohali",
+    company: "Vice President, Indian National Science Academy (INSA), New Delhi",
     bio: "",
     image: "/speakers/Dr. Anil Kumar Tripathi.png ",
     category: "",
@@ -804,7 +819,7 @@ const SPEAKERS = [
   // },
   {
     id: 42,
-    name: "Mr. Kavindra Taliyan",
+    name: "Mr. Kavindra Kumar",
     role: "Member Steering Committee",
     company: "Ministry of Communications, GoI",
     bio: "",
