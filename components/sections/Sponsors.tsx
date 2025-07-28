@@ -200,6 +200,8 @@ export default function Sponsors() {
                       autoPlay
                       loop
                       muted
+                      playsInline
+                      preload="none"
                       className="w-full rounded-xl shadow-md"
                       poster="/Sponsors/End 1.png"
                     >
