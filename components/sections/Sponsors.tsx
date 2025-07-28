@@ -197,9 +197,6 @@ export default function Sponsors() {
                   <div className="w-full md:w-1/2">
                     <video
                       controls
-                      autoPlay
-                      loop
-                      muted
                       playsInline
                       preload="none"
                       className="w-full rounded-xl shadow-md"
