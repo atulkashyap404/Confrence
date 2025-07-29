@@ -327,7 +327,7 @@ export default function OrganizingCommittee() {
                     className="object-cover"
                   />
                 </div>
-                <p className="font-medium">Prof. Sachchida Nand Tripathi</p>
+                <p className="font-medium">Dr. Sachida Nand Tripathi</p>
                 <p>Professor</p>
                 <p>Department of Civil Engineering</p>
                 <p>Dean of Kotak School of Sustainability</p>

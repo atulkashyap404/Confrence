@@ -137,6 +137,12 @@ const SPONSORS = [
     image: "/Sponsors/Anarghya Innovations and Technology.png",
     category: "Industry Sponsors",
   },
+  {
+    id: 19,
+    name: "Biologic Science Instruments Pvt.Ltd.",
+    image: "/Sponsors/Biologic.jpeg",
+    category: "Industry Sponsors",
+  },
 
   // Digital & Media Partners
   {

@@ -13,22 +13,22 @@ import { Tabs, TabsContent } from "@/components/ui/tabs";
 
 // Speaker data
 const SPEAKERS = [
-  //   {
-  //   id: 1,
-  //   name: "Prof. Indranil Manna",
-  //   role: "Vice-Chancellor",
-  //   company:
-  //     "BIT Mesra, Ranchi Institute Chair Professor, Indian Institute of Technology (IIT) Kharagpur",
-  //   bio: "",
-  //   image: "/speakers/Indranil manna.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
+    {
+    id: 1,
+    name: "Prof. Indranil Manna",
+    role: "Vice-Chancellor",
+    company:
+      "BIT Mesra, Ranchi Institute Chair Professor, Indian Institute of Technology (IIT) Kharagpur",
+    bio: "",
+    image: "/speakers/Indranil manna.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
    {
     id: 2,
     name: "Prof. V Ramgopal Rao",
@@ -75,36 +75,36 @@ const SPEAKERS = [
     },
   },
   
-  // {
-  //   id: 5,
-  //   name: "Prof. Shishir Sinha",
-  //   role: "Director General",
-  //   company: "Central Institute of Petrochemicals Engineering & Technology (CIPET)",
-  //   bio: "",
-  //   image: "/speakers/Prof. Shishir Sinha.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-  // {
-  //   id: 6,
-  //   name: "Dr. Tripta Thakur",
-  //   role: "Director General",
-  //   company: "National Power Training Institute (NPTI)",
-  //   bio: "",
-  //   image: "/speakers/Dr. Tripta Thakur.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
+  {
+    id: 5,
+    name: "Prof. Shishir Sinha",
+    role: "Director General",
+    company: "Central Institute of Petrochemicals Engineering & Technology (CIPET)",
+    bio: "",
+    image: "/speakers/Prof. Shishir Sinha.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 6,
+    name: "Dr. Tripta Thakur",
+    role: "Director General",
+    company: "National Power Training Institute (NPTI)",
+    bio: "",
+    image: "/speakers/Dr. Tripta Thakur.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
   // {
   //   id: 7,
   //   name: "Dr. Shivkumar Kalyanaraman",
