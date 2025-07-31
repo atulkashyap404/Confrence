@@ -93,7 +93,7 @@ export default function About() {
                     Immersive Tech Experience
                   </h3>
                   <p className="text-white/80">
-                    Dive into interactive demos, workshops, and sessions at TechConf 2025
+                    Dive into interactive demos, workshops, and sessions at TRIPS 2025
                   </p>
                 </div>
               </div>

@@ -33,12 +33,15 @@ export default function Home() {
           <ClosingSession />
           <CountDown />
           <SummitScope />
-          <OrganizingCommittee />
+          
           {/* <SummitStream /> */}
           <Speakers />
           <PlenarySpeakers />
-          
           <DistinguishedSpeaker />
+          <OrganizingCommittee />
+          
+          
+          
           <Schedule />
           <Sponsors />
           <HowToReachPage />

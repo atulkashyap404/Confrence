@@ -18,9 +18,9 @@ export default function ClosingSession() {
             <Image
               src="/committee/Prof. Ashutosh Sharma.jpg" // Replace with your image path
               alt="Welcome"
-              width={600}
-              height={400}
-              className="rounded-2xl object-cover w-full h-auto shadow-md"
+              width={450}
+              height={100}
+              className="rounded-2xl object-cover w-100 h-auto shadow-md"
             />
           </div>
 

@@ -9,7 +9,7 @@ export default function TripsCountdownPage() {
   const highlights = [
     { title: "Expert Talks", icon: <Speech size={24} /> },
     { title: "Panel Discussion", icon: <Users size={24} /> },
-    { title: "Poster Presentation", icon: <Presentation size={24} /> },
+    // { title: "Poster Presentation", icon: <Presentation size={24} /> },
   ];
 
   return (

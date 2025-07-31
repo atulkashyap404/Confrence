@@ -331,6 +331,7 @@ export default function OrganizingCommittee() {
                 <p>Professor</p>
                 <p>Department of Civil Engineering</p>
                 <p>Dean of Kotak School of Sustainability</p>
+                <p>Indian Institute of Technology Kanpur</p>
               </CardContent>
             </Card>
 
