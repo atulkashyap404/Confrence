@@ -1456,6 +1456,36 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 81,
+    name: "Prof. Vinod K. Singh",
+    role: "President",
+    company: "National Academy of Sciences, India (NASI), Institute Chair Professor Department of Chemistry IIT Kanpur",
+    bio: "",
+    image: "/committee/Prof. Vinod K. Singh.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 82,
+    name: "Prof. Sandeep Verma",
+    role: "Professor",
+    company: "Department of Chemistry, Professor In-Charge (Head) Gangwal School of Medical Sciences and Technology",
+    bio: "",
+    image: "/committee/Prof. Sandeep Verma.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
   
   // {
   //   id: 39,
