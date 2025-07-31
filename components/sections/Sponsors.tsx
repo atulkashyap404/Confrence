@@ -7,12 +7,12 @@ import Image from "next/image";
 
 const SPONSORS = [
   // Partners
-  {
-    id: 1,
-    name: "C3i hub",
-    image: "/Sponsors/C3i hub.png",
-    category: "Partners",
-  },
+  // {
+  //   id: 1,
+  //   name: "C3i hub",
+  //   image: "/Sponsors/C3i hub.png",
+  //   category: "Partners",
+  // },
   {
     id: 2,
     name: "Kotak School of Sustainability",
