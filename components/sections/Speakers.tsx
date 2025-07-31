@@ -90,21 +90,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 5,
-    name: "Dr. R S Gokhale",
-    role: "Secretary",
-    company: "Department of Biotechnology (DBT) Government of India",
-    bio: "",
-    image: "/speakers/Dr R S Gokhale.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 5,
+  //   name: "Dr. R S Gokhale",
+  //   role: "Secretary",
+  //   company: "Department of Biotechnology (DBT) Government of India",
+  //   bio: "",
+  //   image: "/speakers/Dr R S Gokhale.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
 
   {
     id: 6,

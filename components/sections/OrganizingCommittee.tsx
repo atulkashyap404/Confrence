@@ -134,7 +134,7 @@ export default function OrganizingCommittee() {
                       Organizing Secretary
                     </h2>
                     <p className="font-medium">Prof. J Ramkumar</p>
-                    <p>Co-ordinator for MedTech IIT Kanpur, Professor (HAG), Department of Mechanical Engineering, IIT Kanpur</p>
+                    <p>Professor (HAG), Department of Mechanical Engineering, IIT Kanpur</p>
                   </div>
 
                   {/* Dr. Sandip Patil */}

@@ -254,21 +254,21 @@ const SPEAKERS = [
 
   
 
-  {
-    id: 16,
-    name: "Prof Asish Garg",
-    role: "Professor",
-    company: "Indian Institute of Technology (IIT) Kanpur",
-    bio: "",
-    image: "/dist/Prof Asish Garg IIT Kanpur.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 16,
+  //   name: "Prof Asish Garg",
+  //   role: "Professor",
+  //   company: "Indian Institute of Technology (IIT) Kanpur",
+  //   bio: "",
+  //   image: "/dist/Prof Asish Garg IIT Kanpur.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
 
   {
     id: 17,
@@ -304,21 +304,21 @@ const SPEAKERS = [
 
   
 
-  {
-    id: 20,
-    name: "Prof. Nitin Saxena",
-    role: "Professor",
-    company: "Indian Institute of Technology (IIT) Kanpur",
-    bio: "",
-    image: "/dist/Prof. Nitin Saxena.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 20,
+  //   name: "Prof. Nitin Saxena",
+  //   role: "Professor",
+  //   company: "Indian Institute of Technology (IIT) Kanpur",
+  //   bio: "",
+  //   image: "/dist/Prof. Nitin Saxena.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
 
   // {
   //   id: 21,
@@ -431,21 +431,21 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 28,
-    name: "Shri Rajesh Kumar Pathak",
-    role: "Civil Service Officer of IP&TAFS Cadre",
-    company: "TDB & Secretary",
-    bio: "",
-    image: "/dist/Shri Rajesh Kumar Pathak.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 28,
+  //   name: "Shri Rajesh Kumar Pathak",
+  //   role: "Civil Service Officer of IP&TAFS Cadre",
+  //   company: "TDB & Secretary",
+  //   bio: "",
+  //   image: "/dist/Shri Rajesh Kumar Pathak.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
 
   {
     id: 29,
