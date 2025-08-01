@@ -9,9 +9,10 @@ import { ArrowRight, CalendarDays, MapPin } from "lucide-react";
 export default function Hero() {
   const images = [
     "/lib1.jpg",
-    // "/lib2.jpg",
-    // "/lib3.jpg",
-    // "/lib4.jpg",
+    "/lib2.jpg",
+    "/lib3.jpg",
+    "/lib4.jpg",
+    "/lib5.jpg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
@@ -86,9 +87,9 @@ export default function Hero() {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="inline-block"
             >
-              <span className="bg-white text-kesari px-4 py-1 rounded-sm text-sm font-medium ">
+              {/* <span className="bg-white text-kesari px-4 py-1 rounded-sm text-sm font-medium ">
                 Aug 21-24, 2025
-              </span>
+              </span> */}
             </motion.div>
 
             <motion.h1
@@ -98,12 +99,12 @@ export default function Hero() {
               transition={{ delay: 0.5, duration: 0.8 }}
             >
               {/* <span className="block text-kesari">TRIPS 2025:</span> */}
-              <span className="inline-block bg-white/90 dark:bg-black/40 rounded-sm px-3 py-1 text-kesari">
+              {/* <span className="inline-block bg-white/90 dark:bg-black/40 rounded-sm px-3 py-1 text-kesari">
                 TRIPS 2025
               </span>
               <span className="block text-3xl text-white dark:text-white">
                 TECHNOLOGY, RESEARCH, INNOVATION, AND POLICY SUMMIT
-              </span>
+              </span> */}
             </motion.h1>
 
             <motion.p
@@ -112,8 +113,8 @@ export default function Hero() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.7, duration: 0.8 }}
             >
-              <span className="font-bold ">THEME -</span> BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE
-              FUTURE
+              {/* <span className="font-bold ">THEME -</span> BRIDGING RESEARCH, INNOVATION, AND POLICY FOR A SUSTAINABLE
+              FUTURE */}
             </motion.p>
 
             {/* <motion.div
@@ -142,16 +143,16 @@ export default function Hero() {
               transition={{ delay: 1.1, duration: 0.8 }}
             >
               <div className="flex items-center">
-                <CalendarDays className="mr-2 h-5 w-5 text-kesari" />
-                <span className="text-kesari bg-white rounded-sm p-2 font-semibold">
+                {/* <CalendarDays className="mr-2 h-5 w-5 text-kesari" /> */}
+                {/* <span className="text-kesari bg-white rounded-sm p-2 font-semibold">
                   Aug 21-24, 2025
-                </span>
+                </span> */}
               </div>
               <div className="flex items-center">
-                <MapPin className="mr-2 h-5 w-5 text-kesari" />
-                <span className="text-kesari font-semibold bg-white rounded-sm p-2">
+                {/* <MapPin className="mr-2 h-5 w-5 text-kesari" /> */}
+                {/* <span className="text-kesari font-semibold bg-white rounded-sm p-2">
                   Outreach Auditorium, IIT Kanpur
-                </span>
+                </span> */}
               </div>
             </motion.div>
           </motion.div>
