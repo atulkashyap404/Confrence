@@ -1413,7 +1413,7 @@ const SPEAKERS = [
   },
   {
     id: 78,
-    name: "Narayana Prasad Padhy",
+    name: "Prof. Narayana Prasad Padhy",
     role: "Director",
     company: "Malaviya National Institute of Technology (MNIT), Jaipur",
     bio: "",
