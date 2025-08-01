@@ -189,21 +189,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 12,
-    name: "Dr. Alok Kumar Srivastava",
-    role: "Director General",
-    company: "National Test House (NTH)",
-    bio: "",
-    image: "/dist/Dr. Alok Kumar Srivastava.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   {
     id: 13,
@@ -270,21 +256,7 @@ const SPEAKERS = [
   //   },
   // },
 
-  {
-    id: 17,
-    name: "Prof. Deeksha Gupta ",
-    role: "Senior Associate Director-India",
-    company: "American Chemical Society (ACS)",
-    bio: "",
-    image: "/dist/Prof Deeksha Gupta.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   {
     id: 18,
@@ -336,37 +308,9 @@ const SPEAKERS = [
   //   },
   // },
 
-  {
-    id: 22,
-    name: "Dr. Bineesha Payattati",
-    role: "Executive Director",
-    company: "The International Institute of Waste Management (IIWM), Bangalore",
-    bio: "",
-    image: "/dist/Dr. Bineesha Payattati.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
-  {
-    id: 23,
-    name: "Dr. Brajesh Pandey",
-    role: "Executive Director",
-    company: "Indian National Science Academy (INSA)",
-    bio: "",
-    image: "/dist/Dr Brajesh Pandey .png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   // {
   //   id: 24,

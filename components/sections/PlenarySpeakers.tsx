@@ -13,12 +13,453 @@ import { Tabs, TabsContent } from "@/components/ui/tabs";
 
 // Speaker data
 const SPEAKERS = [
-    {
+
+  {
     id: 1,
-    name: "Prof. Indranil Manna",
-    role: "Vice-Chancellor",
+    name: "Shri. Akhilesh Jha",
+    role: "Chief Controller of Accounts",
     company:
-      "BIT Mesra, Ranchi Institute Chair Professor, Indian Institute of Technology (IIT) Kharagpur",
+      "Govt. of India",
+    bio: "",
+    image: "/speakers/Shri. Akhilesh Jha.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 2,
+    name: "Dr. Ajit K. Shasany",
+    role: "Director",
+    company:"CSIR-National Botanical Research Institute (NBRI), Lucknow",
+    bio: "",
+    image: "/speakers/Dr. Ajit K. Shasany.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 3,
+    name: "Prof. Ajit Kumar Chaturvedi",
+    role: "Vice Chancellor",
+    company: "Banaras Hindu University (BHU) & Professor (HAG), IIT Kanpur",
+    bio: "",
+    image: "/dist/Prof. A K Chaturvedi .png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 4,
+    name: "Prof. Alok Dhawan",
+    role: "Director",
+    company: "Centre of BioMedical Research (CBMR), Lucknow",
+    bio: "",
+    image: "/speakers/Prof. Alok Dhawan.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 5,
+    name: "Dr. Alok Kumar Srivastava",
+    role: "Director General",
+    company: "National Test House (NTH), Govt. of India",
+    bio: "",
+    image: "/dist/Dr. Alok Kumar Srivastava.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 6,
+    name: "Prof. Amit Patra ",
+    role: "Director",
+    company:
+      "Indian Institute of Technology (IIT) BHU",
+    bio: "",
+    image: "/directors/Prof, Amit Patra-Picsart-AiImageEnhancer.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 7,
+    name: "Prof. Aniruddha Pandit",
+    role: "Vice Chancellor",
+    company: "Institute of Chemical Technology (ICT), Mumbai",
+    bio: "",
+    image: "/speakers/Aniruddha Bhalchandra Pandit.jpg",
+    category: "",
+    featured: true,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 8,
+    name: "Prof.  Anil Kumar Tripathi",
+    role: "Director",
+    company: "Indian Institutes of Science Education and Research (IISER) Mohali",
+    bio: "",
+    image: "/speakers/Dr. Anil Kumar Tripathi.png ",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+{
+    id: 9,
+    name: "Prof. Annapurni Subramaniam",
+    role: "Director",
+    company: "Indian Institute of Astrophysics (IIA), Bengaluru",
+    bio: "",
+    image: "/speakers/Prof. Annapurni Subramaniam.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+  {
+    id: 10,
+    name: "Dr. Arvind C. Ranade",
+    role: "Director",
+    company: "National Innovation Foundation, Govt. of India",
+    bio: "",
+    image: "/speakers/Dr. Arvind C Ranade.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 11,
+    name: "Prof. Ashok K. Ganguli",
+    role: "Director",
+    company: "Indian Institutes of Science Education and Research (IISER), Berhampur",
+    bio: "",
+    image: "/speakers/Prof. Ashok Kumar Ganguli.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 12,
+    name: "Dr. Ashish Lele",
+    role: "Director",
+    company: "CSIR- National Chemical Laboratory (NCL), Pune",
+    bio: "",
+    image: "/speakers/Dr. Ashish Lele.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 13,
+    name: "Prof. Avinash Agrawal",
+    role: "Director",
+    company: "Indian Institute of Technology (IIT) Jodhpur",
+    bio: "",
+    image: "/speakers/Avinash Kumar Agarwal.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 14,
+    name: "Prof. B. S. Murty",
+    role: "Director",
+    company: "Indian Institute of Technology (IIT) Hyderabad",
+    bio: "",
+    image: "/directors/Prof, B S Murty-Picsart-AiImageEnhancer.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 15,
+    name: "Prof. Bhrigu Nath Singh",
+    role: "Vice Chancellor",
+    company: "Rajiv Gandhi National Aviation University, Amethi",
+    bio: "",
+    image: "/speakers/Prof. Bhrigu Nath Singh.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 16,
+    name: "Dr. Bineesha Payattati",
+    role: "Executive Director",
+    company: "International Institute of Waste Management (IIWM), Bangalore",
+    bio: "",
+    image: "/dist/Dr. Bineesha Payattati.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 17,
+    name: "Dr. Brajesh Pandey",
+    role: "Executive Director",
+    company: "Indian National Science Academy (INSA)",
+    bio: "",
+    image: "/dist/Dr Brajesh Pandey .png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 18,
+    name: "Dr. C. Anandharamakrishnan",
+    role: "Director",
+    company: "CSIR-National Institute for Interdisciplinary Science and Technology (NIIST), Thiruvananthapuram",
+    bio: "",
+    image: "/speakers/Dr. C. Anandharamakrishnan.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 19,
+    name: "Prof. Deeksha Gupta ",
+    role: "Senior Associate Director-India",
+    company: "American Chemical Society (ACS)",
+    bio: "",
+    image: "/dist/Prof Deeksha Gupta.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 20,
+    name: "Prof. Dhirendra Katti",
+    role: "Director",
+    company: "Indian Institute of Technology (IIT) Goa",
+    bio: "",
+    image: "/directors/Prof, Dhirendra S Katti-Picsart-AiImageEnhancer.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 21,
+    name: "Dr. Dipti Kakkar Thukral",
+    role: "Scientist G",
+    company: "Anusandhan National Research Foundation (ANRF)",
+    bio: "",
+    image: "/speakers/Dr. Dipti Kakkar Thukral.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 22,
+    name: "Prof. Diwan Singh Rawat",
+    role: "Vice Chancellor",
+    company: "Kumaun University, Nainital",
+    bio: "",
+    image: "/speakers/Prof. Diwan Singh Rawat.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 23,
+    name: "Dr. Soumya Swaminathan",
+    role: "Chief Scientist",
+    company: "World Health Organization (WHO)",
+    bio: "",
+    image: "/speakers/Dr Soumya Swaminathan.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 24,
+    name: "Dr. R. Vijay",
+    role: "Director",
+    company: "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI), Hyderabad",
+    bio: "",
+    image: "/speakers/Dr. R Vijay.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 25,
+    name: "Prof. G. D. Yadav",
+    role: "Former Vice Chancellor",
+    company: "Institute of Chemical Technology (ICT), Mumbai",
+    bio: "",
+    image: "/speakers/G. D. Yadav.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 26,
+    name: "Prof. G. U. Kulkarni",
+    role: "Former Director",
+    company: "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bengaluru",
+    bio: "",
+    image: "/speakers/Giridhar U Kulkarni.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 27,
+    name: "Prof. Gautam Biswas",
+    role: "Former Director",
+    company: "Indian Institute of Technology (IIT) Guwahati",
+    bio: "",
+    image: "/speakers/Prof. Gautam Biswas.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 28,
+    name: "Dr. Geetha Vani Rayasam",
+    role: "Head",
+    company: "CSIR-Human Resource Development Group (HRDG)",
+    bio: "",
+    image: "/speakers/Dr. Geetha Vani Rayasam.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 29,
+    name: "Prof. Gobardhan Das",
+    role: "Director",
+    company: "Indian Institutes of Science Education and Research (IISER) Bhopal",
+    bio: "",
+    image: "/speakers/prof gobardhan das.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 30,
+    name: "Prof. Indranil Manna",
+    role: "President",
+    company:
+      "Indian National Academy of Engineering (INAE) & Vice Chancellor, BIT Mesra ",
     bio: "",
     image: "/speakers/Indranil manna.jpg",
     category: "",
@@ -29,6 +470,145 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  {
+    id: 31,
+    name: "Prof. K. N. Ganesh",
+    role: "SERB National Science Chair",
+    company:
+      "& Founder Director and Professor, JNCASR, Bengaluru",
+    bio: "",
+    image: "/speakers/Prof. K. N. Ganesh.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 32,
+    name: "Prof. Kamal K. Pant",
+    role: "Director",
+    company: "Indian Institute of Technology (IIT) Roorkee",
+    bio: "",
+    image: "/directors/Prof, Kamal Kishore Pant-Picsart-AiImageEnhancer.jpeg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 33,
+    name: "Dr. Kingsuk Mukhopadhyay",
+    role: "Director",
+    company: "Defence Materials and Stores Research and Development Establishment (DMSRDE), Kanpur",
+    bio: "",
+    image: "/speakers/Dr. Kingsuk Mukhopadhyay.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 34,
+    name: "Dr. Koppillil Radhakrishnan",
+    role: "Former Chairman",
+    company: "BOG, IIT Kanpur & Former Chairperson, Indian Space Research Organisation (ISRO)",
+    bio: "",
+    image: "/speakers/Dr. Koppillil Radhakrishnan.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 35,
+    name: "Mr. Kris Gopalakrishnan",
+    role: "Co-founder",
+    company: "Infosys",
+    bio: "",
+    image: "/speakers/Mr. Kris Gopalakrishnan.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 36,
+    name: "Prof. Laxmidhar Behera",
+    role: "Director",
+    company: "Indian Institute of Technology (IIT) Mandi",
+    bio: "",
+    image: "/directors/Prof, Laxmidhar Behera-Picsart-AiImageEnhancer.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 37,
+    name: "Prof. Manoj Choudhary",
+    role: "Vice Chancellor",
+    company: "Gati Shakti Vishwavidyalaya, Vadodara",
+    bio: "",
+    image: "/speakers/Prof. Manoj Choudhary.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
    {
     id: 2,
     name: "Prof. V Ramgopal Rao",
@@ -59,21 +639,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 4,
-    name: "Dr. Subi Chaturvedi",
-    role: " Chief Corporate Affairs & Public Policy Officer",
-    company: "inMobi",
-    bio: "",
-    image: "/speakers/Dr. Subi Chaturvedi.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   
   {
     id: 5,
@@ -121,38 +687,9 @@ const SPEAKERS = [
   //     website: "#",
   //   },
   // },
-  {
-    id: 8,
-    name: "Prof. Annapurni Subramaniam",
-    role: "Director",
-    company: "Indian Institute of Astrophysics (IIA), Bangalore",
-    bio: "",
-    image: "/speakers/Prof. Annapurni Subramaniam.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
-  {
-    id: 9,
-    name: "Prof. Aniruddha B Pandit",
-    role: "Vice Chancellor",
-    company: "Institute of Chemical Technology (ICT), Mumbai",
-    bio: "",
-    image: "/speakers/Aniruddha Bhalchandra Pandit.jpg",
-    category: "",
-    featured: true,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-
+  
   
   // {
   //   id: 10,
@@ -186,21 +723,7 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 12,
-    name: "Dr. Soumya Swaminathan",
-    role: "Chief Scientist",
-    company: "World Health Organization (WHO)",
-    bio: "",
-    image: "/speakers/Dr Soumya Swaminathan.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   
 
@@ -253,36 +776,8 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 16,
-    name: "Prof. Avinash Agarwal",
-    role: "Director",
-    company: "Indian Institute of Technology (IIT) Jodhpur",
-    bio: "",
-    image: "/speakers/Avinash Kumar Agarwal.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 17,
-    name: "Prof. Dhirendra S Katti",
-    role: "Director",
-    company: "Indian Institute of Technology (IIT) Goa",
-    bio: "",
-    image: "/directors/Prof, Dhirendra S Katti-Picsart-AiImageEnhancer.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
+  
 
   {
     id: 18,
@@ -302,22 +797,7 @@ const SPEAKERS = [
 
   
 
-  {
-    id: 19,
-    name: "Prof. Amit Patra ",
-    role: "Director",
-    company:
-      "Indian Institute of Technology (IIT) Varanasi",
-    bio: "",
-    image: "/directors/Prof, Amit Patra-Picsart-AiImageEnhancer.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   // {
   //   id: 17,
@@ -399,21 +879,7 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 22,
-    name: "Prof. Kamal K Pant",
-    role: "Director",
-    company: "Indian Institute of Technology (IIT) Roorkee",
-    bio: "",
-    image: "/directors/Prof, Kamal Kishore Pant-Picsart-AiImageEnhancer.jpeg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   // {
   //   id: 21,
@@ -431,21 +897,7 @@ const SPEAKERS = [
   //   },
   // },
 
-  {
-    id: 22,
-    name: "Prof. B S Murty",
-    role: "Director",
-    company: "Indian Institute of Technology (IIT) Hyderabad",
-    bio: "",
-    image: "/directors/Prof, B S Murty-Picsart-AiImageEnhancer.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   {
     id: 23,
@@ -494,36 +946,8 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 25,
-    name: "Prof. Laxmidhar Behera",
-    role: "Director",
-    company: "Indian Institute of Technology (IIT) Mandi",
-    bio: "",
-    image: "/directors/Prof, Laxmidhar Behera-Picsart-AiImageEnhancer.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 19,
-    name: "Prof. Ajit Kumar Chaturvedi",
-    role: "Professor(HAG), IIT Kanpur",
-    company: "Former Director IIT Roorkee",
-    bio: "",
-    image: "/dist/Prof. A K Chaturvedi .png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
+  
 
   // {
   //   id: 26,
@@ -652,51 +1076,9 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 31,
-    name: "Prof. G.D.Yadav",
-    role: "Former Vice Chancellor ",
-    company: "Institute of Chemical Technology (ICT), Mumbai",
-    bio: "",
-    image: "/speakers/G. D. Yadav.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 32,
-    name: "Dr. Anil Kumar Tripathi",
-    role: "Director, IISER Mohali",
-    company: "Vice President, Indian National Science Academy (INSA), New Delhi",
-    bio: "",
-    image: "/speakers/Dr. Anil Kumar Tripathi.png ",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 32,
-    name: "Prof. Bhrigu Nath Singh",
-    role: "Vice Chancellor",
-    company: "Rajiv Gandhi National Aviation University, Amethi",
-    bio: "",
-    image: "/speakers/Prof. Bhrigu Nath Singh.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
+  
+  
   {
     id: 33,
     name: "Prof. Sunil S. Bhagwat",
@@ -712,21 +1094,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 34,
-    name: "Prof. Gobardhan Das",
-    role: "Director",
-    company: "Indian Institute of Science Education and Research (IISER), Bhopal",
-    bio: "",
-    image: "/speakers/prof gobardhan das.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   // {
   //   id: 35,
   //   name: "Dr. M. Ravichandran",
@@ -772,21 +1140,7 @@ const SPEAKERS = [
   //     website: "#",
   //   },
   // },
-  {
-    id: 38,
-    name: "Prof. Gautam Biswas",
-    role: "Former Director",
-    company: "Indian Institute of Technology(IIT), Guwahati",
-    bio: "",
-    image: "/speakers/Prof. Gautam Biswas.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   // {
   //   id: 39,
   //   name: "Prof. Marc Madou",
@@ -802,21 +1156,7 @@ const SPEAKERS = [
   //     website: "#",
   //   },
   // },
-  {
-    id: 40,
-    name: "Prof. Giridhar U. Kulkarni",
-    role: "President",
-    company: "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bangalore",
-    bio: "",
-    image: "/speakers/Giridhar U Kulkarni.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   // {
   //   id: 41,
   //   name: "Prof. Alamgir Karim",
@@ -862,21 +1202,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 44,
-    name: "Mr. Kris Gopalakrishnan",
-    role: "Co-founder",
-    company: "Infosys",
-    bio: "",
-    image: "/speakers/Mr. Kris Gopalakrishnan.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   {
     id: 45,
     name: "Prof. K S Gandhi",
@@ -972,36 +1298,8 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 50,
-    name: "Dr. Arvind C Ranade",
-    role: "Director",
-    company: "National Innovation Foundation, GoI",
-    bio: "",
-    image: "/speakers/Dr. Arvind C Ranade.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 51,
-    name: "Dr. Geetha Vani Rayasam",
-    role: "Head",
-    company: "CSIR- Human Resource Development Group",
-    bio: "",
-    image: "/speakers/Dr. Geetha Vani Rayasam.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
+  
 
   {
     id: 52,
@@ -1139,52 +1437,10 @@ const SPEAKERS = [
     },
   },
 
-  {
-    id: 61,
-    name: "Dr. Dipti Kakkar Thukral",
-    role: "Scientist G",
-    company: "Anusandhan National Research Foundation (ANRF)",
-    bio: "",
-    image: "/speakers/Dr. Dipti Kakkar Thukral.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 62,
-    name: "Dr. C. Anandharamakrishnan",
-    role: "Director",
-    company: "CSIR-National Institute for Interdisciplinary Science and Technology (NIIST)",
-    bio: "",
-    image: "/speakers/Dr. C. Anandharamakrishnan.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
+  
 
-  {
-    id: 63,
-    name: "Dr. R Vijay",
-    role: "Director",
-    company: "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI), Hyderabad",
-    bio: "",
-    image: "/speakers/Dr. R Vijay.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
 
   {
     id: 64,
@@ -1201,36 +1457,8 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 65,
-    name: "Dr. Koppillil Radhakrishnan",
-    role: "Chairperson",
-    company: "Board of Governors Indian Institute of Technology (IIT), Kanpur Chairman, Standing Committee IIT Council",
-    bio: "",
-    image: "/speakers/Dr. Koppillil Radhakrishnan.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 66,
-    name: "Dr. Ashish Lele",
-    role: "Director",
-    company: "National Chemical Laboratory (NCL), Pune",
-    bio: "",
-    image: "/speakers/Dr. Ashish Lele.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
+  
   {
     id: 67,
     name: "Dr. Sanjeev K Varshney",
@@ -1246,21 +1474,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 68,
-    name: "Prof. Alok Dhawan",
-    role: "Director",
-    company: "Centre of BioMedical Research (CBMR), Lucknow",
-    bio: "",
-    image: "/speakers/Prof. Alok Dhawan.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   {
     id: 69,
     name: "Dr. Meghendra Sharma",
@@ -1291,21 +1505,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 71,
-    name: "Prof. Ashok Kumar Ganguli",
-    role: "Director",
-    company: "Indian Institute of Science Education and Research (IISER), Berhampur",
-    bio: "",
-    image: "/speakers/Prof. Ashok Kumar Ganguli.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   {
     id: 72,
     name: "Mr. Saurabh Srivastava",
@@ -1321,36 +1521,8 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 73,
-    name: "Dr. Kingsuk Mukhopadhyay",
-    role: "Director",
-    company: "Defence Materials and Stores Research and Development Establishment (DMSRDE), Kanpur",
-    bio: "",
-    image: "/speakers/Dr. Kingsuk Mukhopadhyay.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 73,
-    name: "Prof. Manoj Choudhary",
-    role: "Vice Chancellor",
-    company: "Gati Shakti Vishwavidyalaya, Vadodara",
-    bio: "",
-    image: "/speakers/Prof. Manoj Choudhary.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
+  
   {
     id: 74,
     name: "Dr. Shweta Jha",
@@ -1396,21 +1568,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 77,
-    name: "Prof. Diwan Singh Rawat",
-    role: "Vice-Chancellor",
-    company: "Kumaun University, Nainital",
-    bio: "",
-    image: "/speakers/Prof. Diwan Singh Rawat.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   {
     id: 78,
     name: "Prof. Narayana Prasad Padhy",
@@ -1441,21 +1599,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 80,
-    name: "Dr. M. Ravichandran",
-    role: "Secretary",
-    company: "Ministry of Earth Sciences (MoES), GOI",
-    bio: "",
-    image: "/speakers/Dr. M. Ravichandran.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   {
     id: 81,
     name: "Prof. Vinod K. Singh",
