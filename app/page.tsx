@@ -22,6 +22,7 @@ import ContactUs from "@/components/sections/ContactUs";
 import CountDown from "@/components/sections/CountDown";
 import PlenarySpeakers from "@/components/sections/PlenarySpeakers";
 import DistinguishedSpeaker from "@/components/sections/DistinguishedSpeaker";
+import Accommodation from "@/components/sections/Accommodation";
 
 export default function Home() {
   return (
@@ -45,6 +46,7 @@ export default function Home() {
           <Schedule />
           <Sponsors />
           <HowToReachPage />
+          <Accommodation/>
           <ContactUs />
 
 

@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 
 export default function ContactUsPage() {
   return (
-    <section id="contact" className="py-16 px-4 md:px-10 lg:px-20 bg-muted">
+    <section id="contact" className="py-16 px-4 md:px-10 lg:px-20 ">
       <div className="max-w-3xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-kesari mb-8">Contact Us</h1>
 

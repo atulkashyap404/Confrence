@@ -16,6 +16,7 @@ const navItems = [
   { name: "Schedule", href: "#schedule" },
   { name: "Sponsors", href: "#sponsors" },
   { name: "How to reach IITK", href: "#howtoreach" },
+  { name: "Accommodation", href: "#accommodation" },
   { name: "Contact Us", href: "#contact" },
 ];
 
