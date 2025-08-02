@@ -25,13 +25,19 @@ const SPONSORS = [
     image: "/Sponsors/Centre for Nanosciences.jpg",
     category: "Partners",
   },
-  {
+  
+{
     id: 4,
     name: "E-spin Nanotech Pvt. Ltd.",
     image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg",
     category: "Partners",
   },
-
+  {
+    id: 5,
+    name: "Bai-Labs",
+    image: "/Sponsors/Bai labs.jpeg",
+    category: "Partners",
+  },
   // Government Sponsors
   {
     id: 7,
