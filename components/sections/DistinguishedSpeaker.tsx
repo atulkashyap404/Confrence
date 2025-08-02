@@ -20,7 +20,7 @@ const SPEAKERS = [
     "role": "Former Senior Adviser",
     "company": "Department of Science & Technology (DST)",
     "bio": "",
-    "image": "/speakers/Dr. Akhilesh Gupta.jpg",
+    "image": "/speakers/Dr. Akhilesh Gupta.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -35,7 +35,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) Bombay",
     "bio": "",
-    "image": "/speakers/Prof. Abhijit Majumdar.jpg",
+    "image": "/speakers/Prof. Abhijit Majumdar.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -65,7 +65,7 @@ const SPEAKERS = [
     "role": "Senior Scientist",
     "company": "Indian National Science Academy (INSA)",
     "bio": "",
-    "image": "/speakers/Prof. Amitabha Ghosh.jpg",
+    "image": "/speakers/Prof. Amitabha Ghosh.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -155,7 +155,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) BHU",
     "bio": "",
-    "image": "/speakers/Prof. Ankur Verma.jpg",
+    "image": "/speakers/Prof.  Ankur Verma.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -185,7 +185,7 @@ const SPEAKERS = [
     "role": "Professor & Dean, International Relations",
     "company": "IIT Kanpur",
     "bio": "",
-    "image": "/speakers/Prof. Bushra Ateeq.jpg",
+    "image": "/speakers/Prof. Bushra Ateeq.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -200,7 +200,7 @@ const SPEAKERS = [
     "role": "Professor & Former Dean, R&D",
     "company": "Indian Institute of Technology (IIT) Hyderabad",
     "bio": "",
-    "image": "/speakers/Prof. Chandra Shekhar Sharma.jpg",
+    "image": "/speakers/Prof. Chandra Shekhar Sharma.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -215,7 +215,7 @@ const SPEAKERS = [
     "role": "Honorary Professor",
     "company": "Indian Institute of Science (IISc), Bengaluru",
     "bio": "",
-    "image": "/speakers/Prof. D. D. Sarma.jpg",
+    "image": "/speakers/Dipankar Das Sarma.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -275,7 +275,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) Guwahati",
     "bio": "",
-    "image": "/speakers/Prof. Dipankar Bandyopadhyay.jpg",
+    "image": "/speakers/Prof. Dipankar Bandyopadhyay.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -335,7 +335,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) Delhi",
     "bio": "",
-    "image": "/speakers/Prof. Jayati Sarkar.jpg",
+    "image": "/speakers/Jayati-Sarkar.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -350,7 +350,7 @@ const SPEAKERS = [
     "role": "Director R&D",
     "company": "Unilever",
     "bio": "",
-    "image": "/speakers/Dr. Janhavi Raut.jpg",
+    "image": "/speakers/Dr. Jahnavi Raut.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -425,7 +425,7 @@ const SPEAKERS = [
     "role": "Former CEO",
     "company": "Atal Incubation Centre-JNUFI (NITI AAYOG)",
     "bio": "",
-    "image": "/speakers/Dr. Kavinder Kumar.jpg",
+    "image": "/speakers/Mr. Kavindra Taliyan.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -455,7 +455,7 @@ const SPEAKERS = [
     "role": "Distinguished Professor Emeritus",
     "company": "UC Irvine",
     "bio": "",
-    "image": "/speakers/Prof. Marc Madou.jpg",
+    "image": "/speakers/prof. marc madou.png",
     "category": "",
     "featured": false,
     "socials": {
