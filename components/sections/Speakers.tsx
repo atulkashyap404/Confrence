@@ -15,9 +15,9 @@ import { Tabs, TabsContent } from "@/components/ui/tabs";
 const SPEAKERS = [
   {
     id: 1,
-    name: "Prof. V K Saraswat",
-    role: "Member NITI Aayog",
-    company:"& Former Director General, Defence Research and Development Organisation (DRDO)",
+    name: "Prof. V. K. Saraswat",
+    role: "Member NITI Aayog, & Former Director General",
+    company:"Defence Research and Development Organisation (DRDO)",
     bio: "",
     image: "/speakers/Prof. V. K. Saraswat.jpg",
     category: "",

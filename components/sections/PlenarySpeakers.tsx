@@ -635,7 +635,7 @@ const SPEAKERS = [
     "role": "Founder Chairman & Managing Director",
     "company": "Pradeep Metals Ltd.",
     "bio": "",
-    "image": "/speakers/Shri. Pradeep Goyal.jpg",
+    "image": "/speakers/Shri. Pradeep Goyal.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -680,7 +680,7 @@ const SPEAKERS = [
     "role": "Director",
     "company": "Indian Institute of Technology (IIT) Gandhinagar",
     "bio": "",
-    "image": "/speakers/Prof. Rajat Moona.jpg",
+    "image": "/speakers/Prof. Rajat Moona.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -770,7 +770,7 @@ const SPEAKERS = [
     "role": "Professor & Dean",
     "company": "Kotak School of Sustainability, IIT Kanpur",
     "bio": "",
-    "image": "/speakers/Prof. Sachchida Nand Tripathi.jpg",
+    "image": "/speakers/Prof. Sachchida Nand Tripathi.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -785,7 +785,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) Kanpur & Former Secretary, SERB",
     "bio": "",
-    "image": "/speakers/Prof. Sandeep Verma.jpg",
+    "image": "/speakers/Prof. Sandeep Verma.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -905,7 +905,7 @@ const SPEAKERS = [
     "role": "Chief Scientist",
     "company": "World Health Organization, WHO",
     "bio": "",
-    "image": "/speakers/Dr. Soumya Swaminathan.jpg",
+    "image": "/speakers/Dr Soumya Swaminathan.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -950,7 +950,7 @@ const SPEAKERS = [
     "role": "Director",
     "company": "Indian Institute of Technology (IIT) Kharagpur",
     "bio": "",
-    "image": "/speakers/Prof. Suman Chakraborty.jpg",
+    "image": "/speakers/Suman Chakraborty.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -965,7 +965,7 @@ const SPEAKERS = [
     "role": "Director General",
     "company": "National Power Training Institute (NPTI), Govt. of India",
     "bio": "",
-    "image": "/speakers/Dr. Tripta Thakur.jpg",
+    "image": "/speakers/Dr. Tripta Thakur.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -1025,7 +1025,7 @@ const SPEAKERS = [
     "role": "Group Vice-Chancellor",
     "company": "Birla Institute of Technology & Science (BITS) Pilani",
     "bio": "",
-    "image": "/speakers/Prof. V. Ramgopal Rao.jpg",
+    "image": "/speakers/V. Ramgopal Rao.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -1040,7 +1040,7 @@ const SPEAKERS = [
     "role": "Institute Chair Professor",
     "company": "IIT Kanpur & Former Director, IISER Bhopal",
     "bio": "",
-    "image": "/speakers/Prof. Vinod K. Singh.jpg",
+    "image": "/speakers/Prof. Vinod K. Singh.png",
     "category": "",
     "featured": false,
     "socials": {
