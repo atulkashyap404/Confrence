@@ -200,7 +200,7 @@ const SPEAKERS = [
     "role": "Director",
     "company": "CSIR- National Chemical Laboratory (NCL), Pune",
     "bio": "",
-    "image": "/speakers/Dr. Asish Lele.jpg",
+    "image": "/speakers/Dr. Ashish Lele.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -215,7 +215,7 @@ const SPEAKERS = [
     "role": "Director",
     "company": "Indian Institute of Technology (IIT) Jodhpur",
     "bio": "",
-    "image": "/speakers/Prof. Avinash Agrawal.jpg",
+    "image": "/speakers/Avinash Kumar Agarwal.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -245,7 +245,7 @@ const SPEAKERS = [
     "role": "Vice Chancellor",
     "company": "Rajiv Gandhi National Aviation University, Amethi",
     "bio": "",
-    "image": "/speakers/Prof. Bhrigu Nath Singh.jpg",
+    "image": "/speakers/Prof. Bhrigu Nath Singh.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -260,7 +260,7 @@ const SPEAKERS = [
     "role": "Executive Director",
     "company": "International Institute of Waste Management (IIWM), Bengaluru",
     "bio": "",
-    "image": "/speakers/Dr. Bineesha Payattati.jpg",
+    "image": "/speakers/Dr. Bineesha Payattati.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -275,7 +275,7 @@ const SPEAKERS = [
     "role": "Executive Director",
     "company": "Indian National Science Academy (INSA)",
     "bio": "",
-    "image": "/speakers/Dr. Brajesh Pandey.jpg",
+    "image": "/speakers/Dr Brajesh Pandey .png",
     "category": "",
     "featured": false,
     "socials": {
@@ -305,7 +305,7 @@ const SPEAKERS = [
     "role": "Associate Director India",
     "company": "American Chemical Society (ACS)",
     "bio": "",
-    "image": "/speakers/Dr. Deeksha Gupta.jpg",
+    "image": "/speakers/Prof Deeksha Gupta.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -365,7 +365,7 @@ const SPEAKERS = [
     "role": "Former Vice Chancellor",
     "company": "Institute of Chemical Technology (ICT), Mumbai",
     "bio": "",
-    "image": "/speakers/Prof. G. D. Yadav.jpg",
+    "image": "/speakers/G. D. Yadav.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -380,7 +380,7 @@ const SPEAKERS = [
     "role": "Former President",
     "company": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bengaluru",
     "bio": "",
-    "image": "/speakers/Prof. G. U. Kulkarni.jpg",
+    "image": "/speakers/Giridhar U Kulkarni.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -395,7 +395,7 @@ const SPEAKERS = [
     "role": "Former Director",
     "company": "Indian Institute of Technology (IIT) Guwahati",
     "bio": "",
-    "image": "/speakers/Prof. Gautam Biswas.jpg",
+    "image": "/speakers/Prof. Gautam Biswas.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -425,7 +425,7 @@ const SPEAKERS = [
     "role": "Director",
     "company": "Indian Institutes of Science Education and Research (IISER) Bhopal",
     "bio": "",
-    "image": "/speakers/Prof. Gobardhan Das.jpg",
+    "image": "/speakers/prof gobardhan das.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -440,7 +440,7 @@ const SPEAKERS = [
     "role": "President",
     "company": "Indian National Academy of Engineering (INAE) & Vice Chancellor, BIT Mesra",
     "bio": "",
-    "image": "/speakers/Prof. Indranil Manna.jpg",
+    "image": "/speakers/Indranil manna.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -605,7 +605,7 @@ const SPEAKERS = [
     "role": "Director",
     "company": "Malaviya National Institute of Technology (MNIT), Jaipur",
     "bio": "",
-    "image": "/speakers/Prof. Narayana P. Padhy.jpg",
+    "image": "/speakers/Narayana Prasad Padhy.jpg",
     "category": "",
     "featured": false,
     "socials": {
