@@ -935,7 +935,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) Madras",
     "bio": "",
-    "image": "/speakers/Prof. T. Pradeep.jpg",
+    "image": "/speakers/Thalappil Pradeep.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -980,7 +980,7 @@ const SPEAKERS = [
     "role": "Chief Scientist",
     "company": "Tata Research Development and Design Centre (TRDDC), TCS",
     "bio": "",
-    "image": "/speakers/Dr. Venkataramana Runkana.jpg",
+    "image": "/speakers/Dr. Venkataramana Runkana.png",
     "category": "",
     "featured": false,
     "socials": {

@@ -45,12 +45,12 @@ const SPONSORS = [
     image: "/Sponsors/BEST University.png",
     category: "Government Sponsors",
   },
-  {
-    id: 5,
-    name: "Department of Biotechnology (DBT)",
-    image: "/Sponsors/Department of Biotechnology.png",
-    category: "Government Sponsors",
-  },
+  // {
+  //   id: 5,
+  //   name: "Department of Biotechnology (DBT)",
+  //   image: "/Sponsors/Department of Biotechnology.png",
+  //   category: "Government Sponsors",
+  // },
   {
     id: 6,
     name: "Department of Science and Technology (DST)",
@@ -113,12 +113,12 @@ const SPONSORS = [
     image: "/Sponsors/ACS.png",
     category: "Industry Sponsors",
   },
-  {
-    id: 15,
-    name: "Kent RO",
-    image: "/Sponsors/Kent RO.png",
-    category: "Industry Sponsors",
-  },
+  // {
+  //   id: 15,
+  //   name: "Kent RO",
+  //   image: "/Sponsors/Kent RO.png",
+  //   category: "Industry Sponsors",
+  // },
   {
     id: 16,
     name: "Carl Zeiss",
