@@ -244,7 +244,7 @@ const SPEAKERS = [
     id: 15,
     name: "Mrs. Vartika Shukla",
     role: "Chairman & Managing Director",
-    company:"Engineers India Ltd.",
+    company:"Engineers India Ltd. (EIL)",
     bio: "",
     image: "/speakers/Ms. Vartika Shukla.jpg",
     category: "",
@@ -340,7 +340,7 @@ const SPEAKERS = [
     name: "Prof. Ashutosh Sharma",
     role: "President",
     company:
-      "Indian National Science Academy (INSA), & Institute Chair Professor, IIT Kanpur",
+      "Indian National Science Academy (INSA), & Institute Chair Professor, Indian Institute of Technology Kanpur",
     bio: "",
     image: "/speakers/Prof. Ashutosh Sharma.jpg",
     category: "",
