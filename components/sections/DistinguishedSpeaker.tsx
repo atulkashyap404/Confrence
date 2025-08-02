@@ -317,7 +317,7 @@ const SPEAKERS = [
   {
     "id": 21,
     "name": "Prof. Jayant K. Singh",
-    "role": "Former Dean & Professor",
+    "role": "Professor & Former Dean, Resources & Alumni",
     "company": "Indian Institute of Technology (IIT) Kanpur",
     "bio": "",
     "image": "/speakers/Prof. Jayant K. Singh.jpg",
@@ -362,8 +362,8 @@ const SPEAKERS = [
   {
     "id": 24,
     "name": "Prof. Jitendra K. Bera",
-    "role": "Dean & Professor, Faculty Affairs",
-    "company": "IIT Kanpur",
+    "role": "Professor & Dean, Faculty Affairs",
+    "company": "Indian Institute of Technology (IIT) Kanpur",
     "bio": "",
     "image": "/speakers/Prof. Jitendra K. Bera.jpg",
     "category": "",
@@ -706,7 +706,7 @@ const SPEAKERS = [
   },
   {
     "id": 47,
-    "name": "Dr. Sangeeth S Pillai",
+    "name": "Dr. Sangeeth S. Pillai",
     "role": "Professor",
     "company": "Malaviya National Institute of Technology (MNIT), Jaipur",
     "bio": "",
@@ -722,8 +722,8 @@ const SPEAKERS = [
   {
     "id": 48,
     "name": "Dr. Samiran Mahapatra",
-    "role": "R&D Director, Science & Technology",
-    "company": "Unilever",
+    "role": "Director R&D",
+    "company": "Science & Technology, Unilever",
     "bio": "",
     "image": "/speakers/Dr. Samiran Mahapatra.jpg",
     "category": "",
