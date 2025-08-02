@@ -903,7 +903,7 @@ const SPEAKERS = [
     "id": 60,
     "name": "Dr. Soumya Swaminathan",
     "role": "Chief Scientist",
-    "company": "World Health Organization, WHO",
+    "company": "World Health Organization (WHO)",
     "bio": "",
     "image": "/speakers/Dr Soumya Swaminathan.png",
     "category": "",

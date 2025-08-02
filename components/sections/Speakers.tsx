@@ -340,7 +340,7 @@ const SPEAKERS = [
     name: "Prof. Ashutosh Sharma",
     role: "President",
     company:
-      "Indian National Science Academy (INSA), & Institute Chair Professor, Indian Institute of Technology Kanpur",
+      "Indian National Science Academy (INSA), & Institute Chair Professor, Indian Institute of Technology (IIT) Kanpur",
     bio: "",
     image: "/speakers/Prof. Ashutosh Sharma.jpg",
     category: "",

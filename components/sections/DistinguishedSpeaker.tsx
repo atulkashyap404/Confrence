@@ -95,7 +95,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) Kanpur",
     "bio": "",
-    "image": "/speakers/Prof. Ashok Kumar.jpg",
+    "image": "/speakers/Prof. Ashok Kumar .jpg",
     "category": "",
     "featured": false,
     "socials": {
