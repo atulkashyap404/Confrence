@@ -91,7 +91,7 @@ const SPEAKERS = [
   {
     id: 6,
     name: "Dr. Shekhar C. Mande",
-    role: "Former Director General,",
+    role: "Former Director General",
     company: "Council of Scientific and Industrial Research (CSIR) & Former Secretary DSIR",
     bio: "",
     image: "/speakers/Dr. Shekhar C. Mande.png",
