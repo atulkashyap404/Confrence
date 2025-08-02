@@ -1064,7 +1064,7 @@ export default function PlenarySpeakers() {
   const featuredSpeakers = SPEAKERS.filter((speaker) => speaker.featured);
 
   return (
-    <section id="speakers" className="py-18 bg-muted">
+    <section id="speakers" className="py-18 bg-muted pt-4 pb-4">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
