@@ -575,7 +575,7 @@ const SPEAKERS = [
     "role": "Professor & Dean, Research and Development",
     "company": "Indian Institute of Technology (IIT) Kharagpur",
     "bio": "",
-    "image": "/speakers/Prof. Rabibrata Mukherjee.jpg",
+    "image": "/speakers/Prof. Rabibrata Mukherjee.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -605,7 +605,7 @@ const SPEAKERS = [
     "role": "Professor & Former Dean, Student Affairs",
     "company": "Indian Institute of Technology (IIT) Delhi",
     "bio": "",
-    "image": "/speakers/Prof. Rajesh Khanna.jpg",
+    "image": "/speakers/Prof. Rajesh Khanna.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -740,7 +740,7 @@ const SPEAKERS = [
     "role": "Professor & Head, International Relations Division",
     "company": "Indian Institute of Technology (IIT) Mandi",
     "bio": "",
-    "image": "/speakers/Prof. Satinder Sharma.jpg",
+    "image": "/speakers/Prof. Satinder Kumar Sharma.png",
     "category": "",
     "featured": false,
     "socials": {
@@ -815,7 +815,7 @@ const SPEAKERS = [
     "role": "Professor",
     "company": "Indian Institute of Technology (IIT) Bombay",
     "bio": "",
-    "image": "/speakers/Prof. Shobha Shukla.jpg",
+    "image": "/speakers/Prof. S. Shukla-Picsart.png",
     "category": "",
     "featured": false,
     "socials": {
