@@ -17,7 +17,7 @@ const SPEAKERS = [
     id: 1,
     name: "Prof. V K Saraswat",
     role: "Member NITI Aayog",
-    company:"Former Director General Defence Research and Development Organisation (DRDO)",
+    company:"& Former Director General, Defence Research and Development Organisation (DRDO)",
     bio: "",
     image: "/speakers/Prof. V. K. Saraswat.jpg",
     category: "",
@@ -49,7 +49,7 @@ const SPEAKERS = [
     role: "Emeritus Professor of Eminence",
     company: "Institute of Chemical Technology (ICT), Mumbai",
     bio: "",
-    image: "/speakers/Man Mohan Sharma.jpg",
+    image: "/speakers/Prof. Manmohan Sharma.jpg",
     category: "",
     featured: true,
     socials: {
@@ -90,6 +90,21 @@ const SPEAKERS = [
   },
   {
     id: 6,
+    name: "Dr. Shekhar C. Mande",
+    role: "Former Director General,",
+    company: "Council of Scientific and Industrial Research (CSIR) & Former Secretary DSIR",
+    bio: "",
+    image: "/speakers/Dr. Shekhar C. Mande.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 7,
     name: "Prof. Abhay Karandikar",
     role: "Secretary",
     company: "Department of Science & Technology (DST)",
@@ -104,7 +119,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 7,
+    id: 8,
     name: "Dr. N. Kalaiselvi",
     role: "Director General",
     company:
@@ -169,7 +184,7 @@ const SPEAKERS = [
     id: 11,
     name: "Dr. Raghupati Singhania",
     role: "Chairman and Managing Director",
-    company: "JK Tyres & Industries Ltd",
+    company: "JK Tyres & Industries Ltd.",
     bio: "",
     image: "/speakers/Dr. Raghupati Singhania.jpg",
     category: "",
@@ -184,7 +199,7 @@ const SPEAKERS = [
     id: 12,
     name: "Dr. Vijay Chauthaiwale",
     role: "In-Charge",
-    company: "Foreign Affairs Department",
+    company: "Foreign Affairs Department, BJP",
     bio: "",
     image: "/speakers/Dr. Vijay Chauthaiwale.jpg",
     category: "",
@@ -214,7 +229,7 @@ const SPEAKERS = [
     id: 14,
     name: "Mr. B. Anand",
     role: "Member,",
-    company: "Central Administrative Tribunal (CAT)& Former Secretary, Department of Ex-Servicemen, Ministry of Defense, Govt. of India",
+    company: "Central Administrative Tribunal (CAT) & Former Secretary, Department of Ex-Servicemen, Ministry of Defense, Govt. of India",
     bio: "",
     image: "/speakers/Mr. B. Anand.jpg",
     category: "",
@@ -274,7 +289,7 @@ const SPEAKERS = [
     id: 18,
     name: "Prof. Manindra Agrawal",
     role: "Director",
-    company: "Indian Institute of Technology, Kanpur",
+    company: "Indian Institute of Technology (IIT) Kanpur",
     bio: "",
     image: "/speakers/Prof. Manindra Agrawal.png",
     category: "",
@@ -336,543 +351,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  // {
-  //   id: 9,
-  //   name: "Dr. Shivkumar Kalyanaraman",
-  //   role: "CEO",
-  //   company:
-  //     "Anusandhan National Research Foundation (ARNF), & DST, Government of India",
-  //   bio: "",
-  //   image: "/speakers/Dr S Kalyanaraman.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
   
-
- 
-  
-
-  // {
-  //   id: 13,
-  //   name: "Prof. Annapurni Subramaniam",
-  //   role: "Director",
-  //   company: "Indian Institute of Astrophysics (IIA), Bangalore",
-  //   bio: "",
-  //   image: "/speakers/Prof. Annapurni Subramaniam.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 14,
-  //   name: "Prof. Aniruddha B Pandit",
-  //   role: "Vice Chancellor",
-  //   company: "Institute of Chemical Technology (ICT), Mumbai",
-  //   bio: "",
-  //   image: "/speakers/Aniruddha Bhalchandra Pandit.jpg",
-  //   category: "",
-  //   featured: true,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  
-  // {
-  //   id: 16,
-  //   name: "Dr. Ashish Kishore Lele",
-  //   role: "Director",
-  //   company: "National Chemical Laboratory (NCL), Pune",
-  //   bio: "",
-  //   image: "/speakers/Ashish Kishore Lele.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 17,
-  //   name: "Dr. Madhu Dikshit",
-  //   role: "Former Director",
-  //   company: "CSIR-Central Drug Research Institute (CDRI), Lucknow",
-  //   bio: "",
-  //   image: "/speakers/Dr Madhu Dikshit.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 18,
-  //   name: "Dr. Soumya Swaminathan",
-  //   role: "Chief Scientist",
-  //   company: "World Health Organization (WHO)",
-  //   bio: "",
-  //   image: "/speakers/Dr Soumya Swaminathan.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 19,
-  //   name: "Mr. Naveen Tiwari",
-  //   role: " CEO",
-  //   company: "inMobi",
-  //   bio: "",
-  //   image: "/speakers/Mr Naveen Tiwari.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 20,
-  //   name: "Prof. Sachin Chaturvedi",
-  //   role: "Vice-Chancellor",
-  //   company: "Nalanda University, Bihar",
-  //   bio: "",
-  //   image: "/speakers/Prof. Sachin Chaturvedi.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-  // {
-  //   id: 21,
-  //   name: "Prof. V Ramgopal Rao",
-  //   role: "Group Vice-Chancellor",
-  //   company: "Birla Institute of Technology & Science (BITS) Pilani ",
-  //   bio: "",
-  //   image: "/speakers/V. Ramgopal Rao.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 22,
-  //   name: "Prof. T G Sitharam",
-  //   role: "Chairman",
-  //   company:
-  //     "All India Council for Technical Education (AICTE), Government of India",
-  //   bio: "",
-  //   image: "/speakers/Prof. T G Sitharam.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 23,
-  //   name: "Prof. Indranil Manna",
-  //   role: "Vice-Chancellor",
-  //   company:
-  //     "BIT Mesra, Ranchi Institute Chair Professor, Indian Institute of Technology (IIT) Kharagpur",
-  //   bio: "",
-  //   image: "/speakers/Indranil manna.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 24,
-  //   name: "Prof. Rajat Moona ",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Gandhinagar",
-  //   bio: "",
-  //   image: "/speakers/Prof. Rajat Moona.png",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 25,
-  //   name: "Prof. Avinash Agarwal",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Jodhpur",
-  //   bio: "",
-  //   image: "/speakers/Avinash Kumar Agarwal.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-  // {
-  //   id: 26,
-  //   name: "Prof. Dhirendra S Katti",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Goa",
-  //   bio: "",
-  //   image: "/directors/Prof, Dhirendra S Katti-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 27,
-  //   name: "Prof. Thalappil Pradeep",
-  //   role: "Professor",
-  //   company: "Indian Institute of Technology (IIT) Madras",
-  //   bio: "",
-  //   image: "/speakers/Thalappil Pradeep.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  
-
-  // {
-  //   id: 29,
-  //   name: "Prof. Amit Patra ",
-  //   role: "Director",
-  //   company:
-  //     "Indian Institute of Technology (IIT) Varanasi Officiating Director, Indian Institute of Technology (IIT) Kharagpur",
-  //   bio: "",
-  //   image: "/directors/Prof, Amit Patra-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 30,
-  //   name: "Prof. Shireesh Kedare",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Bombay",
-  //   bio: "",
-  //   image: "/directors/Prof, Shireesh Kedare-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 31,
-  //   name: "Prof. Kamakoti Veezhinathan",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Madras",
-  //   bio: "",
-  //   image: "/directors/Prof, Kamakoti Veezhinathan-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 32,
-  //   name: "Prof. Rangan Banerjee",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Delhi",
-  //   bio: "",
-  //   image: "/directors/Prof. Rangan Banerjee-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 33,
-  //   name: "Prof. Kamal K Pant",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Roorkee",
-  //   bio: "",
-  //   image: "/directors/Prof, Kamal Kishore Pant-Picsart-AiImageEnhancer.jpeg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 34,
-  //   name: "Prof. Devendra Jalihal",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Guwahati",
-  //   bio: "",
-  //   image: "/directors/Prof, Devendra Jalihal-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 35,
-  //   name: "Prof. B S Murty",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Hyderabad",
-  //   bio: "",
-  //   image: "/directors/Prof, B S Murty-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 36,
-  //   name: "Prof. Suhas S Joshi",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Indore",
-  //   bio: "",
-  //   image: "/directors/Prof, Suhas S, Joshi-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 37,
-  //   name: "Prof. Sukumar Mishra",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Dhanbad",
-  //   bio: "",
-  //   image: "/directors/Prof, Sukumar Mishra-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-  // {
-  //   id: 38,
-  //   name: "Prof. Rajeev Ahuja",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Ropar",
-  //   bio: "",
-  //   image: "/directors/Prof, Rajeev Ahuja-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 39,
-  //   name: "Prof. Laxmidhar Behera",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Mandi",
-  //   bio: "",
-  //   image: "/directors/Prof, Laxmidhar Behera-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 40,
-  //   name: "Prof. T N Singh",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Patna",
-  //   bio: "",
-  //   image: "/directors/Prof, T,N, Singh-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 41,
-  //   name: "Prof. Shreepad Karmalkar",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Bhubaneshwar",
-  //   bio: "",
-  //   image: "/directors/Prof, Shreepad Karmalkar-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 42,
-  //   name: "Prof. Kalidindi N Satyanarayana",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Tirupati",
-  //   bio: "",
-  //   image:
-  //     "/directors/Prof, Kalidindi N, Satyanarayana-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 43,
-  //   name: "Prof. Manoj Singh Gaur",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Jammu",
-  //   bio: "",
-  //   image: "/directors/Prof, Manoj Singh Gaur-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 44,
-  //   name: "Prof. A Seshadri Sekhar",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Palakkad",
-  //   bio: "",
-  //   image: "/directors/Prof, A, Seshadri Sekhar-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 45,
-  //   name: "Prof. Rajiv Prakash",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Bhilai",
-  //   bio: "",
-  //   image: "/directors/Prof, Rajiv Prakash-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
-
-  // {
-  //   id: 46,
-  //   name: "Prof. Venkappayya R Desai",
-  //   role: "Director",
-  //   company: "Indian Institute of Technology (IIT) Dharwad",
-  //   bio: "",
-  //   image: "/directors/Prof, Venkappayya R, Desai-Picsart-AiImageEnhancer.jpg",
-  //   category: "",
-  //   featured: false,
-  //   socials: {
-  //     twitter: "#",
-  //     linkedin: "#",
-  //     website: "#",
-  //   },
-  // },
 ];
 
 export default function Speakers() {
