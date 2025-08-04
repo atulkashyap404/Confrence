@@ -48,7 +48,7 @@ export default function Navbar() {
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link
-              href="/"
+              href="https://www.trips2025.com/"
               className="flex items-center space-x-2 text-3xl font-bold text-kesari "
             >
               <motion.div
