@@ -1,282 +1,374 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
 
-
-const SPONSORS = [
-  // Partners
-  // {
-  //   id: 1,
-  //   name: "C3i hub",
-  //   image: "/Sponsors/C3i hub.png",
-  //   category: "Partners",
-  // },
-  {
-    id: 2,
-    name: "Kotak School of Sustainability",
-    image: "/Sponsors/Kotak school of sustainibility.jpg",
-    category: "Partners",
-  },
-  {
-    id: 3,
-    name: "Centre for Nanosciences",
-    image: "/Sponsors/Centre for Nanosciences.jpg",
-    category: "Partners",
-  },
-  
-{
-    id: 4,
-    name: "E-spin Nanotech Pvt. Ltd.",
-    image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg",
-    category: "Partners",
-  },
-  {
-    id: 5,
-    name: "Bai-Labs",
-    image: "/Sponsors/Bai labs.jpeg",
-    category: "Partners",
-  },
-  // Government Sponsors
-  {
-    id: 7,
-    name: "Indian National Science Academy (INSA)",
-    image: "/Sponsors/Indian National Science Academy.png",
-    category: "Government Sponsors",
-  },
-  {
-    id: 7,
-    name: "Bharatiya Engineering Science & Technology Innovation University (BESTIU)",
-    image: "/Sponsors/BEST University.png",
-    category: "Government Sponsors",
-  },
-  // {
-  //   id: 5,
-  //   name: "Department of Biotechnology (DBT)",
-  //   image: "/Sponsors/Department of Biotechnology.png",
-  //   category: "Government Sponsors",
-  // },
-  {
-    id: 6,
-    name: "Department of Science and Technology (DST)",
-    image: "/Sponsors/Department of Science and Technology.jpg",
-    category: "Government Sponsors",
-  },
-  {
-    id: 8,
-    name: "Indian Agricultural Research Institute (IARI)",
-    image: "/Sponsors/Indian_Agricultural_Research_Institute_.png",
-    category: "Government Sponsors",
-  },
-  {
-    id: 9,
-    name: "Ministry of New Renewable Energy",
-    image: "/Sponsors/ministry of new renewable energy.png",
-    category: "Government Sponsors",
-  },
-  {
-    id: 10,
-    name: "Ministry of Jal Shakti",
-    image: "/Sponsors/Ministry of Jal Shakti.png",
-    category: "Government Sponsors",
-  },
-  {
-    id: 11,
-    name: "Defence Research and Development Organisation (DRDO)",
-    image: "/Sponsors/Defence Research and Development Organisatio.png",
-    category: "Government Sponsors",
-  },
-  {
-    id: 12,
-    name: "Council of Scientific and Industrial Research (CSIR)",
-    image: "/Sponsors/CSIR.jpg",
-    category: "Government Sponsors",
-  },
-  {
-    id: 13,
-    name: "National Test House (NTH)",
-    image: "/Sponsors/National Test House.jpg",
-    category: "Government Sponsors",
-  },
-  {
-    id: 14,
-    name: "National Bank For Agriculture And Rural Development (NABARD)",
-    image: "/Sponsors/NABARD.png",
-    category: "Government Sponsors",
-  },
-  {
-    id: 14,
-    name: "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)",
-    image: "/Sponsors/ARCI.png",
-    category: "Government Sponsors",
-  },
-
-  // Industry Sponsors
-  {
-    id: 14,
-    name: "American Chemical Society (ACS)",
-    image: "/Sponsors/ACS.png",
-    category: "Industry Sponsors",
-  },
-  // {
-  //   id: 15,
-  //   name: "Kent RO",
-  //   image: "/Sponsors/Kent RO.png",
-  //   category: "Industry Sponsors",
-  // },
-  {
-    id: 16,
-    name: "Carl Zeiss",
-    image: "/Sponsors/zeiss.png",
-    category: "Industry Sponsors",
-  },
-  {
-    id: 17,
-    name: "Anton Paar India Pvt. Ltd.",
-    image: "/Sponsors/Anton Paar.jpg",
-    category: "Industry Sponsors",
-  },
-  {
-    id: 18,
-    name: "Anarghya Innovations and Technology Pvt. Ltd.",
-    image: "/Sponsors/Anarghya Innovations and Technology.png",
-    category: "Industry Sponsors",
-  },
-  {
-    id: 19,
-    name: "Biologic Science Instruments Pvt.Ltd.",
-    image: "/Sponsors/Biologic.jpeg",
-    category: "Industry Sponsors",
-  },
-
-  // Digital & Media Partners
-  {
-    id: 16,
-    name: "Gaatha",
-    image: "/Sponsors/Media partners.jpeg",
-    category: "Digital & Media Partners",
-  },
-];
-
-const categories = [
-  "Partners",
-  "Hospitality Partner",
-  "Government Sponsors",
-  "Industry Sponsors",
-  "Digital & Media Partners",
-];
-
-export default function Sponsors() {
+export default function SponsorsPage() {
   return (
-    <section id="sponsors" className="py-20 bg-muted">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          viewport={{ once: true }}
-          className="text-center max-w-3xl mx-auto mb-16"
-        >
-          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
-            Our <span className="text-kesari">Sponsors</span>
-          </h2>
-        </motion.div>
+    <section id="sponsors" className="py-16 px-4 md:px-10 lg:px-20">
+      <div className="max-w-6xl mx-auto text-center">
+        <h1 className="text-4xl font-bold text-kesari mb-12">Our Sponsors</h1>
 
-        {categories.map((cat) => {
-          const sponsorsInCategory = SPONSORS.filter((s) => s.category === cat);
-          const isCentered =
-            cat === "Industry Sponsors" || cat === "Digital & Media Partners";
-          const gridCols =
-            cat === "Digital & Media Partners"
-              ? "grid-cols-1 sm:grid-cols-2 md:grid-cols-1"
-              : cat === "Industry Sponsors"
-              ? "grid-cols-3 sm:grid-cols-4"
-              : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4";
+        <SponsorCategory title="Title Sponsors" sponsors={[
+          { name: "DST", image: "/Sponsors/DST.jpg" },
+          { name: "ANRF", image: "/Sponsors/anrf.png" },
+          { name: "Kotak School of Sustainability, IIT Kanpur", image: "/Sponsors/kotak.jpg" },
+          { name: "B.E.S.T. Innovation University", image: "/Sponsors/BEST University.png" },
+          { name: "INSA", image: "/Sponsors/insa.png" },
+          { name: "E-Spin Nanotech Pvt. Ltd.", image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg" },
+          { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
+          { name: "J K Tyre", image: "/Sponsors/JK TYRE.png" },
+          { name: "Lohia Corp.", image: "/Sponsors/Lohia Corp..png" },
+        ]} />
 
-          return (
-            <div key={cat} className="mb-16">
-              <h3 className="text-2xl font-bold mb-6 text-center text-kesari">{cat}</h3>
-              {cat === "Hospitality Partner" ? (
-                <div className="flex flex-col md:flex-row items-center justify-center gap-6 m-4">
-                  <Image
-                    src="/Sponsors/blueworld.jpeg"
-                    alt="Hospitality Partner"
-                    width={75}
-                    height={40}
-                    className="w-full md:w-1/2 object-contain rounded-xl shadow-md"
-                  />
-                  <div className="w-full md:w-1/2">
-                    <video
-                      controls
-                      playsInline
-                      preload="none"
-                      className="w-full rounded-xl shadow-md"
-                      poster="/Sponsors/End 1.png"
-                    >
-                      <source src="/Sponsors/trips.mp4" type="video/mp4" />
-                      Your browser does not support the video tag.
-                    </video>
-                  </div>
-                </div>
-              ) : (
-                <div className="flex justify-center">
-                  <div className={`grid gap-6 ${gridCols}`}>
-                    {sponsorsInCategory.map((sponsor, index) => (
-                      <SponsorCard key={sponsor.id} sponsor={sponsor} index={index} />
-                    ))}
-                  </div>
-                </div>
-              )}
-            </div>
-          );
-        })}
+        <SponsorCategory title="Gold Sponsors" sponsors={[
+          { name: "DRDO", image: "/Sponsors/Defence Research and Development Organisatio.jpg" },
+          { name: "ARCI", image: "/Sponsors/arci.png" },
+          { name: "ACS", image: "/Sponsors/acs.png" },
+          { name: "NABARD", image: "/Sponsors/nabard.png" },
+          { name: "Pidilite", image: "/Sponsors/pidilite.png" },
+        ]} />
+
+        <SponsorCategory title="Silver Sponsors" sponsors={[
+          { name: "Springer", image: "/Sponsors/springer.png" },
+          { name: "Wiley", image: "/Sponsors/wiley.png" },
+          { name: "IIT Mandi", image: "/Sponsors/IIT Mandi.png" },
+          { name: "National Test House", image: "/Sponsors/National Test House.jpg" },
+          { name: "NPTI", image: "/Sponsors/npti.png" },
+          { name: "UGC", image: "/Sponsors/ugc.png" },
+          { name: "Carl Zeiss", image: "/Sponsors/zeiss.png" },
+          { name: "Anarghya Innovations and Technology Pvt. Ltd.", image: "/Sponsors/Anarghya Innovations and Technology.png" },
+          { name: "Metrohm", image: "/Sponsors/metrohm.png" },
+        ]} />
+
+        <SponsorCategory title="Associate Sponsors" sponsors={[
+          { name: "OptoSky Innovations", image: "/Sponsors/optosky_logo.jpeg" },
+          { name: "Antor Paar India Pvt. Ltd.", image: "/Sponsors/Anton Paar.jpg" },
+          { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
+          { name: "Eppendorf", image: "/Sponsors/eppendorf.png" },
+          { name: "Forvision", image: "/Sponsors/forvision.png" },
+        ]} />
       </div>
     </section>
   );
 }
 
-interface Sponsor {
-  id: number;
-  name: string;
-  image: string;
-  category: string;
-}
-
-interface SponsorCardProps {
-  sponsor: Sponsor;
-  index: number;
-}
-
-function SponsorCard({ sponsor, index }: SponsorCardProps) {
+function SponsorCategory({
+  title,
+  sponsors,
+}: {
+  title: string;
+  sponsors: { name: string; image: string }[];
+}) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.5, delay: (index * 0.1) % 0.4 }}
-      viewport={{ once: true }}
-    >
-      <Card className="h-full overflow-hidden hover:shadow-md transition-shadow">
-        <CardHeader className="p-0">
-          <div className="h-48 w-full relative bg-white">
-            <motion.img
+    <div className="mb-16">
+      <h2 className="text-2xl font-semibold text-primary mb-8">{title}</h2>
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-8">
+        {sponsors.map((sponsor, idx) => (
+          <div
+            key={idx}
+            className="rounded-xl shadow-md border border-border bg-background p-4 flex flex-col items-center justify-center"
+          >
+            <Image
               src={sponsor.image}
               alt={sponsor.name}
-              className="w-full h-full object-contain"
-              whileHover={{ scale: 1.05 }}
-              transition={{ duration: 0.3 }}
+              width={300}
+              height={300}
+              className="mb-4 object-contain h-20"
             />
+            <p className="text-sm font-medium text-center">{sponsor.name}</p>
           </div>
-        </CardHeader>
-        <CardContent className="pt-6 pb-2 text-center text-kesari">
-          <CardTitle className="text-lg font-bold">
-            {sponsor.name}
-          </CardTitle>
-        </CardContent>
-      </Card>
-    </motion.div>
+        ))}
+      </div>
+    </div>
   );
 }
+
+
+
+
+
+
+
+
+// "use client";
+
+// import { motion } from "framer-motion";
+// import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+// import Image from "next/image";
+
+
+// const SPONSORS = [
+//   // Partners
+//   // {
+//   //   id: 1,
+//   //   name: "C3i hub",
+//   //   image: "/Sponsors/C3i hub.png",
+//   //   category: "Partners",
+//   // },
+//   {
+//     id: 2,
+//     name: "Kotak School of Sustainability",
+//     image: "/Sponsors/Kotak school of sustainibility.jpg",
+//     category: "Partners",
+//   },
+//   {
+//     id: 3,
+//     name: "Centre for Nanosciences",
+//     image: "/Sponsors/Centre for Nanosciences.jpg",
+//     category: "Partners",
+//   },
+  
+// {
+//     id: 4,
+//     name: "E-spin Nanotech Pvt. Ltd.",
+//     image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg",
+//     category: "Partners",
+//   },
+//   {
+//     id: 5,
+//     name: "Bai-Labs",
+//     image: "/Sponsors/Bai labs.jpeg",
+//     category: "Partners",
+//   },
+//   // Government Sponsors
+//   {
+//     id: 7,
+//     name: "Indian National Science Academy (INSA)",
+//     image: "/Sponsors/Indian National Science Academy.png",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 7,
+//     name: "Bharatiya Engineering Science & Technology Innovation University (BESTIU)",
+//     image: "/Sponsors/BEST University.png",
+//     category: "Government Sponsors",
+//   },
+//   // {
+//   //   id: 5,
+//   //   name: "Department of Biotechnology (DBT)",
+//   //   image: "/Sponsors/Department of Biotechnology.png",
+//   //   category: "Government Sponsors",
+//   // },
+//   {
+//     id: 6,
+//     name: "Department of Science and Technology (DST)",
+//     image: "/Sponsors/Department of Science and Technology.jpg",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 8,
+//     name: "Indian Agricultural Research Institute (IARI)",
+//     image: "/Sponsors/Indian_Agricultural_Research_Institute_.png",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 9,
+//     name: "Ministry of New Renewable Energy",
+//     image: "/Sponsors/ministry of new renewable energy.png",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 10,
+//     name: "Ministry of Jal Shakti",
+//     image: "/Sponsors/Ministry of Jal Shakti.png",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 11,
+//     name: "Defence Research and Development Organisation (DRDO)",
+//     image: "/Sponsors/Defence Research and Development Organisatio.png",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 12,
+//     name: "Council of Scientific and Industrial Research (CSIR)",
+//     image: "/Sponsors/CSIR.jpg",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 13,
+//     name: "National Test House (NTH)",
+//     image: "/Sponsors/National Test House.jpg",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 14,
+//     name: "National Bank For Agriculture And Rural Development (NABARD)",
+//     image: "/Sponsors/NABARD.png",
+//     category: "Government Sponsors",
+//   },
+//   {
+//     id: 14,
+//     name: "International Advanced Research Centre for Powder Metallurgy and New Materials (ARCI)",
+//     image: "/Sponsors/ARCI.png",
+//     category: "Government Sponsors",
+//   },
+
+//   // Industry Sponsors
+//   {
+//     id: 14,
+//     name: "American Chemical Society (ACS)",
+//     image: "/Sponsors/ACS.png",
+//     category: "Industry Sponsors",
+//   },
+//   // {
+//   //   id: 15,
+//   //   name: "Kent RO",
+//   //   image: "/Sponsors/Kent RO.png",
+//   //   category: "Industry Sponsors",
+//   // },
+//   {
+//     id: 16,
+//     name: "Carl Zeiss",
+//     image: "/Sponsors/zeiss.png",
+//     category: "Industry Sponsors",
+//   },
+//   {
+//     id: 17,
+//     name: "Anton Paar India Pvt. Ltd.",
+//     image: "/Sponsors/Anton Paar.jpg",
+//     category: "Industry Sponsors",
+//   },
+//   {
+//     id: 18,
+//     name: "Anarghya Innovations and Technology Pvt. Ltd.",
+//     image: "/Sponsors/Anarghya Innovations and Technology.png",
+//     category: "Industry Sponsors",
+//   },
+//   {
+//     id: 19,
+//     name: "Biologic Science Instruments Pvt.Ltd.",
+//     image: "/Sponsors/Biologic.jpeg",
+//     category: "Industry Sponsors",
+//   },
+
+//   // Digital & Media Partners
+//   {
+//     id: 16,
+//     name: "Gaatha",
+//     image: "/Sponsors/Media partners.jpeg",
+//     category: "Digital & Media Partners",
+//   },
+// ];
+
+// const categories = [
+//   "Partners",
+//   "Hospitality Partner",
+//   "Government Sponsors",
+//   "Industry Sponsors",
+//   "Digital & Media Partners",
+// ];
+
+// export default function Sponsors() {
+//   return (
+//     <section id="sponsors" className="py-20 bg-muted">
+//       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+//         <motion.div
+//           initial={{ opacity: 0, y: 20 }}
+//           whileInView={{ opacity: 1, y: 0 }}
+//           transition={{ duration: 0.5 }}
+//           viewport={{ once: true }}
+//           className="text-center max-w-3xl mx-auto mb-16"
+//         >
+//           <h2 className="text-3xl font-bold tracking-tight sm:text-4xl mb-4">
+//             Our <span className="text-kesari">Sponsors</span>
+//           </h2>
+//         </motion.div>
+
+//         {categories.map((cat) => {
+//           const sponsorsInCategory = SPONSORS.filter((s) => s.category === cat);
+//           const isCentered =
+//             cat === "Industry Sponsors" || cat === "Digital & Media Partners";
+//           const gridCols =
+//             cat === "Digital & Media Partners"
+//               ? "grid-cols-1 sm:grid-cols-2 md:grid-cols-1"
+//               : cat === "Industry Sponsors"
+//               ? "grid-cols-3 sm:grid-cols-4"
+//               : "grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4";
+
+//           return (
+//             <div key={cat} className="mb-16">
+//               <h3 className="text-2xl font-bold mb-6 text-center text-kesari">{cat}</h3>
+//               {cat === "Hospitality Partner" ? (
+//                 <div className="flex flex-col md:flex-row items-center justify-center gap-6 m-4">
+//                   <Image
+//                     src="/Sponsors/blueworld.jpeg"
+//                     alt="Hospitality Partner"
+//                     width={75}
+//                     height={40}
+//                     className="w-full md:w-1/2 object-contain rounded-xl shadow-md"
+//                   />
+//                   <div className="w-full md:w-1/2">
+//                     <video
+//                       controls
+//                       playsInline
+//                       preload="none"
+//                       className="w-full rounded-xl shadow-md"
+//                       poster="/Sponsors/End 1.png"
+//                     >
+//                       <source src="/Sponsors/trips.mp4" type="video/mp4" />
+//                       Your browser does not support the video tag.
+//                     </video>
+//                   </div>
+//                 </div>
+//               ) : (
+//                 <div className="flex justify-center">
+//                   <div className={`grid gap-6 ${gridCols}`}>
+//                     {sponsorsInCategory.map((sponsor, index) => (
+//                       <SponsorCard key={sponsor.id} sponsor={sponsor} index={index} />
+//                     ))}
+//                   </div>
+//                 </div>
+//               )}
+//             </div>
+//           );
+//         })}
+//       </div>
+//     </section>
+//   );
+// }
+
+// interface Sponsor {
+//   id: number;
+//   name: string;
+//   image: string;
+//   category: string;
+// }
+
+// interface SponsorCardProps {
+//   sponsor: Sponsor;
+//   index: number;
+// }
+
+// function SponsorCard({ sponsor, index }: SponsorCardProps) {
+//   return (
+//     <motion.div
+//       initial={{ opacity: 0, y: 20 }}
+//       whileInView={{ opacity: 1, y: 0 }}
+//       transition={{ duration: 0.5, delay: (index * 0.1) % 0.4 }}
+//       viewport={{ once: true }}
+//     >
+//       <Card className="h-full overflow-hidden hover:shadow-md transition-shadow">
+//         <CardHeader className="p-0">
+//           <div className="h-48 w-full relative bg-white">
+//             <motion.img
+//               src={sponsor.image}
+//               alt={sponsor.name}
+//               className="w-full h-full object-contain"
+//               whileHover={{ scale: 1.05 }}
+//               transition={{ duration: 0.3 }}
+//             />
+//           </div>
+//         </CardHeader>
+//         <CardContent className="pt-6 pb-2 text-center text-kesari">
+//           <CardTitle className="text-lg font-bold">
+//             {sponsor.name}
+//           </CardTitle>
+//         </CardContent>
+//       </Card>
+//     </motion.div>
+//   );
+// }
 
 
 
