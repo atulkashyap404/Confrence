@@ -10,7 +10,6 @@ export default function Hero() {
   const images = [
     "/lib1.jpg",
     "/lib2.jpg",
-    "/lib4.jpg",
   ];
 
   const [currentImage, setCurrentImage] = useState(0);
