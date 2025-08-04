@@ -22,19 +22,19 @@ export default function SponsorsPage() {
 
         <SponsorCategory title="Gold Sponsors" sponsors={[
           { name: "DRDO", image: "/Sponsors/Defence Research and Development Organisatio.jpg" },
-          { name: "ARCI", image: "/Sponsors/arci.png" },
-          { name: "ACS", image: "/Sponsors/acs.png" },
-          { name: "NABARD", image: "/Sponsors/nabard.png" },
-          { name: "Pidilite", image: "/Sponsors/pidilite.png" },
+          { name: "ARCI", image: "/Sponsors/ARCI.png" },
+          { name: "ACS", image: "/Sponsors/ACS.png" },
+          { name: "NABARD", image: "/Sponsors/NABARD.png" },
+          { name: "Pidilite", image: "/Sponsors/Pidilite.png" },
         ]} />
 
         <SponsorCategory title="Silver Sponsors" sponsors={[
-          { name: "Springer", image: "/Sponsors/springer.png" },
-          { name: "Wiley", image: "/Sponsors/wiley.png" },
+          { name: "Springer", image: "/Sponsors/Springer.png" },
+          { name: "Wiley", image: "/Sponsors/Wiley.png" },
           { name: "IIT Mandi", image: "/Sponsors/IIT Mandi.png" },
           { name: "National Test House", image: "/Sponsors/National Test House.jpg" },
           { name: "NPTI", image: "/Sponsors/npti.png" },
-          { name: "UGC", image: "/Sponsors/ugc.png" },
+          { name: "UGC", image: "/Sponsors/UGC.png" },
           { name: "Carl Zeiss", image: "/Sponsors/zeiss.png" },
           { name: "Anarghya Innovations and Technology Pvt. Ltd.", image: "/Sponsors/Anarghya Innovations and Technology.png" },
           { name: "Metrohm", image: "/Sponsors/metrohm.png" },
