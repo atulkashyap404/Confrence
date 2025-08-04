@@ -302,7 +302,7 @@ const SPEAKERS = [
   {
     "id": 20,
     "name": "Dr. Deeksha Gupta",
-    "role": "Associate Director India",
+    "role": "Director-Global Strategy",
     "company": "American Chemical Society (ACS)",
     "bio": "",
     "image": "/speakers/Prof Deeksha Gupta.png",
