@@ -9,7 +9,7 @@ export default function HowToReachPage() {
     >
       <div className="max-w-5xl mx-auto text-center">
         <h1 className="text-4xl font-bold text-kesari mb-10">
-          <span className="text-black">How to Reach</span> IIT Kanpur
+          <span className="text-black">How To Reach</span> IIT Kanpur
         </h1>
 
         <motion.p
