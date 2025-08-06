@@ -725,7 +725,7 @@ const SPEAKERS = [
     "role": "Director",
     "company": "Technical Training & Research Centre (TTRC) (A DIVISION OF LOHIA CORP LTD)",
     "bio": "",
-    "image": "/speakers/ Rajeev Kumar Dwivedi.jpg",
+    "image": "/speakers/Rajeev Kumar Dwivedi.jpg",
     "category": "",
     "featured": false,
     "socials": {
