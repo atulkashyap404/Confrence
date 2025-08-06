@@ -720,6 +720,21 @@ const SPEAKERS = [
     }
   },
   {
+    "id": 47,
+    "name": "Rajeev Kumar Dwivedi",
+    "role": "Director",
+    "company": "Technical Training & Research Centre (TTRC) (A DIVISION OF LOHIA CORP LTD)",
+    "bio": "",
+    "image": "/speakers/Prof. Rajeev Ahuja.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
     "id": 48,
     "name": "Dr. Rohini Srivathsa",
     "role": "Chief Technology Officer (CTO)",
