@@ -721,11 +721,11 @@ const SPEAKERS = [
   },
   {
     "id": 47,
-    "name": "Rajeev Kumar Dwivedi",
+    "name": "Dr. Rajeev Kumar Dwivedi",
     "role": "Director",
     "company": "Technical Training & Research Centre (TTRC) (A DIVISION OF LOHIA CORP LTD)",
     "bio": "",
-    "image": "/speakers/Prof. Rajeev Ahuja.jpg",
+    "image": "/speakers/ Rajeev Kumar Dwivedi.jpg",
     "category": "",
     "featured": false,
     "socials": {
