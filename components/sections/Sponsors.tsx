@@ -14,7 +14,7 @@ export default function SponsorsPage() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-24 flex-wrap">
             <div className="flex flex-col items-center text-center">
               <Image
-                src="/Sponsors/iit kanpur.png"
+                src="/Sponsors/iit kanpur.jpeg"
                 alt="IIT Kanpur"
                 width={250}
                 height={80}
@@ -25,7 +25,7 @@ export default function SponsorsPage() {
             </div>
             <div className="flex flex-col items-center text-center">
               <Image
-                src="/Sponsors/E-spin_Nanotech_Pvt._Ltd-removebg-preview.png"
+                src="/Sponsors/E-spin_Nanotech_Pvt._Ltd-removebg-previe.jpeg"
                 alt="IIT Kanpur"
                 width={250}
                 height={80}
@@ -42,8 +42,6 @@ export default function SponsorsPage() {
                 height={80}
                 className="object-contain"
               />
-
-              <p className="font-semibold">PGA&C Council, IIT Kanpur</p>
               <p className="font-semibold">Academics & Career Council, Students&apos; Gymkhana, IIT Kanpur</p>
             </div>
           </div>
@@ -56,7 +54,7 @@ export default function SponsorsPage() {
           </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <Image
-              src="/Sponsors/blueworld Castle.jpeg"
+              src="/Sponsors/blueworldCastle.jpeg"
               alt="Hospitality Partner"
               width={400}
               height={300}
@@ -85,7 +83,7 @@ export default function SponsorsPage() {
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex flex-col items-center">
               <Image
-                src="/Sponsors/Media partners.jpeg"
+                src="/Sponsors/Mediapartners.jpeg"
                 alt="Digital Media Partner 1"
                 width={250}
                 height={100}
@@ -108,16 +106,16 @@ export default function SponsorsPage() {
             },
             {
               name: "B.E.S.T. Innovation University",
-              image: "/Sponsors/BEST University.png",
+              image: "/Sponsors/BESTUniversit.jpeg",
             },
             { name: "INSA", image: "/Sponsors/INSA.jpg" },
             {
               name: "E-Spin Nanotech Pvt. Ltd.",
-              image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg",
+              image: "/Sponsors/E-spinNanotechPvt.Ltd.jpg",
             },
             { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
-            { name: "J K Tyre", image: "/Sponsors/JK TYRE.png" },
-            { name: "Lohia Corp.", image: "/Sponsors/Lohia Corp..png" },
+            { name: "J K Tyre", image: "/Sponsors/JKTYR.jpeg" },
+            { name: "Lohia Corp.", image: "/Sponsors/LohiaCorp.jpeg" },
           ]}
         />
 
@@ -127,31 +125,31 @@ export default function SponsorsPage() {
             {
               name: "DRDO",
               image:
-                "/Sponsors/Defence Research and Development Organisatio.jpg",
+                "/Sponsors/DefenceResearchandDevelopmentOrganisatio.jpg",
             },
-            { name: "ARCI", image: "/Sponsors/ARCI.png" },
-            { name: "ACS", image: "/Sponsors/ACS.png" },
-            { name: "NABARD", image: "/Sponsors/NABARD.png" },
-            { name: "Pidilite", image: "/Sponsors/Pidilite.png" },
+            { name: "ARCI", image: "/Sponsors/ARC.jpeg" },
+            { name: "ACS", image: "/Sponsors/AC.jpeg" },
+            { name: "NABARD", image: "/Sponsors/NABAR.jpeg" },
+            { name: "Pidilite", image: "/Sponsors/Pidilit.jpeg" },
           ]}
         />
 
         <SponsorCategory
           title="Silver Sponsors"
           sponsors={[
-            { name: "Springer", image: "/Sponsors/Springer.png" },
-            { name: "Wiley", image: "/Sponsors/Wiley.png" },
-            { name: "Axenic Systems", image: "/Sponsors/AXENIC SYSTEMS.jpg" },
+            { name: "Springer", image: "/Sponsors/Springe.jpeg" },
+            { name: "Wiley", image: "/Sponsors/Wile.jpeg" },
+            { name: "Axenic Systems", image: "/Sponsors/AXENICSYSTEMS.jpg" },
             {
               name: "National Test House",
-              image: "/Sponsors/National Test House.jpg",
+              image: "/Sponsors/NationalTestHouse.jpg",
             },
             { name: "NPTI", image: "/Sponsors/NPTI.jpg" },
-            { name: "UGC", image: "/Sponsors/ugc.png" },
-            { name: "Carl Zeiss", image: "/Sponsors/zeiss.png" },
+            { name: "UGC", image: "/Sponsors/ug.jpeg" },
+            { name: "Carl Zeiss", image: "/Sponsors/zeis.jpeg" },
             {
               name: "Anarghya Innovations and Technology Pvt. Ltd.",
-              image: "/Sponsors/Anarghya Innovations and Technology.png",
+              image: "/Sponsors/AnarghyaInnovationsandTechnolog.jpeg",
             },
             { name: "Metrohm", image: "/Sponsors/Metrohm.jpg" },
           ]}
@@ -166,10 +164,10 @@ export default function SponsorsPage() {
             },
             {
               name: "Antor Paar India Pvt. Ltd.",
-              image: "/Sponsors/Anton Paar.jpg",
+              image: "/Sponsors/AntonPaar.jpg",
             },
             { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
-            { name: "Eppendorf", image: "/Sponsors/eppendorf.png" },
+            { name: "Eppendorf", image: "/Sponsors/eppendor.jpeg" },
             { name: "Forvision", image: "/Sponsors/forvision.png" },
           ]}
         />
