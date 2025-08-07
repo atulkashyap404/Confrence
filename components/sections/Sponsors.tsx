@@ -6,11 +6,53 @@ export default function SponsorsPage() {
   return (
     <section id="sponsors" className="py-16 px-4 md:px-10 lg:px-20 bg-muted">
       <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-kesari mb-12">Our Sponsors</h1>
+        {/* ✅ Organizing Partner Section */}
+        <div className="mb-16">
+          <h2 className="text-2xl font-bold text-kesari mb-8">
+            Organizing Partner
+          </h2>
+          <div className="flex flex-col md:flex-row justify-center items-center gap-24 flex-wrap">
+            <div className="flex flex-col items-center text-center">
+              <Image
+                src="/Sponsors/iit kanpur.png"
+                alt="IIT Kanpur"
+                width={250}
+                height={80}
+                className="object-contain"
+              />
+
+              <p className="font-semibold">IIT Kanpur</p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <Image
+                src="/Sponsors/E-spin_Nanotech_Pvt._Ltd-removebg-preview.png"
+                alt="IIT Kanpur"
+                width={250}
+                height={80}
+                className="object-contain"
+              />
+
+              <p className="font-semibold">E-spin Nanotech. Pvt Ltd.</p>
+            </div>
+            <div className="flex flex-col items-center text-center">
+              <Image
+                src="/Sponsors/iit-kanpur.png"
+                alt="IIT Kanpur"
+                width={250}
+                height={80}
+                className="object-contain"
+              />
+
+              <p className="font-semibold">PGA&C Council, IIT Kanpur</p>
+            </div>
+          </div>
+        </div>
 
         {/* ✅ Hospitality Partner Section */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-kesari mb-8">Hospitality Partner</h2>
+          <h2 className="text-2xl font-bold text-kesari mb-8">
+            Hospitality Partner
+          </h2>
           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
             <Image
               src="/Sponsors/blueworld Castle.jpeg"
@@ -36,7 +78,9 @@ export default function SponsorsPage() {
 
         {/* ✅ Digital & Media Partners Section */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-kesari mb-8">Digital & Media Partners</h2>
+          <h2 className="text-2xl font-bold text-kesari mb-8">
+            Digital & Media Partners
+          </h2>
           <div className="flex flex-wrap justify-center items-center gap-8">
             <div className="flex flex-col items-center">
               <Image
@@ -48,60 +92,86 @@ export default function SponsorsPage() {
               />
               <p className="text-sm font-medium text-center">Gaatha</p>
             </div>
-            {/* <div className="flex flex-col items-center">
-              <Image
-                src="/Sponsors/digital-media-2.png"
-                alt="Digital Media Partner 2"
-                width={200}
-                height={100}
-                className="object-contain mb-2"
-              />
-              <p className="text-sm font-medium text-center">Digital Media Partner 2</p>
-            </div> */}
-            {/* ➕ Add more if needed */}
           </div>
         </div>
 
         {/* ✅ Existing Sponsor Sections */}
-        <SponsorCategory title="Title Sponsors" sponsors={[
-          { name: "DST", image: "/Sponsors/DST.jpg" },
-          { name: "ANRF", image: "/Sponsors/ANRF.jpg" },
-          { name: "Kotak School of Sustainability, IIT Kanpur", image: "/Sponsors/kotak.jpg" },
-          { name: "B.E.S.T. Innovation University", image: "/Sponsors/BEST University.png" },
-          { name: "INSA", image: "/Sponsors/INSA.jpg" },
-          { name: "E-Spin Nanotech Pvt. Ltd.", image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg" },
-          { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
-          { name: "J K Tyre", image: "/Sponsors/JK TYRE.png" },
-          { name: "Lohia Corp.", image: "/Sponsors/Lohia Corp..png" },
-        ]} />
+        <SponsorCategory
+          title="Title Sponsors"
+          sponsors={[
+            { name: "DST", image: "/Sponsors/DST.jpg" },
+            { name: "ANRF", image: "/Sponsors/ANRF.jpg" },
+            {
+              name: "Kotak School of Sustainability, IIT Kanpur",
+              image: "/Sponsors/kotak.jpg",
+            },
+            {
+              name: "B.E.S.T. Innovation University",
+              image: "/Sponsors/BEST University.png",
+            },
+            { name: "INSA", image: "/Sponsors/INSA.jpg" },
+            {
+              name: "E-Spin Nanotech Pvt. Ltd.",
+              image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg",
+            },
+            { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
+            { name: "J K Tyre", image: "/Sponsors/JK TYRE.png" },
+            { name: "Lohia Corp.", image: "/Sponsors/Lohia Corp..png" },
+          ]}
+        />
 
-        <SponsorCategory title="Gold Sponsors" sponsors={[
-          { name: "DRDO", image: "/Sponsors/Defence Research and Development Organisatio.jpg" },
-          { name: "ARCI", image: "/Sponsors/ARCI.png" },
-          { name: "ACS", image: "/Sponsors/ACS.png" },
-          { name: "NABARD", image: "/Sponsors/NABARD.png" },
-          { name: "Pidilite", image: "/Sponsors/Pidilite.png" },
-        ]} />
+        <SponsorCategory
+          title="Gold Sponsors"
+          sponsors={[
+            {
+              name: "DRDO",
+              image:
+                "/Sponsors/Defence Research and Development Organisatio.jpg",
+            },
+            { name: "ARCI", image: "/Sponsors/ARCI.png" },
+            { name: "ACS", image: "/Sponsors/ACS.png" },
+            { name: "NABARD", image: "/Sponsors/NABARD.png" },
+            { name: "Pidilite", image: "/Sponsors/Pidilite.png" },
+          ]}
+        />
 
-        <SponsorCategory title="Silver Sponsors" sponsors={[
-          { name: "Springer", image: "/Sponsors/Springer.png" },
-          { name: "Wiley", image: "/Sponsors/Wiley.png" },
-          { name: "IIT Mandi", image: "/Sponsors/IIT Mandi.png" },
-          { name: "National Test House", image: "/Sponsors/National Test House.jpg" },
-          { name: "NPTI", image: "/Sponsors/NPTI.jpg" },
-          { name: "UGC", image: "/Sponsors/UGC.png" },
-          { name: "Carl Zeiss", image: "/Sponsors/zeiss.png" },
-          { name: "Anarghya Innovations and Technology Pvt. Ltd.", image: "/Sponsors/Anarghya Innovations and Technology.png" },
-          { name: "Metrohm", image: "/Sponsors/Metrohm.jpg" },
-        ]} />
+        <SponsorCategory
+          title="Silver Sponsors"
+          sponsors={[
+            { name: "Springer", image: "/Sponsors/Springer.png" },
+            { name: "Wiley", image: "/Sponsors/Wiley.png" },
+            { name: "Axenic Systems", image: "/Sponsors/AXENIC SYSTEMS.jpg" },
+            {
+              name: "National Test House",
+              image: "/Sponsors/National Test House.jpg",
+            },
+            { name: "NPTI", image: "/Sponsors/NPTI.jpg" },
+            { name: "UGC", image: "/Sponsors/ugc.png" },
+            { name: "Carl Zeiss", image: "/Sponsors/zeiss.png" },
+            {
+              name: "Anarghya Innovations and Technology Pvt. Ltd.",
+              image: "/Sponsors/Anarghya Innovations and Technology.png",
+            },
+            { name: "Metrohm", image: "/Sponsors/Metrohm.jpg" },
+          ]}
+        />
 
-        <SponsorCategory title="Associate Sponsors" sponsors={[
-          { name: "OptoSky Innovations", image: "/Sponsors/optosky_logo.jpeg" },
-          { name: "Antor Paar India Pvt. Ltd.", image: "/Sponsors/Anton Paar.jpg" },
-          { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
-          { name: "Eppendorf", image: "/Sponsors/eppendorf.png" },
-          { name: "Forvision", image: "/Sponsors/forvision.png" },
-        ]} />
+        <SponsorCategory
+          title="Associate Sponsors"
+          sponsors={[
+            {
+              name: "OptoSky Innovations",
+              image: "/Sponsors/optosky_logo.jpeg",
+            },
+            {
+              name: "Antor Paar India Pvt. Ltd.",
+              image: "/Sponsors/Anton Paar.jpg",
+            },
+            { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
+            { name: "Eppendorf", image: "/Sponsors/eppendorf.png" },
+            { name: "Forvision", image: "/Sponsors/forvision.png" },
+          ]}
+        />
       </div>
     </section>
   );
@@ -138,7 +208,134 @@ function SponsorCategory({
   );
 }
 
+// "use client";
 
+// import Image from "next/image";
+
+// export default function SponsorsPage() {
+//   return (
+//     <section id="sponsors" className="py-16 px-4 md:px-10 lg:px-20 bg-muted">
+//       <div className="max-w-6xl mx-auto text-center">
+//         <h1 className="text-4xl font-bold text-kesari mb-12">Our Sponsors</h1>
+
+//         {/* ✅ Hospitality Partner Section */}
+//         <div className="mb-16">
+//           <h2 className="text-2xl font-bold text-kesari mb-8">Hospitality Partner</h2>
+//           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+//             <Image
+//               src="/Sponsors/blueworld Castle.jpeg"
+//               alt="Hospitality Partner"
+//               width={400}
+//               height={300}
+//               className="rounded-lg shadow-md object-contain"
+//             />
+//             <video
+//               controls
+//               autoPlay
+//               preload="none"
+//               loop
+//               playsInline
+//               muted
+//               className="w-full md:w-[400px] rounded-lg shadow-md"
+//             >
+//               <source src="/Sponsors/trips.mp4" type="video/mp4" />
+//               Your browser does not support the video tag.
+//             </video>
+//           </div>
+//         </div>
+
+//         {/* ✅ Digital & Media Partners Section */}
+//         <div className="mb-16">
+//           <h2 className="text-2xl font-bold text-kesari mb-8">Digital & Media Partners</h2>
+//           <div className="flex flex-wrap justify-center items-center gap-8">
+//             <div className="flex flex-col items-center">
+//               <Image
+//                 src="/Sponsors/Media partners.jpeg"
+//                 alt="Digital Media Partner 1"
+//                 width={200}
+//                 height={100}
+//                 className="object-contain mb-2"
+//               />
+//               <p className="text-sm font-medium text-center">Gaatha</p>
+//             </div>
+//           </div>
+//         </div>
+
+//         {/* ✅ Existing Sponsor Sections */}
+//         <SponsorCategory title="Title Sponsors" sponsors={[
+//           { name: "DST", image: "/Sponsors/DST.jpg" },
+//           { name: "ANRF", image: "/Sponsors/ANRF.jpg" },
+//           { name: "Kotak School of Sustainability, IIT Kanpur", image: "/Sponsors/kotak.jpg" },
+//           { name: "B.E.S.T. Innovation University", image: "/Sponsors/BEST University.png" },
+//           { name: "INSA", image: "/Sponsors/INSA.jpg" },
+//           { name: "E-Spin Nanotech Pvt. Ltd.", image: "/Sponsors/E-spin Nanotech Pvt. Ltd.jpg" },
+//           { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
+//           { name: "J K Tyre", image: "/Sponsors/JK TYRE.png" },
+//           { name: "Lohia Corp.", image: "/Sponsors/Lohia Corp..png" },
+//         ]} />
+
+//         <SponsorCategory title="Gold Sponsors" sponsors={[
+//           { name: "DRDO", image: "/Sponsors/Defence Research and Development Organisatio.jpg" },
+//           { name: "ARCI", image: "/Sponsors/ARCI.png" },
+//           { name: "ACS", image: "/Sponsors/ACS.png" },
+//           { name: "NABARD", image: "/Sponsors/NABARD.png" },
+//           { name: "Pidilite", image: "/Sponsors/Pidilite.png" },
+//         ]} />
+
+//         <SponsorCategory title="Silver Sponsors" sponsors={[
+//           { name: "Springer", image: "/Sponsors/Springer.png" },
+//           { name: "Wiley", image: "/Sponsors/Wiley.png" },
+//           { name: "Axenic Systems", image: "/Sponsors/AXENIC SYSTEMS.jpg" },
+//           { name: "National Test House", image: "/Sponsors/National Test House.jpg" },
+//           { name: "NPTI", image: "/Sponsors/NPTI.jpg" },
+//           { name: "UGC", image: "/Sponsors/ugc.png" },
+//           { name: "Carl Zeiss", image: "/Sponsors/zeiss.png" },
+//           { name: "Anarghya Innovations and Technology Pvt. Ltd.", image: "/Sponsors/Anarghya Innovations and Technology.png" },
+//           { name: "Metrohm", image: "/Sponsors/Metrohm.jpg" },
+//         ]} />
+
+//         <SponsorCategory title="Associate Sponsors" sponsors={[
+//           { name: "OptoSky Innovations", image: "/Sponsors/optosky_logo.jpeg" },
+//           { name: "Antor Paar India Pvt. Ltd.", image: "/Sponsors/Anton Paar.jpg" },
+//           { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
+//           { name: "Eppendorf", image: "/Sponsors/eppendorf.png" },
+//           { name: "Forvision", image: "/Sponsors/forvision.png" },
+//         ]} />
+//       </div>
+//     </section>
+//   );
+// }
+
+// function SponsorCategory({
+//   title,
+//   sponsors,
+// }: {
+//   title: string;
+//   sponsors: { name: string; image: string }[];
+// }) {
+//   return (
+//     <div className="mb-16">
+//       <h2 className="text-2xl font-bold text-kesari mb-8">{title}</h2>
+//       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 gap-8">
+//         {sponsors.map((sponsor, idx) => (
+//           <div
+//             key={idx}
+//             className="rounded-xl shadow-md border border-border bg-background p-4 flex flex-col items-center justify-center"
+//           >
+//             <Image
+//               src={sponsor.image}
+//               alt={sponsor.name}
+//               width={300}
+//               height={300}
+//               className="mb-4 object-contain h-20"
+//             />
+//             <p className="text-sm font-medium text-center">{sponsor.name}</p>
+//           </div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
 
 // "use client";
 
@@ -225,19 +422,11 @@ function SponsorCategory({
 //   );
 // }
 
-
-
-
-
-
-
-
 // "use client";
 
 // import { motion } from "framer-motion";
 // import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 // import Image from "next/image";
-
 
 // const SPONSORS = [
 //   // Partners
@@ -259,7 +448,7 @@ function SponsorCategory({
 //     image: "/Sponsors/Centre for Nanosciences.jpg",
 //     category: "Partners",
 //   },
-  
+
 // {
 //     id: 4,
 //     name: "E-spin Nanotech Pvt. Ltd.",
@@ -512,14 +701,6 @@ function SponsorCategory({
 //   );
 // }
 
-
-
-
-
-
-
-
-
 // "use client";
 
 // import { motion } from "framer-motion";
@@ -580,7 +761,7 @@ function SponsorCategory({
 //     image: "/Sponsors/Department of Science and Technology.jpg",
 //     category: "Government Sponsors",
 //   },
-  
+
 //   {
 //     id: 8,
 //     name: "Indian Agricultural Research Institute (IARI)",
@@ -777,10 +958,6 @@ function SponsorCategory({
 //     </motion.div>
 //   );
 // }
-
-
-
-
 
 // "use client";
 
@@ -998,10 +1175,6 @@ function SponsorCategory({
 //     </motion.div>
 //   );
 // }
-
-
-
-
 
 // "use client";
 
@@ -1247,11 +1420,6 @@ function SponsorCategory({
 //   );
 // }
 
-
-
-
-
-
 // "use client";
 
 // import { motion } from "framer-motion";
@@ -1460,14 +1628,6 @@ function SponsorCategory({
 //   );
 // }
 
-
-
-
-
-
-
-
-
 // "use client";
 
 // import { useState } from "react";
@@ -1602,19 +1762,18 @@ function SponsorCategory({
 //       website: "#",
 //     },
 //   },
- 
 
 // ];
 
 // export default function Speakers() {
 //   const [category, setCategory] = useState<string>("all");
-  
-//   const filteredSpeakers = category === "all" 
-//     ? SPEAKERS 
+
+//   const filteredSpeakers = category === "all"
+//     ? SPEAKERS
 //     : SPEAKERS.filter(speaker => speaker.category === category);
-  
+
 //   const featuredSpeakers = SPEAKERS.filter(speaker => speaker.featured);
-  
+
 //   return (
 //     <section id="sponsors" className="py-24 bg-muted">
 //       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -1633,13 +1792,10 @@ function SponsorCategory({
 //             future of technology across various domains.
 //           </p> */}
 //         </motion.div>
-        
-       
-        
+
 //         {/* All Speakers */}
 //         <Tabs defaultValue="all" value={category} onValueChange={setCategory}>
-          
-          
+
 //           <TabsContent value={category}>
 //             <motion.div
 //               initial={{ opacity: 0 }}
@@ -1653,7 +1809,7 @@ function SponsorCategory({
 //             </motion.div>
 //           </TabsContent>
 //         </Tabs>
-        
+
 //         <motion.div
 //           initial={{ opacity: 0, y: 20 }}
 //           whileInView={{ opacity: 1, y: 0 }}
@@ -1661,7 +1817,7 @@ function SponsorCategory({
 //           viewport={{ once: true }}
 //           className="mt-12 text-center"
 //         >
-          
+
 //         </motion.div>
 //       </div>
 //     </section>
@@ -1705,11 +1861,10 @@ function SponsorCategory({
 //           <CardTitle className="text-lg font-semibold mb-1">
 //             {speaker.name}
 //           </CardTitle>
-          
+
 //         </CardContent>
-        
+
 //       </Card>
 //     </motion.div>
 //   );
 // }
-
