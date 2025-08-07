@@ -36,14 +36,15 @@ export default function SponsorsPage() {
             </div>
             <div className="flex flex-col items-center text-center">
               <Image
-                src="/Sponsors/iit-kanpur.png"
+                src="/Sponsors/Pganc.jpg"
                 alt="IIT Kanpur"
-                width={250}
+                width={200}
                 height={80}
                 className="object-contain"
               />
 
               <p className="font-semibold">PGA&C Council, IIT Kanpur</p>
+              <p className="font-semibold">Academics & Career Council, Students&apos; Gymkhana, IIT Kanpur</p>
             </div>
           </div>
         </div>
@@ -86,11 +87,11 @@ export default function SponsorsPage() {
               <Image
                 src="/Sponsors/Media partners.jpeg"
                 alt="Digital Media Partner 1"
-                width={200}
+                width={250}
                 height={100}
                 className="object-contain mb-2"
               />
-              <p className="text-sm font-medium text-center">Gaatha</p>
+              {/* <p className="text-sm font-medium text-center">Gaatha</p> */}
             </div>
           </div>
         </div>
