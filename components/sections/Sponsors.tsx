@@ -46,7 +46,7 @@ export default function SponsorsPage() {
                 height={100}
                 className="object-contain mb-2"
               />
-              <p className="text-sm font-medium text-center">Digital Media Partner 1</p>
+              <p className="text-sm font-medium text-center">Gaatha</p>
             </div>
             {/* <div className="flex flex-col items-center">
               <Image
