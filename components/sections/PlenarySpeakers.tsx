@@ -392,8 +392,8 @@ const SPEAKERS = [
   {
     "id": 26,
     "name": "Prof. Gautam Biswas",
-    "role": "Former Director",
-    "company": "Indian Institute of Technology (IIT) Guwahati",
+    "role": "Senior Professor Emeritus",
+    "company": "BITS-Pilani, KK Birla Goa Campus",
     "bio": "",
     "image": "/speakers/Prof. Gautam Biswas.png",
     "category": "",
