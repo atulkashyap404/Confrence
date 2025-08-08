@@ -783,7 +783,7 @@ const SPEAKERS = [
     "id": 51,
     "name": "Prof. Sachchida Nand Tripathi",
     "role": "Professor & Dean",
-    "company": "Kotak School of Sustainability, Indian Institute of Technology Kanpur",
+    "company": "Kotak School of Sustainability, Indian Institute of Technology (IIT) Kanpur",
     "bio": "",
     "image": "/speakers/Prof. Sachchida Nand Tripathi.png",
     "category": "",

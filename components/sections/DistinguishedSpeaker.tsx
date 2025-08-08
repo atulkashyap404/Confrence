@@ -183,7 +183,7 @@ const SPEAKERS = [
     id: 12,
     name: "Prof. Bushra Ateeq",
     role: "Professor & Dean, International Relations",
-    company: "Indian Institute of Technology Kanpur",
+    company: "Indian Institute of Technology (IIT) Kanpur",
     bio: "",
     image: "/speakers/Prof. Bushra Ateeq.png",
     category: "",

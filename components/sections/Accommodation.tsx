@@ -18,7 +18,8 @@ export default function AccommodationPage() {
       className="py-16 px-4 md:px-10 lg:px-20 bg-muted"
     >
       <div className="max-w-6xl mx-auto text-center">
-        <h1 className="text-4xl font-bold text-kesari mb-10">Accommodation</h1>
+        <h1 className="text-4xl font-bold text-kesari mb-8">Accommodation</h1>
+        <h3 className="text-xl font-bold text-kesari mb-4">Accommodation for our invited guests will be arranged by the TRIPS 2025 Team!</h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {images.map((src, idx) => (

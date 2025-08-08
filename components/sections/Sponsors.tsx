@@ -115,7 +115,7 @@ export default function SponsorsPage() {
             },
             { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
             { name: "J K Tyre", image: "/Sponsors/JKTYR.jpeg" },
-            { name: "Lohia Corp.", image: "/Sponsors/LohiaCorp.jpeg" },
+            { name: "Lohia Corp.", image: "/Sponsors/Lohia.jpg" },
           ]}
         />
 
@@ -160,7 +160,7 @@ export default function SponsorsPage() {
           sponsors={[
             {
               name: "OptoSky Innovations",
-              image: "/Sponsors/optosky_logo.jpeg",
+              image: "/Sponsors/opt.jpeg",
             },
             {
               name: "Antor Paar India Pvt. Ltd.",
