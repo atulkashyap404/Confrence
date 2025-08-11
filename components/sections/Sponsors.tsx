@@ -168,7 +168,7 @@ export default function SponsorsPage() {
             },
             { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
             { name: "Eppendorf", image: "/Sponsors/eppendor.jpeg" },
-            { name: "Forvision", image: "/Sponsors/forvision.png" },
+            // { name: "Forvision", image: "/Sponsors/forvision.png" },
           ]}
         />
       </div>
