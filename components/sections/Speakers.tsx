@@ -135,7 +135,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
-
+{
+    id: 11,
+    name: "Dr. Shekhar C. Mande",
+    role: "Former Director General",
+    company: "Council of Scientific and Industrial Research (CSIR) & Former Secretary DSIR",
+    bio: "",
+    image: "/speakers/Dr. Shekhar C. Mande.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
   {
     id: 9,
     name: "Mr. Sanjeev Sanyal",
@@ -166,21 +180,7 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 11,
-    name: "Dr. Shekhar C. Mande",
-    role: "Former Director General",
-    company: "Council of Scientific and Industrial Research (CSIR) & Former Secretary DSIR",
-    bio: "",
-    image: "/speakers/Dr. Shekhar C. Mande.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  
   {
     id: 12,
     name: "Dr. Raghupati Singhania",
