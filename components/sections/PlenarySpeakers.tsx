@@ -629,21 +629,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 42,
-    "name": "Shri. Pradeep Goyal",
-    "role": "Founder Chairman & Managing Director",
-    "company": "Pradeep Metals Ltd.",
-    "bio": "",
-    "image": "/speakers/Shri. Pradeep Goyal.png",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 42,
+  //   "name": "Shri. Pradeep Goyal",
+  //   "role": "Founder Chairman & Managing Director",
+  //   "company": "Pradeep Metals Ltd.",
+  //   "bio": "",
+  //   "image": "/speakers/Shri. Pradeep Goyal.png",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 43,
     "name": "Dr. R. Vijay",

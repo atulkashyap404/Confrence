@@ -116,6 +116,7 @@ export default function SponsorsPage() {
             { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
             { name: "J K Tyre", image: "/Sponsors/JKTYR.jpeg" },
             { name: "Lohia Corp.", image: "/Sponsors/Lohia.jpg" },
+            { name: "InMobi group", image: "/Sponsors/InMobi.png" },
           ]}
         />
 
@@ -138,7 +139,7 @@ export default function SponsorsPage() {
           title="Silver Sponsors"
           sponsors={[
             { name: "Springer", image: "/Sponsors/Springe.jpeg" },
-            { name: "Wiley", image: "/Sponsors/Wile.jpeg" },
+            // { name: "Wiley", image: "/Sponsors/Wile.jpeg" },
             { name: "Axenic Systems", image: "/Sponsors/AXENICSYSTEMS.jpg" },
             {
               name: "National Test House",
@@ -151,7 +152,7 @@ export default function SponsorsPage() {
               name: "Anarghya Innovations and Technology Pvt. Ltd.",
               image: "/Sponsors/AnarghyaInnovationsandTechnolog.jpeg",
             },
-            { name: "Metrohm", image: "/Sponsors/Metrohm.jpg" },
+            // { name: "Metrohm", image: "/Sponsors/Metrohm.jpg" },
           ]}
         />
 

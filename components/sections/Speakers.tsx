@@ -88,23 +88,9 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  
   {
     id: 6,
-    name: "Dr. Shekhar C. Mande",
-    role: "Former Director General",
-    company: "Council of Scientific and Industrial Research (CSIR) & Former Secretary DSIR",
-    bio: "",
-    image: "/speakers/Dr. Shekhar C. Mande.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 7,
     name: "Prof. Abhay Karandikar",
     role: "Secretary",
     company: "Department of Science & Technology (DST)",
@@ -119,7 +105,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 8,
+    id: 7,
     name: "Dr. N. Kalaiselvi",
     role: "Director General",
     company:
@@ -182,6 +168,21 @@ const SPEAKERS = [
   },
   {
     id: 11,
+    name: "Dr. Shekhar C. Mande",
+    role: "Former Director General",
+    company: "Council of Scientific and Industrial Research (CSIR) & Former Secretary DSIR",
+    bio: "",
+    image: "/speakers/Dr. Shekhar C. Mande.png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 12,
     name: "Dr. Raghupati Singhania",
     role: "Chairman and Managing Director",
     company: "JK Tyres & Industries Ltd.",
@@ -196,7 +197,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 12,
+    id: 13,
     name: "Dr. Vijay Chauthaiwale",
     role: "In-Charge",
     company: "Foreign Affairs Department, BJP",
@@ -211,7 +212,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 13,
+    id: 14,
     name: "Dr. Ram Madhav",
     role: "Indian Politician",
     company: "Social Leader, Author, and Thinker",
@@ -226,7 +227,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 14,
+    id: 15,
     name: "Mr. B. Anand",
     role: "Member,",
     company: "Central Administrative Tribunal (CAT) & Former Secretary, Department of Ex-Servicemen, Ministry of Defense, Govt. of India",
@@ -241,7 +242,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 15,
+    id: 16,
     name: "Mrs. Vartika Shukla",
     role: "Chairman & Managing Director",
     company:"Engineers India Ltd. (EIL)",
@@ -256,7 +257,7 @@ const SPEAKERS = [
     },
   },
   {
-    id: 16,
+    id: 17,
     name: "Prof. J. B. Joshi",
     role: "Chancellor",
     company: "Institute of Chemical Technology (ICT), Mumbai",
@@ -270,23 +271,23 @@ const SPEAKERS = [
       website: "#",
     },
   },
+  // {
+  //   id: 18,
+  //   name: "Dr. Mahesh Gupta",
+  //   role: "Founder",
+  //   company: "Kent RO",
+  //   bio: "",
+  //   image: "/speakers/Dr. Mahesh Gupta.jpg",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
   {
-    id: 17,
-    name: "Dr. Mahesh Gupta",
-    role: "Founder",
-    company: "Kent RO",
-    bio: "",
-    image: "/speakers/Dr. Mahesh Gupta.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
-  {
-    id: 18,
+    id: 19,
     name: "Prof. Manindra Agrawal",
     role: "Director",
     company: "Indian Institute of Technology (IIT) Kanpur",
@@ -304,7 +305,7 @@ const SPEAKERS = [
 
   
   {
-    id: 19,
+    id: 20,
     name: "Dr. Shivkumar Sharma",
     role: "National Organizing Secretary",
     company: "Vigyan Bharati",
@@ -320,7 +321,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 20,
+    id: 21,
     name: "Dr. Subi Chaturvedi",
     role: " Global SVP",
     company: "Chief Corporate Affairs & Public Policy Officer, InMobi",
@@ -336,7 +337,7 @@ const SPEAKERS = [
   },
 
   {
-    id: 21,
+    id: 22,
     name: "Prof. Ashutosh Sharma",
     role: "President",
     company:
