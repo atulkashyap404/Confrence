@@ -34,6 +34,7 @@ export default function SponsorsPage() {
 
               <p className="font-semibold">E-spin Nanotech. Pvt Ltd.</p>
             </div>
+           
             <div className="flex flex-col items-center text-center">
               <Image
                 src="/Sponsors/Pganc.jpg"
@@ -43,6 +44,16 @@ export default function SponsorsPage() {
                 className="object-contain"
               />
               <p className="font-semibold">Academics & Career Council, Students&apos; Gymkhana, IIT Kanpur</p>
+            </div>
+             <div className="flex flex-col items-center text-center">
+              <Image
+                src="/Sponsors/Vijnana Bharti.jpeg"
+                alt="IIT Kanpur"
+                width={200}
+                height={80}
+                className="object-contain"
+              />
+              <p className="font-semibold">Vijnana Bharti</p>
             </div>
           </div>
         </div>

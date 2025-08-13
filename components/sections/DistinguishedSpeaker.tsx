@@ -496,9 +496,9 @@ const SPEAKERS = [
   },
   {
     id: 33,
-    name: "Ms. Nidhi Pandey",
-    role: "Architect",
-    company: "Interior Designer",
+    name: "Ar. Nidhi Pandey",
+    role: "Architect and Interior Designer Editor",
+    company: "Sthapatyam (Journal of Indian Science of Architecture and allied Sciences)",
     bio: "",
     image: "/speakers/Ms. Nidhi Pandey.jpg",
     category: "",
