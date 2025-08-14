@@ -917,6 +917,21 @@ const SPEAKERS = [
     },
   },
   {
+    id: 60,
+    name: "Dr. Sunil Dhole",
+    role: "Founder & Director",
+    company: "Chemdist, Technorbital, Espin",
+    bio: "",
+    image: "/speakers/Dr. Sunil Dhole.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
     id: 61,
     name: "Prof. Tharamani C. Nagaiah",
     role: "Professor",
