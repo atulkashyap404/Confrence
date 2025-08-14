@@ -124,7 +124,7 @@ export default function SponsorsPage() {
               name: "E-Spin Nanotech Pvt. Ltd.",
               image: "/Sponsors/E-spinNanotechPvt.Ltd.jpg",
             },
-            { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
+            
             { name: "J K Tyre", image: "/Sponsors/JKTYR.jpeg" },
             { name: "Lohia Corp.", image: "/Sponsors/Lohia.jpg" },
             { name: "InMobi group", image: "/Sponsors/InMobi.png" },
@@ -149,14 +149,15 @@ export default function SponsorsPage() {
         <SponsorCategory
           title="Silver Sponsors"
           sponsors={[
-            { name: "Springer", image: "/Sponsors/Springe.jpeg" },
-            // { name: "Wiley", image: "/Sponsors/Wile.jpeg" },
+            { name: "Springer Nature", image: "/Sponsors/springer nature.jpeg" },
+            { name: "Royal Society of Chemistry", image: "/Sponsors/Royal society of Chemistry.jpeg" },
             { name: "Axenic Systems", image: "/Sponsors/AXENICSYSTEMS.jpg" },
             {
               name: "National Test House",
               image: "/Sponsors/NationalTestHouse.jpg",
             },
             { name: "NPTI", image: "/Sponsors/NPTI.jpg" },
+            { name: "CSIR", image: "/Sponsors/CSIR.jpg" },
             { name: "UGC", image: "/Sponsors/ug.jpeg" },
             { name: "Carl Zeiss", image: "/Sponsors/zeis.jpeg" },
             {
