@@ -181,6 +181,7 @@ export default function SponsorsPage() {
             },
             { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
             { name: "Eppendorf", image: "/Sponsors/eppendor.jpeg" },
+            { name: "GKT Meditech Private Limited", image: "/Sponsors/GKT Meditech Private Limited.png" },
             // { name: "Forvision", image: "/Sponsors/forvision.png" },
           ]}
         />
