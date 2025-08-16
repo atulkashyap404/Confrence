@@ -1023,6 +1023,21 @@ const SPEAKERS = [
   },
   {
     id: 67,
+    name: "Mr. Vishal Sethi",
+    role: "Co-Founder & CEO",
+    company: "Creative Channel Media Pvt. Ltd",
+    bio: "",
+    image: "/speakers/Vishal Sethi.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 68,
     name: "Mr. Vivek Gaur",
     role: "Vice President, Engineering",
     company: "Colt Technology Services",
