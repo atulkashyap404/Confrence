@@ -764,36 +764,36 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 49,
-    "name": "Dr. T V Sreekumar",
-    "role": "Director",
-    "company": "The Bombay Textile Research Association (BTRA)",
-    "bio": "",
-    "image": "/speakers/Dr.TVSreekumar.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
-  {
-    "id": 50,
-    "name": "Prof. Sri Niwas Singh",
-    "role": "Director",
-    "company": "Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior",
-    "bio": "",
-    "image": "/speakers/Prof. Sri Niwas Singh.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 49,
+  //   "name": "Dr. T V Sreekumar",
+  //   "role": "Director",
+  //   "company": "The Bombay Textile Research Association (BTRA)",
+  //   "bio": "",
+  //   "image": "/speakers/Dr.TVSreekumar.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
+  // {
+  //   "id": 50,
+  //   "name": "Prof. Sri Niwas Singh",
+  //   "role": "Director",
+  //   "company": "Atal Bihari Vajpayee-Indian Institute of Information Technology and Management (ABV-IIITM), Gwalior",
+  //   "bio": "",
+  //   "image": "/speakers/Prof. Sri Niwas Singh.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 51,
     "name": "Prof. Sachchida Nand Tripathi",
