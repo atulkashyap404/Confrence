@@ -243,6 +243,21 @@ const SPEAKERS = [
   },
   {
     id: 15,
+    name: "Shri. Bharat Lal",
+    role: "Secretary General and CEO,",
+    company: "National Human Rights Commission (NHRC), Govt. of India",
+    bio: "",
+    image: "/speakers/Shri. Bharat Lal.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 15,
     name: "Mr. Upendra Prasad Singh",
     role: "Former Secretary,",
     company: "Ministry of Textiles, Govt. of India",

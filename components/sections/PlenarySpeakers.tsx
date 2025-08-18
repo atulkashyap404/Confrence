@@ -240,6 +240,21 @@ const SPEAKERS = [
     }
   },
   {
+    "id": 15,
+    "name": "Prof. Bikramjit Basu",
+    "role": "Director",
+    "company": "CSIR-CGCRI",
+    "bio": "",
+    "image": "/speakers/Prof. Bikramjit Basu.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
     "id": 16,
     "name": "Prof. Bhrigu Nath Singh",
     "role": "Vice Chancellor",

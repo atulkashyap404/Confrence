@@ -902,6 +902,22 @@ const SPEAKERS = [
     },
   },
   {
+    id: 59,
+    name: "Dr. Suman Singh",
+    role: "Senior Principal Scientist",
+    company:
+      "CSIR-CSIO",
+    bio: "",
+    image: "/speakers/Dr. Suman Singh.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
     id: 60,
     name: "Prof. Suggala V. Satyanarayan",
     role: "Professor",
