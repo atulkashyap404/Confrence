@@ -435,6 +435,21 @@ const SPEAKERS = [
     }
   },
   {
+    "id": 27,
+    "name": "Shri. Girish Kumar",
+    "role": "Lieutenant General (Retd)",
+    "company": "Former Surveyor General of India",
+    "bio": "",
+    "image": "/speakers/Shri. Girish Kumar.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
     "id": 28,
     "name": "Prof. Gobardhan Das",
     "role": "Director",
@@ -846,6 +861,21 @@ const SPEAKERS = [
     "company": "Kotak School of Sustainability, Indian Institute of Technology (IIT) Kanpur",
     "bio": "",
     "image": "/speakers/Prof. Sachchida Nand Tripathi.png",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
+    "id": 51,
+    "name": "Prof. Sachin Chaturvedi",
+    "role": "Vice Chancellor",
+    "company": "Nalanda University",
+    "bio": "",
+    "image": "/speakers/Prof. Sachin Chaturvedi.jpg",
     "category": "",
     "featured": false,
     "socials": {

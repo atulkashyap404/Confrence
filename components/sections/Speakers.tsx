@@ -243,6 +243,21 @@ const SPEAKERS = [
   },
   {
     id: 15,
+    name: "Shri. Voruganti Srinivas",
+    role: "Secretary",
+    company: "Department of Administrative Reforms & Public Grievance (DARPG), Govt. of India",
+    bio: "",
+    image: "/speakers/Shri. Voruganti Srinivas.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 15,
     name: "Shri. Bharat Lal",
     role: "Secretary General and CEO,",
     company: "National Human Rights Commission (NHRC), Govt. of India",
