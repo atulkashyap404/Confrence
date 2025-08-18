@@ -89,21 +89,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 6,
-    "name": "Prof. Amit Patra",
-    "role": "Director",
-    "company": "Indian Institute of Technology (IIT) BHU",
-    "bio": "",
-    "image": "/speakers/Prof. Amit Patra.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 6,
+  //   "name": "Prof. Amit Patra",
+  //   "role": "Director",
+  //   "company": "Indian Institute of Technology (IIT) BHU",
+  //   "bio": "",
+  //   "image": "/speakers/Prof. Amit Patra.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 7,
     "name": "Prof. Aniruddha Pandit",
@@ -254,21 +254,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 16,
-    "name": "Prof. Bhrigu Nath Singh",
-    "role": "Vice Chancellor",
-    "company": "Rajiv Gandhi National Aviation University, Amethi",
-    "bio": "",
-    "image": "/speakers/Prof. Bhrigu Nath Singh.png",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 16,
+  //   "name": "Prof. Bhrigu Nath Singh",
+  //   "role": "Vice Chancellor",
+  //   "company": "Rajiv Gandhi National Aviation University, Amethi",
+  //   "bio": "",
+  //   "image": "/speakers/Prof. Bhrigu Nath Singh.png",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 17,
     "name": "Dr. Bineesha Payattati",
@@ -344,21 +344,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 22,
-    "name": "Mr. Dinesh Kumar Jain",
-    "role": "Former Chief Secretary, Maharashtra, & Member",
-    "company": "Lokpal, India",
-    "bio": "",
-    "image": "/speakers/Mr. Dinesh Kumar Jain.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 22,
+  //   "name": "Mr. Dinesh Kumar Jain",
+  //   "role": "Former Chief Secretary, Maharashtra, & Member",
+  //   "company": "Lokpal, India",
+  //   "bio": "",
+  //   "image": "/speakers/Mr. Dinesh Kumar Jain.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 23,
     "name": "Prof. Diwan Singh Rawat",
@@ -449,21 +449,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 28,
-    "name": "Prof. Gobardhan Das",
-    "role": "Director",
-    "company": "Indian Institutes of Science Education and Research (IISER) Bhopal",
-    "bio": "",
-    "image": "/speakers/prof gobardhan das.png",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 28,
+  //   "name": "Prof. Gobardhan Das",
+  //   "role": "Director",
+  //   "company": "Indian Institutes of Science Education and Research (IISER) Bhopal",
+  //   "bio": "",
+  //   "image": "/speakers/prof gobardhan das.png",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 28,
     "name": "Prof. Harish Hirani",
@@ -509,21 +509,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 31,
-    "name": "Prof. Kalidindi N. Satyanarayana",
-    "role": "Director",
-    "company": "Indian Institute of Technology (IIT) Tirupati",
-    "bio": "",
-    "image": "/speakers/Prof. Kalidindi N. Satyanarayana.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 31,
+  //   "name": "Prof. Kalidindi N. Satyanarayana",
+  //   "role": "Director",
+  //   "company": "Indian Institute of Technology (IIT) Tirupati",
+  //   "bio": "",
+  //   "image": "/speakers/Prof. Kalidindi N. Satyanarayana.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 32,
     "name": "Prof. Kamal K. Pant",
@@ -569,21 +569,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 34,
-    "name": "Dr. Koppillil Radhakrishnan",
-    "role": "Former Chairperson, Board of Governors",
-    "company": "IIT Kanpur & Former Chairman, Indian Space Research Organisation (ISRO)",
-    "bio": "",
-    "image": "/speakers/Dr. Koppillil Radhakrishnan.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 34,
+  //   "name": "Dr. Koppillil Radhakrishnan",
+  //   "role": "Former Chairperson, Board of Governors",
+  //   "company": "IIT Kanpur & Former Chairman, Indian Space Research Organisation (ISRO)",
+  //   "bio": "",
+  //   "image": "/speakers/Dr. Koppillil Radhakrishnan.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 35,
     "name": "Mr. Kris Gopalakrishnan",
@@ -614,21 +614,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 37,
-    "name": "Lt. General (Retd.) Madhuri Kanitkar",
-    "role": "Vice Chancellor",
-    "company": "Maharashtra University of Health Sciences",
-    "bio": "",
-    "image": "/speakers/Lt. General (Retd.) Madhuri Kanitkar.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 37,
+  //   "name": "Lt. General (Retd.) Madhuri Kanitkar",
+  //   "role": "Vice Chancellor",
+  //   "company": "Maharashtra University of Health Sciences",
+  //   "bio": "",
+  //   "image": "/speakers/Lt. General (Retd.) Madhuri Kanitkar.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 38,
     "name": "Mr. Mangal Lal Chand",
@@ -674,21 +674,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 39,
-    "name": "Dr. Narayan D. Rao",
-    "role": "Director (Research)",
-    "company": "SRM University",
-    "bio": "",
-    "image": "/speakers/Dr. Narayan D. Rao.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 39,
+  //   "name": "Dr. Narayan D. Rao",
+  //   "role": "Director (Research)",
+  //   "company": "SRM University",
+  //   "bio": "",
+  //   "image": "/speakers/Dr. Narayan D. Rao.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 40,
     "name": "Prof. Narayana P. Padhy",
@@ -794,21 +794,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  {
-    "id": 47,
-    "name": "Prof. Rajeev Ahuja",
-    "role": "Director",
-    "company": "Indian Institute of Technology (IIT) Ropar",
-    "bio": "",
-    "image": "/speakers/Prof. Rajeev Ahuja.jpg",
-    "category": "",
-    "featured": false,
-    "socials": {
-      "twitter": "#",
-      "linkedin": "#",
-      "website": "#"
-    }
-  },
+  // {
+  //   "id": 47,
+  //   "name": "Prof. Rajeev Ahuja",
+  //   "role": "Director",
+  //   "company": "Indian Institute of Technology (IIT) Ropar",
+  //   "bio": "",
+  //   "image": "/speakers/Prof. Rajeev Ahuja.jpg",
+  //   "category": "",
+  //   "featured": false,
+  //   "socials": {
+  //     "twitter": "#",
+  //     "linkedin": "#",
+  //     "website": "#"
+  //   }
+  // },
   {
     "id": 47,
     "name": "Dr. Rajeev Kumar Dwivedi",

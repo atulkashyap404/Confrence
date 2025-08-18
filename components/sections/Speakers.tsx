@@ -13,21 +13,21 @@ import { Tabs, TabsContent } from "@/components/ui/tabs";
 
 // Speaker data
 const SPEAKERS = [
-  {
-    id: 1,
-    name: "Prof. V. K. Saraswat",
-    role: "Member NITI Aayog, & Former Director General",
-    company:"Defence Research and Development Organisation (DRDO)",
-    bio: "",
-    image: "/speakers/Prof. V. K. Saraswat.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 1,
+  //   name: "Prof. V. K. Saraswat",
+  //   role: "Member NITI Aayog, & Former Director General",
+  //   company:"Defence Research and Development Organisation (DRDO)",
+  //   bio: "",
+  //   image: "/speakers/Prof. V. K. Saraswat.jpg",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
   {
     id: 2,
     name: "Prof. Ajay Sood",
@@ -89,21 +89,21 @@ const SPEAKERS = [
     },
   },
   
-  {
-    id: 6,
-    name: "Prof. Abhay Karandikar",
-    role: "Secretary",
-    company: "Department of Science & Technology (DST)",
-    bio: "",
-    image: "/speakers/Abhay Karandikar.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 6,
+  //   name: "Prof. Abhay Karandikar",
+  //   role: "Secretary",
+  //   company: "Department of Science & Technology (DST)",
+  //   bio: "",
+  //   image: "/speakers/Abhay Karandikar.jpg",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
   {
     id: 7,
     name: "Dr. N. Kalaiselvi",
@@ -271,21 +271,21 @@ const SPEAKERS = [
       website: "#",
     },
   },
-  {
-    id: 15,
-    name: "Mr. Upendra Prasad Singh",
-    role: "Former Secretary,",
-    company: "Ministry of Textiles, Govt. of India",
-    bio: "",
-    image: "/speakers/Mr. Upendra Prasad Singh.jpg",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 15,
+  //   name: "Mr. Upendra Prasad Singh",
+  //   role: "Former Secretary,",
+  //   company: "Ministry of Textiles, Govt. of India",
+  //   bio: "",
+  //   image: "/speakers/Mr. Upendra Prasad Singh.jpg",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
   {
     id: 16,
     name: "Mrs. Vartika Shukla",
