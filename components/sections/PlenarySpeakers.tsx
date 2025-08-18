@@ -1183,7 +1183,22 @@ const SPEAKERS = [
       "linkedin": "#",
       "website": "#"
     }
-  }
+  },
+  {
+    "id": 69,
+    "name": "Dr. W. Selvamurthy",
+    "role": "President",
+    "company": "Amity Science , Technology & Innovation Foundation",
+    "bio": "",
+    "image": "/speakers/Dr. W. Selvamurthy.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
 
 
 ];
