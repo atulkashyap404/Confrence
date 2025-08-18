@@ -242,6 +242,21 @@ const SPEAKERS = [
     },
   },
   {
+    id: 15,
+    name: "Mr. Upendra Prasad Singh",
+    role: "Former Secretary,",
+    company: "Ministry of Textiles, Govt. of India",
+    bio: "",
+    image: "/speakers/Mr. Upendra Prasad Singh.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
     id: 16,
     name: "Mrs. Vartika Shukla",
     role: "Chairman & Managing Director",
@@ -311,6 +326,21 @@ const SPEAKERS = [
     company: "Vigyan Bharati",
     bio: "",
     image: "/speakers/Dr. Shiv Kumar Sharma .png",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 20,
+    name: "Mr. Naveen Tiwari",
+    role: "CEO & Founder",
+    company: "InMobi and glance",
+    bio: "",
+    image: "/speakers/Mr. Naveen Tiwari.jpg",
     category: "",
     featured: false,
     socials: {

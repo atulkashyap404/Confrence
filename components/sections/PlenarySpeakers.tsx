@@ -571,6 +571,21 @@ const SPEAKERS = [
   },
   {
     "id": 38,
+    "name": "Mr. Mangal Lal Chand",
+    "role": "Director General, Technology Management",
+    "company": "DRDO",
+    "bio": "",
+    "image": "/speakers/Mr. Mangal Lal Chand.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
+    "id": 38,
     "name": "Prof. Manoj Choudhary",
     "role": "Vice Chancellor",
     "company": "Gati Shakti Vishwavidyalaya, Vadodara",
@@ -936,6 +951,21 @@ const SPEAKERS = [
     "company": "World Health Organization (WHO)",
     "bio": "",
     "image": "/speakers/Dr Soumya Swaminathan.png",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
+    "id": 60,
+    "name": "Dr. Srikant Sastri",
+    "role": "Chairman",
+    "company": "Geospatial Data Promotion and Development Council, Govt. of India(Online Talk)",
+    "bio": "",
+    "image": "/speakers/Dr. Srikant Sastri.jpg",
     "category": "",
     "featured": false,
     "socials": {
