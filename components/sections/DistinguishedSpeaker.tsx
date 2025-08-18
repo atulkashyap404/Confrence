@@ -345,6 +345,21 @@ const SPEAKERS = [
     },
   },
   {
+    id: 19,
+    name: "Dr. Dinesh Deva",
+    role: "Head",
+    company: "Consultantant FAB Labs, Clean Rooms",
+    bio: "",
+    image: "/speakers/Ms. Dipanwita Ghosh.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
     id: 20,
     name: "Mr. Jai Shankar Sharma",
     role: "Chairperson",
@@ -411,6 +426,21 @@ const SPEAKERS = [
     company: "Indian Institute of Technology (IIT) Kanpur",
     bio: "",
     image: "/speakers/Prof. Jitendra K. Bera.jpg",
+    category: "",
+    featured: false,
+    socials: {
+      twitter: "#",
+      linkedin: "#",
+      website: "#",
+    },
+  },
+  {
+    id: 24,
+    name: "Prof. Joydeep Dutta",
+    role: "Professor",
+    company: "KTH Royal Institute of Technology(Online Talk)",
+    bio: "",
+    image: "/speakers/Prof. Joydeep Dutta.jpg",
     category: "",
     featured: false,
     socials: {
