@@ -615,6 +615,21 @@ const SPEAKERS = [
     }
   },
   {
+    "id": 38,
+    "name": "Dr. Mayank Dwivedi",
+    "role": "DG(HR)",
+    "company": "DRDO HQrs, New Delhi",
+    "bio": "",
+    "image": "/speakers/Dr. Mayank Dwivedi.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
     "id": 39,
     "name": "Dr. Narayan D. Rao",
     "role": "Director (Research)",
@@ -659,21 +674,21 @@ const SPEAKERS = [
       "website": "#"
     }
   },
-  // {
-  //   "id": 42,
-  //   "name": "Shri. Pradeep Goyal",
-  //   "role": "Founder Chairman & Managing Director",
-  //   "company": "Pradeep Metals Ltd.",
-  //   "bio": "",
-  //   "image": "/speakers/Shri. Pradeep Goyal.png",
-  //   "category": "",
-  //   "featured": false,
-  //   "socials": {
-  //     "twitter": "#",
-  //     "linkedin": "#",
-  //     "website": "#"
-  //   }
-  // },
+  {
+    "id": 42,
+    "name": "Dr. Priyanka Sharma",
+    "role": "Director ",
+    "company": "Fujitsu India",
+    "bio": "",
+    "image": "/speakers/Dr. Priyanka Sharma.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
   {
     "id": 43,
     "name": "Dr. R. Vijay",
@@ -1026,6 +1041,21 @@ const SPEAKERS = [
     "company": "Indian Institute of Technology (IIT) Kharagpur",
     "bio": "",
     "image": "/speakers/Suman Chakraborty.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
+    "id": 63,
+    "name": "Dr. Tata Narsinga Rao",
+    "role": "Scientist G, Former Director",
+    "company": "ARCI Hyderabad",
+    "bio": "",
+    "image": "/speakers/Dr. Tata Narsinga Rao.jpg",
     "category": "",
     "featured": false,
     "socials": {
