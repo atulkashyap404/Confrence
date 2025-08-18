@@ -350,7 +350,7 @@ const SPEAKERS = [
     role: "Head",
     company: "Consultantant FAB Labs, Clean Rooms",
     bio: "",
-    image: "/speakers/Ms. Dipanwita Ghosh.jpg",
+    image: "/speakers/",
     category: "",
     featured: false,
     socials: {
