@@ -465,6 +465,21 @@ const SPEAKERS = [
     }
   },
   {
+    "id": 28,
+    "name": "Prof. Harish Hirani",
+    "role": "Director",
+    "company": "RGIPT, Amethi",
+    "bio": "",
+    "image": "/speakers/Prof. Harish Hirani.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
     "id": 29,
     "name": "Prof. Indranil Manna",
     "role": "President",
@@ -531,6 +546,21 @@ const SPEAKERS = [
     "company": "Defence Materials and Stores Research and Development Establishment (DMSRDE), Kanpur",
     "bio": "",
     "image": "/speakers/Dr. Kingsuk Mukhopadhyay.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
+    "id": 33,
+    "name": "Dr. Kishore M Paknikar",
+    "role": "Former Director",
+    "company": "Agharkar Research Institute Pune",
+    "bio": "",
+    "image": "/speakers/Dr. Kishore M Paknikar.jpg",
     "category": "",
     "featured": false,
     "socials": {
