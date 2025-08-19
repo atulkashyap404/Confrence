@@ -14,7 +14,7 @@ export default function SponsorsPage() {
           <div className="flex flex-col md:flex-row justify-center items-center gap-24 flex-wrap">
             <div className="flex flex-col items-center text-center">
               <Image
-                src="/Sponsors/iit kanpur.jpeg"
+                src="/Sponsors/iit_kanpur-removebg-preview.png"
                 alt="IIT Kanpur"
                 width={250}
                 height={80}
@@ -25,7 +25,7 @@ export default function SponsorsPage() {
             </div>
             <div className="flex flex-col items-center text-center">
               <Image
-                src="/Sponsors/E-spin_Nanotech_Pvt._Ltd-removebg-previe.jpeg"
+                src="/Sponsors/E-spin_Nanotech_Pvt._Ltd-removebg-previe-removebg-preview.png"
                 alt="IIT Kanpur"
                 width={250}
                 height={80}
@@ -37,7 +37,7 @@ export default function SponsorsPage() {
            
             <div className="flex flex-col items-center text-center">
               <Image
-                src="/Sponsors/Pganc.jpg"
+                src="/Sponsors/Pganc-removebg-preview.png"
                 alt="IIT Kanpur"
                 width={200}
                 height={80}
@@ -47,7 +47,7 @@ export default function SponsorsPage() {
             </div>
              <div className="flex flex-col items-center text-center">
               <Image
-                src="/Sponsors/Vijnana Bharti.jpeg"
+                src="/Sponsors/Vijnana_Bharti-removebg-preview.png"
                 alt="IIT Kanpur"
                 width={200}
                 height={80}
