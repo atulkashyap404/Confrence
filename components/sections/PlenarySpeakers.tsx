@@ -1201,6 +1201,21 @@ const SPEAKERS = [
     }
   },
   {
+    "id": 68,
+    "name": "Dr. Vivek Singh",
+    "role": "Senior Adviser",
+    "company": "NITI Aayog, Govt of India",
+    "bio": "",
+    "image": "/speakers/Dr. Vivek Singh.jpg",
+    "category": "",
+    "featured": false,
+    "socials": {
+      "twitter": "#",
+      "linkedin": "#",
+      "website": "#"
+    }
+  },
+  {
     "id": 69,
     "name": "Prof. Vinod K. Singh",
     "role": "Institute Chair Professor",
