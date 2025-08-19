@@ -167,8 +167,8 @@ const SPEAKERS = [
   {
     id: 10,
     name: "Dr. Bablu Mordina",
-    role: "",
-    company: "DMSRDE",
+    role: "Scientist C",
+    company: "Defence Materials and Stores Research and Development Establishment (DMSRDE), Kanpur",
     bio: "",
     image: "/speakers/Dr. Bablu Mordina.jpg",
     category: "",

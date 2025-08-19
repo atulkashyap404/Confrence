@@ -180,9 +180,10 @@ export default function SponsorsPage() {
               image: "/Sponsors/AntonPaar.jpg",
             },
             { name: "Biologic", image: "/Sponsors/Biologic.jpeg" },
-            { name: "Eppendorf", image: "/Sponsors/Eppendorf.jpg" },
+            
             { name: "GKT Meditech Private Limited", image: "/Sponsors/GKT Meditech Private Limited.png" },
             { name: "CIPET", image: "/Sponsors/cipet.png" },
+            { name: "Eppendorf", image: "/Sponsors/Eppendorf.jpg" },
             // { name: "Forvision", image: "/Sponsors/forvision.png" },
           ]}
         />
