@@ -104,22 +104,22 @@ const SPEAKERS = [
   //     website: "#",
   //   },
   // },
-  {
-    id: 7,
-    name: "Dr. N. Kalaiselvi*",
-    role: "Director General",
-    company:
-      "Council of Scientific and Industrial Research (CSIR) & Secretary DSIR",
-    bio: "",
-    image: "/speakers/Dr N Kalaiselvi.png",
-    category: "",
-    featured: false,
-    socials: {
-      twitter: "#",
-      linkedin: "#",
-      website: "#",
-    },
-  },
+  // {
+  //   id: 7,
+  //   name: "Dr. N. Kalaiselvi*",
+  //   role: "Director General",
+  //   company:
+  //     "Council of Scientific and Industrial Research (CSIR) & Secretary DSIR",
+  //   bio: "",
+  //   image: "/speakers/Dr N Kalaiselvi.png",
+  //   category: "",
+  //   featured: false,
+  //   socials: {
+  //     twitter: "#",
+  //     linkedin: "#",
+  //     website: "#",
+  //   },
+  // },
   {
     id: 8,
     name: "Dr. M. Ravichandran",
