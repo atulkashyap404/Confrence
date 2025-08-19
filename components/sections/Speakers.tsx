@@ -426,7 +426,7 @@ export default function Speakers() {
   const featuredSpeakers = SPEAKERS.filter((speaker) => speaker.featured);
 
   return (
-    <section id="speakers" className="pt-24 bg-background">
+    <section id="speakers" className="pt-24 pb-10 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -473,7 +473,7 @@ export default function Speakers() {
           className="mt-12 text-center"
         ></motion.div>
       </div>
-      <p className="p-4">*Confirmation Awaited</p>
+      <p className=" flex justify-end p-4">*Confirmation Awaited</p>
     </section>
   );
 }

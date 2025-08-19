@@ -1246,6 +1246,7 @@ export default function PlenarySpeakers() {
 
   return (
     <section id="speakers" className="py-18 bg-muted pt-4 pb-4">
+      <p className="pl-4 text-kesari">Alphabetical order (A–Z)</p>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

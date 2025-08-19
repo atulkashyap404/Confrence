@@ -1610,7 +1610,8 @@ export default function DistinguishedSpeaker() {
   const featuredSpeakers = SPEAKERS.filter((speaker) => speaker.featured);
 
   return (
-    <section id="speakers" className="py-18 bg-muted pb-4 pt-4">
+    <section id="speakers" className="py-18 bg-white pb-4 pt-4">
+      <p className="pl-4 text-kesari">Alphabetical order (A–Z)</p>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
