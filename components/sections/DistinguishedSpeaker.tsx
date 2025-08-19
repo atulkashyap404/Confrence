@@ -798,8 +798,8 @@ const SPEAKERS = [
   {
     id: 44,
     name: "Ms. Rouble Nagi",
-    role: "Founder",
-    company: "Rouble Nagi Art Foundation & Design Studio",
+    role: "Social Activist",
+    company: "Artist & Author",
     bio: "",
     image: "/speakers/Ms. Rouble Nagi.jpg",
     category: "",
