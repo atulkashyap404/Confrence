@@ -106,7 +106,7 @@ const SPEAKERS = [
   // },
   {
     id: 7,
-    name: "Dr. N. Kalaiselvi",
+    name: "Dr. N. Kalaiselvi*",
     role: "Director General",
     company:
       "Council of Scientific and Industrial Research (CSIR) & Secretary DSIR",

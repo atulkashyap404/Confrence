@@ -14,13 +14,14 @@ import { Tabs, TabsContent } from "@/components/ui/tabs";
 // Speaker data
 const SPEAKERS = [
 
+  
   {
-    "id": 1,
-    "name": "Shri. Akhilesh Jha",
-    "role": "Chief Controller of Accounts",
-    "company": "Government of India",
+    "id": 2,
+    "name": "Prof. Ajit K. Chaturvedi",
+    "role": "Vice Chancellor",
+    "company": "Banaras Hindu University (BHU) & Professor, IIT Kanpur",
     "bio": "",
-    "image": "/speakers/Shri. Akhilesh Jha.jpg",
+    "image": "/speakers/Prof. Ajit K. Chaturvedi.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -30,12 +31,12 @@ const SPEAKERS = [
     }
   },
   {
-    "id": 2,
-    "name": "Prof. Ajit K. Chaturvedi",
-    "role": "Vice Chancellor",
-    "company": "Banaras Hindu University (BHU) & Professor, IIT Kanpur",
+    "id": 1,
+    "name": "Shri. Akhilesh Jha",
+    "role": "Chief Controller of Accounts",
+    "company": "Government of India",
     "bio": "",
-    "image": "/speakers/Prof. Ajit K. Chaturvedi.jpg",
+    "image": "/speakers/Shri. Akhilesh Jha.jpg",
     "category": "",
     "featured": false,
     "socials": {
@@ -1021,7 +1022,7 @@ const SPEAKERS = [
   },
   {
     "id": 59,
-    "name": "Dr. Shivkumar Kalyanaraman",
+    "name": "Dr. Shivkumar Kalyanaraman*",
     "role": "Chief Executive Officer (CEO)",
     "company": "Anusandhan National Research Foundation (ANRF)",
     "bio": "",
@@ -1141,7 +1142,7 @@ const SPEAKERS = [
   },
   {
     "id": 65,
-    "name": "Prof. Umesh Waghmare",
+    "name": "Prof. Umesh Waghmare*",
     "role": "President",
     "company": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bengaluru",
     "bio": "",
