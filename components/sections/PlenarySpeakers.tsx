@@ -1142,7 +1142,7 @@ const SPEAKERS = [
   },
   {
     "id": 65,
-    "name": "Prof. Umesh Waghmare*",
+    "name": "Prof. Umesh Waghmare",
     "role": "President",
     "company": "Jawaharlal Nehru Centre for Advanced Scientific Research (JNCASR), Bengaluru",
     "bio": "",
