@@ -1308,6 +1308,7 @@ export default function PlenarySpeakers() {
           className="mt-12 text-center"
         ></motion.div>
       </div>
+      <p className="flex justify-end">*Confirmation Awaited</p>
     </section>
   );
 }
