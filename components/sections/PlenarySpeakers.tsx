@@ -902,7 +902,7 @@ const SPEAKERS = [
   },
   {
     "id": 51,
-    "name": "Prof. Sachin Chaturvedi",
+    "name": "Prof. Sachin Chaturvedi*",
     "role": "Vice Chancellor",
     "company": "Nalanda University",
     "bio": "",
