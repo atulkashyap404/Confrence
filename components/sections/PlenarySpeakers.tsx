@@ -61,7 +61,7 @@ const SPEAKERS = [
   },
   {
     "id": 4,
-    "name": "Prof. Alok Dhawan",
+    "name": "Prof. Alok Dhawan*",
     "role": "Director",
     "company": "Centre of BioMedical Research (CBMR), Lucknow",
     "bio": "",
