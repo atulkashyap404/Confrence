@@ -473,6 +473,7 @@ export default function Speakers() {
           className="mt-12 text-center"
         ></motion.div>
       </div>
+      <p className="p-4">*Confirmation Awaited</p>
     </section>
   );
 }
@@ -528,5 +529,6 @@ function SpeakerCard({ speaker, index }: SpeakerCardProps) {
         </CardContent>
       </Card>
     </motion.div>
+    
   );
 }
