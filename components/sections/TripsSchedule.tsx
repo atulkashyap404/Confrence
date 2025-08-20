@@ -24,7 +24,7 @@ export default function TripsSchedulePage() {
 
         {/* ✅ Download / View Button */}
         <Link
-          href="/trips-schedule.pdf"
+          href="/TRIPS-2025  Final Schedule.pdf"
           target="_blank"
           className="inline-block px-6 py-3 "
         >
