@@ -366,7 +366,7 @@ const SPEAKERS = [
   },
   {
     id: 20,
-    name: "Mr. Naveen Tiwari",
+    name: "Mr. Naveen Tiwari*",
     role: "CEO & Founder",
     company: "InMobi and glance",
     bio: "",
