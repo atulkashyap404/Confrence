@@ -24,6 +24,7 @@ import PlenarySpeakers from "@/components/sections/PlenarySpeakers";
 import DistinguishedSpeaker from "@/components/sections/DistinguishedSpeaker";
 import Accommodation from "@/components/sections/Accommodation";
 import Direction from "@/components/sections/Direction"
+import TripsSchedule from "@/components/sections/TripsSchedule"
 
 export default function Home() {
   return (
@@ -44,7 +45,8 @@ export default function Home() {
           
           
           
-          <Schedule />
+          
+          <TripsSchedule/>
           <Sponsors />
           <HowToReachPage />
           <Accommodation/>
