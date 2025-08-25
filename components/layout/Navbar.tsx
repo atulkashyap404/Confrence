@@ -14,9 +14,9 @@ const navItems = [
   { name: "Speakers", href: "#speakers" },
   { name: "Organizing Committee", href: "#committee" },
   { name: "Schedule", href: "#schedule" },
-  { name: "Sponsors", href: "#sponsors" },
+  // { name: "Sponsors", href: "#sponsors" },
   { name: "How to reach IITK", href: "#howtoreach" },
-  { name: "Accommodation", href: "#accommodation" },
+  // { name: "Accommodation", href: "#accommodation" },
   { name: "Contact Us", href: "#contact" },
 ];
 

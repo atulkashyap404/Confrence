@@ -47,7 +47,7 @@ export default function Home() {
           
           
           <TripsSchedule/>
-          <Sponsors />
+          {/* <Sponsors /> */}
           <HowToReachPage />
           <Accommodation/>
           <Direction />
