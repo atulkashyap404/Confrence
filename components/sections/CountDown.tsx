@@ -23,7 +23,7 @@ export default function TripsCountdownPage() {
         {/* Countdown Banner */}
         <div className="bg-white text-kesari rounded-xl shadow-lg px-8 py-6 mb-10 flex flex-col md:flex-row items-center justify-between gap-4 border border-orange-300">
           <h2 className="text-4xl font-bold text-center md:text-left">
-            ⏱️ Countdown to TRIPS 2025
+            ⏱️ Countdown to TRIPS 2025 Over.
           </h2>
           <div className="text-center">
             <CountdownTimer targetDate="2025-08-21T09:00:00" />
